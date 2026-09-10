@@ -1,0 +1,7 @@
+requests
+feedparser
+trafilatura
+googlenewsdecoder
+google-genai
+pydantic
+python-dotenv
