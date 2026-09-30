@@ -5,3 +5,4 @@ googlenewsdecoder
 google-genai
 pydantic
 python-dotenv
+openai

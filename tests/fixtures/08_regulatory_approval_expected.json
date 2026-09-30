@@ -1,0 +1,71 @@
+{
+    "fixture": "08_regulatory_approval.json",
+    "id": "fixture_08",
+    "tests": "Approval is not completion: the current holding stays open and asserted while the post-deal holdings are prospective. Two ACQUIRED decisions in one body - the 2024 purchase of 70% takes Zurich into control and fires the edge, while the pending step to 89% does not, because Zurich already controls the company.",
+    "convention": {
+        "predicates": {
+            "OWNS_STAKE_IN": "OWNS_STAKE_IN(holder, insurer). fields: stake_pct, status, start_date, end_date.",
+            "ACQUIRED": "ACQUIRED(buyer, company_acquired). The object is ALWAYS the company whose control changed hands - never the seller, never the exiting JV partner, whatever the sentence is shaped like. Fires only when the reported event takes the buyer from no holding, or a holding of 50% or less, to a holding above 50% - control changing hands, which no single stake triple states. It does NOT fire when a buyer who already controls the company tops up (74 to 100, 51 to 71, 70 to 89): that end state is already carried by the OWNS_STAKE_IN triple, so an ACQUIRED triple there would be derivable and could only disagree with it. fields: status, start_date.",
+            "APPOINTED": "APPOINTED(organisation, person). The organisation is always the subject; the direction is never reversed. fields: role, status, start_date, end_date.",
+            "DISTRIBUTES_FOR": "DISTRIBUTES_FOR(distributor, insurer). A distribution tie-up is never ownership and never implies a stake. fields: status, start_date, end_date."
+        },
+        "temporal": "start_date/end_date are four-digit years as integers. An absent end_date means the relation is still current as of the document's pub_date. Record a year only when the document states it or pub_date fixes it; never infer one from context.",
+        "status": "asserted | prospective | denied. Status is decided per triple, not per document: one document can carry an asserted background holding and a prospective deal at once.",
+        "unstorable": "A relation that must not be traversed is handled one of two ways, decided by whether its endpoints resolve. Both parties named: STORE the triple with status=denied - a denial is still a fact about two known nodes, and the graph needs it to answer 'did X buy Y?'. A party that cannot be resolved to a named entity ('an undisclosed sovereign wealth fund'): DROP the triple entirely - there is no node to anchor it. Never mint a placeholder, a null subject, or a descriptive pseudo-entity to carry a triple.",
+        "numbers": "Record percentages the document states. Never compute a residual, a post-deal holding, or a start year the text does not give.",
+        "coverage": "MERGED_WITH, PARTNERED_WITH and SUBSIDIARY_OF are specified in the extraction prompt and permitted by the schema, but no fixture covers them. Any of the three appearing in output for these eleven documents is a false positive."
+    },
+    "expected_triples": [
+        {
+            "subject_raw": "Zurich Insurance Company Limited",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Kotak Mahindra General Insurance Company",
+            "status": "asserted",
+            "stake_pct": 70,
+            "start_date": 2024
+        },
+        {
+            "subject_raw": "Zurich Insurance Company Limited",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Kotak Mahindra General Insurance Company",
+            "status": "prospective",
+            "stake_pct": 89
+        },
+        {
+            "subject_raw": "Kotak Mahindra Bank",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Kotak Mahindra General Insurance Company",
+            "status": "prospective",
+            "stake_pct": 11
+        },
+        {
+            "subject_raw": "Zurich Insurance Company Limited",
+            "relation": "ACQUIRED",
+            "object_raw": "Kotak Mahindra General Insurance Company",
+            "status": "asserted",
+            "start_date": 2024
+        }
+    ],
+    "expected_absent": [
+        {
+            "triple": "Zurich Insurance Company Limited -ACQUIRED-> Kotak Mahindra General Insurance Company {status: prospective}",
+            "why": "The pending 70% to 89% step changes no control and must not add a second ACQUIRED edge."
+        },
+        {
+            "triple": "Zurich Insurance Company Limited -ACQUIRED-> Kotak Mahindra General Insurance Company {start_date: 2025}",
+            "why": "November 2025 is when the follow-on purchase was announced; the control acquisition is dated 2024."
+        },
+        {
+            "triple": "Zurich Insurance Company Limited -OWNS_STAKE_IN-> Kotak Mahindra General Insurance Company {stake_pct: 70, end_date: 2026}",
+            "why": "Regulatory clearance does not close the existing holding; the transaction has not completed."
+        },
+        {
+            "triple": "Zurich Insurance Company Limited -OWNS_STAKE_IN-> Kotak Mahindra General Insurance Company {stake_pct: 89, status: asserted, start_date: 2026}",
+            "why": "'will hold' is prospective and carries no start year."
+        },
+        {
+            "node": "Insurance Regulatory and Development Authority of India",
+            "why": "Approving regulator, not a shareholder."
+        }
+    ]
+}

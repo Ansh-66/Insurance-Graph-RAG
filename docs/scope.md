@@ -1,0 +1,2 @@
+Scope boundary: asset and portfolio purchases (a book of business, a brand, a business unit) produce no triple. The schema models equity relationships only, so "X buys Y's travel insurance portfolio" is out of scope while "X buys 51% of Y" is in.
+Scope boundary: stock exchanges are not nodes. Where an exchange appears as a company being IPO'd or held, its shareholder edges are dropped at graph-build time. The graph models insurance-sector ownership, not exchange registers.

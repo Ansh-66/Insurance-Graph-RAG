@@ -1,0 +1,54 @@
+{
+    "fixture": "02_clean_acquisition.json",
+    "id": "fixture_02",
+    "tests": "Baseline clean acquisition: one buyer, one seller, one target, full transfer with both dates stated. ACQUIRED fires here and not in fixture_01, because Sompo starts from no holding and ends in control - the transition, not the end state, is what the edge records.",
+    "convention": {
+        "predicates": {
+            "OWNS_STAKE_IN": "OWNS_STAKE_IN(holder, insurer). fields: stake_pct, status, start_date, end_date.",
+            "ACQUIRED": "ACQUIRED(buyer, company_acquired). The object is ALWAYS the company whose control changed hands - never the seller, never the exiting JV partner, whatever the sentence is shaped like. Fires only when the reported event takes the buyer from no holding, or a holding of 50% or less, to a holding above 50% - control changing hands, which no single stake triple states. It does NOT fire when a buyer who already controls the company tops up (74 to 100, 51 to 71, 70 to 89): that end state is already carried by the OWNS_STAKE_IN triple, so an ACQUIRED triple there would be derivable and could only disagree with it. fields: status, start_date.",
+            "APPOINTED": "APPOINTED(organisation, person). The organisation is always the subject; the direction is never reversed. fields: role, status, start_date, end_date.",
+            "DISTRIBUTES_FOR": "DISTRIBUTES_FOR(distributor, insurer). A distribution tie-up is never ownership and never implies a stake. fields: status, start_date, end_date."
+        },
+        "temporal": "start_date/end_date are four-digit years as integers. An absent end_date means the relation is still current as of the document's pub_date. Record a year only when the document states it or pub_date fixes it; never infer one from context.",
+        "status": "asserted | prospective | denied. Status is decided per triple, not per document: one document can carry an asserted background holding and a prospective deal at once.",
+        "unstorable": "A relation that must not be traversed is handled one of two ways, decided by whether its endpoints resolve. Both parties named: STORE the triple with status=denied - a denial is still a fact about two known nodes, and the graph needs it to answer 'did X buy Y?'. A party that cannot be resolved to a named entity ('an undisclosed sovereign wealth fund'): DROP the triple entirely - there is no node to anchor it. Never mint a placeholder, a null subject, or a descriptive pseudo-entity to carry a triple.",
+        "numbers": "Record percentages the document states. Never compute a residual, a post-deal holding, or a start year the text does not give.",
+        "coverage": "MERGED_WITH, PARTNERED_WITH and SUBSIDIARY_OF are specified in the extraction prompt and permitted by the schema, but no fixture covers them. Any of the three appearing in output for these eleven documents is a false positive."
+    },
+    "expected_triples": [
+        {
+            "subject_raw": "Sompo Holdings Inc",
+            "relation": "ACQUIRED",
+            "object_raw": "Shriram General Insurance Company Limited",
+            "status": "asserted",
+            "start_date": 2026
+        },
+        {
+            "subject_raw": "Sompo Holdings Inc",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Shriram General Insurance Company Limited",
+            "status": "asserted",
+            "stake_pct": 100,
+            "start_date": 2026
+        },
+        {
+            "subject_raw": "Shriram Capital Private Limited",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Shriram General Insurance Company Limited",
+            "status": "asserted",
+            "stake_pct": 100,
+            "start_date": 2019,
+            "end_date": 2026
+        }
+    ],
+    "expected_absent": [
+        {
+            "triple": "Sompo Holdings Inc -ACQUIRED-> Shriram Capital Private Limited",
+            "why": "The seller is never the object of ACQUIRED."
+        },
+        {
+            "triple": "Shriram Capital Private Limited -OWNS_STAKE_IN-> Shriram General Insurance Company Limited {start_date: 2019, end_date: null}",
+            "why": "The seller's edge must be closed at 2026."
+        }
+    ]
+}

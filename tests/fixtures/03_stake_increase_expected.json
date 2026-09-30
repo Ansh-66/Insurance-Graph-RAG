@@ -1,0 +1,74 @@
+{
+    "fixture": "03_stake_increase.json",
+    "id": "fixture_03",
+    "tests": "Partial stake increase: four edges, two closed and two opened in the same year, plus an ACQUIRED edge - Generali crosses 49% to 74% and takes control for the first time, which no single stake edge states. The arithmetic here is internally consistent on purpose - Generali +25 (49 to 74), Future Enterprises -25 (29 to 4) - and the residual 22% sits with shareholders the document never names. Do not 'fix' these numbers to sum to 100. The stated-vs-computed trap is in fixture_05, not here.",
+    "convention": {
+        "predicates": {
+            "OWNS_STAKE_IN": "OWNS_STAKE_IN(holder, insurer). fields: stake_pct, status, start_date, end_date.",
+            "ACQUIRED": "ACQUIRED(buyer, company_acquired). The object is ALWAYS the company whose control changed hands - never the seller, never the exiting JV partner, whatever the sentence is shaped like. Fires only when the reported event takes the buyer from no holding, or a holding of 50% or less, to a holding above 50% - control changing hands, which no single stake triple states. It does NOT fire when a buyer who already controls the company tops up (74 to 100, 51 to 71, 70 to 89): that end state is already carried by the OWNS_STAKE_IN triple, so an ACQUIRED triple there would be derivable and could only disagree with it. fields: status, start_date.",
+            "APPOINTED": "APPOINTED(organisation, person). The organisation is always the subject; the direction is never reversed. fields: role, status, start_date, end_date.",
+            "DISTRIBUTES_FOR": "DISTRIBUTES_FOR(distributor, insurer). A distribution tie-up is never ownership and never implies a stake. fields: status, start_date, end_date."
+        },
+        "temporal": "start_date/end_date are four-digit years as integers. An absent end_date means the relation is still current as of the document's pub_date. Record a year only when the document states it or pub_date fixes it; never infer one from context.",
+        "status": "asserted | prospective | denied. Status is decided per triple, not per document: one document can carry an asserted background holding and a prospective deal at once.",
+        "unstorable": "A relation that must not be traversed is handled one of two ways, decided by whether its endpoints resolve. Both parties named: STORE the triple with status=denied - a denial is still a fact about two known nodes, and the graph needs it to answer 'did X buy Y?'. A party that cannot be resolved to a named entity ('an undisclosed sovereign wealth fund'): DROP the triple entirely - there is no node to anchor it. Never mint a placeholder, a null subject, or a descriptive pseudo-entity to carry a triple.",
+        "numbers": "Record percentages the document states. Never compute a residual, a post-deal holding, or a start year the text does not give.",
+        "coverage": "MERGED_WITH, PARTNERED_WITH and SUBSIDIARY_OF are specified in the extraction prompt and permitted by the schema, but no fixture covers them. Any of the three appearing in output for these eleven documents is a false positive."
+    },
+    "expected_triples": [
+        {
+            "subject_raw": "Assicurazioni Generali",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Future Generali India Insurance Company",
+            "status": "asserted",
+            "stake_pct": 49,
+            "start_date": 2007,
+            "end_date": 2025
+        },
+        {
+            "subject_raw": "Assicurazioni Generali",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Future Generali India Insurance Company",
+            "status": "asserted",
+            "stake_pct": 74,
+            "start_date": 2025
+        },
+        {
+            "subject_raw": "Future Enterprises Limited",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Future Generali India Insurance Company",
+            "status": "asserted",
+            "stake_pct": 29,
+            "end_date": 2025
+        },
+        {
+            "subject_raw": "Future Enterprises Limited",
+            "relation": "OWNS_STAKE_IN",
+            "object_raw": "Future Generali India Insurance Company",
+            "status": "asserted",
+            "stake_pct": 4,
+            "start_date": 2025
+        },
+        {
+            "subject_raw": "Assicurazioni Generali",
+            "relation": "ACQUIRED",
+            "object_raw": "Future Generali India Insurance Company",
+            "status": "asserted",
+            "start_date": 2025
+        }
+    ],
+    "expected_absent": [
+        {
+            "triple": "Assicurazioni Generali -ACQUIRED-> Future Enterprises Limited",
+            "why": "The counterparty is never the object of ACQUIRED."
+        },
+        {
+            "triple": "Assicurazioni Generali -OWNS_STAKE_IN-> Future Generali India Insurance Company {stake_pct: 25}",
+            "why": "25% is the increment traded, not a holding."
+        },
+        {
+            "triple": "<unnamed shareholders> -OWNS_STAKE_IN-> Future Generali India Insurance Company {stake_pct: 22}",
+            "why": "The 22% balance is never mentioned and its holders are never named; do not compute it into existence."
+        }
+    ]
+}
