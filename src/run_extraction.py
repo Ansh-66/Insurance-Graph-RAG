@@ -40,9 +40,17 @@ def run(limit=None):
         try:
             result = extract_triples(article)
         except Exception as e:
-            print(f"    ABORTING: {type(e).__name__}: {e}", flush=True)
-            failures.append({"id": name, "reason": f"{type(e).__name__}: {e}"})
-            break
+            msg = str(e)
+            failures.append({"id": name, "reason": f"{type(e).__name__}: {msg[:200]}"})
+
+            # Only the DAILY cap is worth stopping for - nothing will succeed
+            # until it resets. Anything else (one oversize article, a burst of
+            # per-minute limits) is logged and skipped, and the run carries on.
+            if "per day" in msg or "TPD" in msg:
+                print("    daily cap reached, stopping", flush=True)
+                break
+            print("    skipped this article, continuing", flush=True)
+            continue
 
         if result is None:
             failures.append({"id": name, "reason": "parse_failed"})
