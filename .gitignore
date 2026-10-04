@@ -17,3 +17,13 @@ venv/
 .DS_Store
 .idea/
 .vscode/
+
+data/
+!data/eval_questions.json
+!data/eval_results.json
+!data/eval_scoring.csv
+
+scratch.py
+throwaway.py
+test.txt
+
