@@ -19,8 +19,8 @@ NODES_PATH = "data/nodes.json"
 REPORT_PATH = "data/resolution_report.txt"
 
 SUFFIXES = [
-    "private limited", "pvt ltd", "pte ltd", "company limited","company", 
-    "group limited", "holdings", "limited", "ltd", "plc", "llc",
+    "private limited", "private ltd", "pvt ltd", "pte ltd", "company limited", "company",
+    "co", "group limited", "holdings", "limited", "ltd", "plc", "llc",
     "lp", "inc", "corporation", "corp", "sa", "nv",
 ]
 
@@ -33,7 +33,31 @@ ALIASES = {
     "qbe": "qbe insurance",
     "indiafirst life": "indiafirst life insurance",
     "raheja qbe":      "raheja qbe general insurance",
-    }
+
+    # Confirmed by reading the edges - same deal, same stake, same price.
+    "prudential group":          "prudential",
+    "bharti life":               "bharti life insurance",
+    "bharti axa life":           "bharti life insurance",   # older name, same company
+    "bharti axa life insurance": "bharti life insurance",
+    "dic":                       "dabur invest",            # "Dabur Invest Corp" -> "dabur invest"
+    "dharampal satyapal group":  "ds group",
+    "patanjali":                 "patanjali ayurved",
+    "sundari investments":       "vama sundari investments",
+
+    # Found in the full-corpus singles list.
+    "360one asset management":     "360 one asset management",   # no space
+    "greenlife":                   "greenlife insurance broking",
+    "greenlife insurance":         "greenlife insurance broking",
+    "greenlife insurance booking": "greenlife insurance broking", # extraction typo
+    "icicipru life":               "icici prudential life insurance",
+
+    # Found in the chain-finder's "probable splits" list.
+    "life insurance":               "life insurance corporation of india",  # "Life Insurance Corporation (LIC)"
+    "lic":                          "life insurance corporation of india",
+    "aviva life insurance india":   "aviva life insurance company india",
+    "raise financial":              "raise financial services",
+    "singapore insurance business": "hsbc life singapore pte",               # "HSBC's Singapore insurance business"
+}
 
 
 
@@ -43,13 +67,21 @@ BLOCKLIST = {
     "nse",
     "bombay stock exchange",
     "bse",
+    # Not a company: "Prudential's India operations" with the possessive
+    # stripped leaves only this description.
+    "india operations",
+    # Not a company: "Bajaj's insurance ventures" describes Bajaj Life and
+    # Bajaj General together.
+    "insurance ventures",
 }
 
 
 def normalize(name: str) -> str:
     """Lowercase, strip punctuation and legal suffixes, collapse whitespace."""
-    s = re.sub(r"^\w+['\u2019]s\s+", "", name)
+    s = re.sub(r"^\w+['\u2019]s\s+", "", name)   # drop "Japan's ", "Singapore's "
+    s = re.sub(r"\([^)]*\)", " ", s)              # drop "(DIC)", "(Mauritius)", ...
     s = s.lower()
+    s = re.sub(r"^the\s+", "", s)                  # drop a leading "the"
     s = re.sub(r"[.,'\u2019\"()&]", " ", s)
     s = re.sub(r"\s+", " ", s).strip()
 
@@ -110,7 +142,7 @@ def build():
             continue
 
         node_id = slug(key)
-        canonical = max(raws, key=lambda r: (len(r), counts[r], r))
+        canonical = max(raws, key=lambda r: (counts[r], len(r), r))
 
         nodes[node_id] = {
             "id": node_id,
@@ -123,6 +155,12 @@ def build():
 
         for raw in raws:
             lookup[raw] = node_id
+
+    # Every alias target must survive normalisation and exist in the data.
+    # A target that doesn't is a silent no-op - this has bitten twice.
+    missing = sorted(set(ALIASES.values()) - set(variants))
+    if missing:
+        print(f"WARNING: alias targets not found in data: {missing}")
 
     return nodes, lookup, blocked, counts, variants
 
@@ -176,4 +214,4 @@ if __name__ == "__main__":
     print(f"nodes               : {len(nodes)}  ({orgs} org, {people} person)")
     print(f"blocked             : {len(blocked)}")
     print(f"mentioned >1 time   : {multi}   <- bridge-capable")
-    print(f"\nwrote {NODES_PATH} and {REPORT_PATH}")
+    print(f"\nwrote {NODES_PATH} and {REPORT_PATH}")    
