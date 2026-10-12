@@ -6,3 +6,8 @@ google-genai
 pydantic
 python-dotenv
 openai
+fastapi
+uvicorn
+json-repair
+numpy
+sentence-transformers

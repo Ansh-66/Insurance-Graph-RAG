@@ -4,6 +4,20 @@ Multi-hop question answering over Indian insurance-sector news, built as a knowl
 
 The question this project asks is narrow: **when the facts needed to answer a question sit in different articles, does walking a knowledge graph find the answer where similarity search does not?** Everything here exists to answer that with a measurement rather than a demo.
 
+## Why this matters
+
+India's insurance sector is restructuring. After the foreign ownership limit was raised to 100%, long-standing joint ventures began unwinding: Aviva bought out Dabur, QBE took full control of Raheja QBE, Allianz exited its Bajaj ventures, and Prudential agreed to buy 75% of Bharti Life while having to cut its stake in ICICI Prudential Life. Ownership is changing hands across the sector at once.
+
+The picture of who owns what is scattered. Each article reports one deal, some report deals that are only approved and not yet complete, and no single article states the whole structure. Answering "which life insurer is the company buying Bharti Life also a promoter of?" means connecting facts from different reports. That matters in practice: Indian regulation limits a promoter to one life insurer, which is exactly why Prudential has to reduce its ICICI Prudential stake.
+
+The people who need these answers are strategy and competitive-intelligence teams at insurers, banks whose bancassurance partners change owners, and anyone doing counterparty or ownership checks before a deal. Three properties of this system are aimed at them, and each is measured rather than assumed:
+
+- **Cited answers.** Every claim points to a source sentence, so it can be checked. Without retrieval, the model scored 3/11 and invented an acquisition that never happened.
+- **Deal status.** Approved-but-pending deals are kept separate from completed ones, so a pending transaction is never reported as done.
+- **Ownership over time.** Holdings are stored as intervals, so "who owned it before the buyout" and "who owns it now" both have answers.
+
+This is a prototype on 110 articles and 11 evaluation questions, not a product in use. It shows that the approach works on this problem, not that it has been validated with users.
+
 ## Result
 
 Eleven questions, three ways of answering each, one run per answer.
@@ -24,6 +38,10 @@ Of the correct answers, 8 of vector's and 9 of graph's cite a passage that actua
 - **Where the graph won:** a cross-chunk question where vector search never retrieved the needed passage, and a same-chunk question where vector misread who was buying whom.
 - **Where vector won:** the one article the graph lost during extraction. Vector indexed all 115 articles; the graph only has the 110 that extracted cleanly.
 - **The clearest finding is the first column.** Without retrieval the model scored 3/11, and its wrong answers were confident and specific: a 49% stake that was really 75%, the wrong seller of a stake, and an acquisition of Star Health that never happened. Both retrieval arms refused that last one. Its three correct answers are facts it already knew or could guess from a company name, which is why they cannot count as wins for either retrieval method.
+
+## Demo app
+
+A small web app puts the three arms side by side for the same question, with the passages each answer cites, my hand score for each answer, and, for graph RAG, the seed nodes and the path it walked through the knowledge graph. Demo mode replays the 11 scored eval questions from the stored results. Live mode runs vector and graph RAG on a new question. See [Running it](#running-it) for how to start it.
 
 ## Why multi-hop is hard for vector search
 
@@ -183,8 +201,9 @@ Judgement calls are recorded in `data/eval_scoring.csv`.
 - **Article bodies are truncated at 6,000 characters** to fit the provider's per-minute token limit. This mostly affects long roundups.
 - **A year stated in a different sentence from the evidence is often missed**, giving incomplete edges.
 - **Duplicate edges for one holding** reported at slightly different percentages inflate the context.
-- **Generic names seed wrongly.** "Life Insurance Corporation (LIC)" normalises to "life insurance" and matches ordinary words in questions. It changed no result but adds noise.
+- **Free-form questions exposed a seed-matching bug.** Testing the app with free-form questions exposed a bug in query-side seed matching. Generic phrases matched entity names: "Life Insurance Corporation (LIC)" and "General Insurance Corporation (GIC)" normalise to plain "life insurance" and "general insurance", so any question containing those words seeded LIC or GIC. Two of the eleven eval questions (q09, q10) had a spurious seed. The fix blocks generic keys and adds query-side aliases for short and older names (for example "Allianz" and "Bajaj Allianz Life"). Both affected graph answers were rerun and rescored, and the totals did not change. `check_seeds.py` verifies that the seeds behind every scored answer match the current code.
 - **Some extraction errors remain in the graph**, including two executives attached to Prudential plc rather than the Prudential Health venture they joined.
+- **Some edges point the wrong way.** Extraction occasionally turns a symmetric phrasing ("distribution agreements between X and Y") into edges in both directions. The graph path for q01 shows one such reversed `DISTRIBUTES_FOR` edge. It did not change any answer; fixing it needs a direction rule in graph construction and a full eval rerun.
 - **The chunk test only knows spellings the extractor produced.** An article writing "PNB" is invisible to it if the graph only knows "Punjab National Bank".
 - **The possessive rule can leave a description** ("Bajaj's insurance ventures") where it was meant to leave a company name. Known cases are blocked or aliased.
 - **Scraping artefacts**: some characters were mis-decoded at fetch time.
@@ -227,21 +246,46 @@ To ask a single question three ways:
 python src/compare.py "Which bank holds a stake in the life insurer that Prudential part-owns?"
 ```
 
+### Demo app
+
+Start the backend from the repo root with the virtual environment active:
+
+```
+uvicorn api:app --reload --app-dir src
+```
+
+Then, in a second terminal, start the frontend and open http://localhost:5173:
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+Demo mode reads the stored eval results and makes no API calls. Live mode needs `GROQ_API_KEY` in `.env` and makes two LLM calls per question, one for vector RAG and one for graph RAG.
+
 ## Repository layout
 
 ```
-src/                     pipeline code, one file per stage
+src/                       pipeline code, one file per stage
+src/api.py                 FastAPI backend for the demo app
+frontend/                  React demo app (Vite)
+check_seeds.py             checks the graph seeds behind every scored answer are unchanged
 docs/extraction_prompt.md  the frozen extraction specification
-docs/scope.md            decisions about what the graph does and does not model
-tests/fixtures/          11 extraction test articles with expected outputs
-data/eval_questions.json the evaluation questions and gold answers
-data/eval_results.json   every answer, with the passages each arm received
-data/eval_scoring.csv    hand scores and judgement calls
+docs/scope.md              decisions about what the graph does and does not model
+docs/DESIGN.md             the design system the demo app follows
+tests/fixtures/            11 extraction test articles with expected outputs
+data/eval_questions.json   the evaluation questions and gold answers
+data/eval_results.json     every answer, with the passages each arm received
+data/eval_scoring.csv      hand scores and judgement calls
+data/graph.json            the knowledge graph: edges with their evidence sentences and sources
+data/nodes.json            resolved entities and the raw spellings mapped to each
 ```
+
+The article corpus itself is not redistributed. `graph.json` holds only the single evidence sentence behind each edge, with its source URL.
 
 ## What I would do next
 
 - **More questions, several runs each.** The single biggest weakness of the result.
 - **Rank traversed edges against the question** before assembly, instead of including the whole two-hop neighbourhood.
-- **Fix seeding on generic names**, by ignoring keys made only of common sector words.
 - **Recover the five failed articles** in a separate, labelled extraction pass, keeping them distinguishable from the main corpus.

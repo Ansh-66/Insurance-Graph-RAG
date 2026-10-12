@@ -1,0 +1,119 @@
+/* Design tokens (docs/DESIGN.md) and base element styles.
+   A custom property like --text is declared once on :root and read anywhere
+   with var(--text). Changing it here changes it everywhere. */
+
+:root {
+  /* Light theme colours */
+  --bg: #FFFFFF;
+  --surface: #F6F7F9;
+  --surface-alt: #ECEEF2;
+  --border: #DFE2E8;
+  --text: #14161B;
+  --text-muted: #565D6B;
+  --text-faint: #878E9B;
+  --accent: #1946C0;
+  --accent-hover: #143A9E;
+  --accent-weak: #EDF1FC;
+  --success: #0F8A54;
+  --warning: #B4690E;
+  --danger: #C4291F;
+  /* Text on a filled accent button (DESIGN.md section 7: #FFFFFF) */
+  --on-accent: #FFFFFF;
+
+  /* Spacing scale: every value is a multiple of 4px */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* Radii */
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-pill: 9999px;
+
+  /* Motion */
+  --duration-micro: 150ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+
+  /* Fonts, each with a system fallback */
+  --font-display: "Inter Tight", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Tells the browser to draw its own controls (scrollbars) in the right theme */
+  color-scheme: light dark;
+}
+
+/* Dark theme: the same names with different values. The browser applies this
+   block automatically when the operating system is set to dark mode. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0D0F13;
+    --surface: #15181E;
+    --surface-alt: #1D212A;
+    --border: #282E38;
+    --text: #F1F3F7;
+    --text-muted: #9AA1AE;
+    --text-faint: #656C79;
+    --accent: #5B82F5;
+    --accent-hover: #7699F7;
+    --accent-weak: #151C33;
+    --success: #33BE7C;
+    --warning: #E0A048;
+    --danger: #E56A61;
+    /* White on the dark-theme accent is only 3.5:1; the dark --bg value gives 5.4:1 */
+    --on-accent: #0D0F13;
+  }
+}
+
+*,
+*::before,
+*::after {
+  /* Makes width/height include padding and border, which keeps sizing predictable */
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 600;
+}
+
+/* Type steps from DESIGN.md: size / line-height */
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+p {
+  margin: 0;
+}

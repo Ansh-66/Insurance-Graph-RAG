@@ -1,0 +1,424 @@
+/* Component styles. Colours and spacing come from the tokens in index.css. */
+
+/* ---------- Page frame ---------- */
+
+/* width: 100% minus the two 24px gutters, capped at 1200px.
+   margin: 0 auto centres the block; the content inside stays left-aligned. */
+.page {
+  width: calc(100% - 48px);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-7) 0 var(--space-9);
+}
+
+.visually-hidden {
+  /* Hidden on screen but still read by screen readers */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---------- Header ---------- */
+
+.page-header {
+  margin-bottom: var(--space-9);
+}
+
+/* Flexbox lays children out in a row. space-between pushes the button to the
+   right edge; flex-wrap lets it drop under the title when the row is too narrow. */
+.title-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+}
+
+.lead {
+  max-width: 680px;
+  margin-top: var(--space-3);
+  /* Body-lg */
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--text-muted);
+}
+
+/* ---------- Buttons ---------- */
+
+/* Every <button> is a secondary button by default. */
+button {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  height: 40px;
+  padding: 0 var(--space-4);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  /* hover-transition: only these three properties, 150ms. The focus outline
+     is not listed, so it appears instantly. */
+  transition: background-color var(--duration-micro) var(--ease),
+    border-color var(--duration-micro) var(--ease),
+    color var(--duration-micro) var(--ease);
+}
+
+button:hover {
+  background: var(--surface-alt);
+}
+
+/* focus-ring: :focus-visible only matches keyboard focus, not mouse clicks */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.button-primary {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.button-primary:hover {
+  border-color: var(--accent-hover);
+  background: var(--accent-hover);
+}
+
+.button-primary:disabled {
+  border-color: var(--surface-alt);
+  background: var(--surface-alt);
+  color: var(--text-faint);
+  cursor: not-allowed;
+}
+
+/* ---------- Demo mode: question picker ---------- */
+
+/* flex-wrap: wrap lets the buttons flow onto extra rows instead of overflowing */
+.picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+/* Always takes up one line so the layout does not jump when "Loading..." appears */
+.status {
+  min-height: 20px;
+  margin-bottom: var(--space-4);
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--text-muted);
+}
+
+/* Old content stays visible but faded while new data loads. No transition:
+   DESIGN.md makes anything outside its named interactions an instant change. */
+.is-loading {
+  opacity: 0.5;
+}
+
+.inline-error {
+  margin-bottom: var(--space-4);
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--danger);
+}
+
+/* The one use of the accent in demo mode: the selected question */
+.picker button[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-weak);
+  color: var(--accent);
+}
+
+.picker-type {
+  /* Caption */
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+main h2 {
+  /* Caps the line length at the 680px text-column width */
+  max-width: 680px;
+}
+
+.gold {
+  max-width: 680px;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-7);
+  padding: var(--space-4);
+  border-radius: var(--radius);
+  background: var(--surface-alt);
+}
+
+.eyebrow {
+  margin-bottom: var(--space-1);
+  /* Caption */
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+/* ---------- Live mode: ask row ---------- */
+
+.ask-row {
+  display: flex;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+/* Space between the ask row / error message and the live results */
+.ask-row ~ section {
+  margin-top: var(--space-6);
+}
+
+/* flex: 1 makes the input take all the width the button leaves free.
+   min-width: 0 lets it shrink below its default size on narrow screens. */
+input {
+  flex: 1;
+  min-width: 0;
+  height: 40px;
+  padding: 0 var(--space-3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  transition: border-color var(--duration-micro) var(--ease);
+}
+
+/* Error state from DESIGN.md: red border; the message below is the helper text */
+input[aria-invalid="true"] {
+  border-color: var(--danger);
+}
+
+input::placeholder {
+  color: var(--text-faint);
+}
+
+/* Border turns accent and a 3px --accent-weak ring appears, instantly.
+   The outline is drawn outside the border and does not take up layout space. */
+input:focus {
+  outline: 3px solid var(--accent-weak);
+  border-color: var(--accent);
+  transition: none;
+}
+
+/* ---------- Answer cards ---------- */
+
+/* CSS grid with 12 equal columns. repeat(12, minmax(0, 1fr)) means 12 columns
+   that share the width equally; minmax(0, ...) stops long words from forcing
+   a column wider than its share. gap is the space between columns and rows. */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: var(--space-5);
+}
+
+/* grid-column: span 4 makes a card take 4 of the 12 columns, so three fit per row */
+.cards-demo .card {
+  grid-column: span 4;
+}
+
+/* Two cards of 6 columns each in live mode */
+.cards-live .card {
+  grid-column: span 6;
+}
+
+/* Media query: these rules apply only when the window is narrower than 1024px.
+   Every card then spans all 12 columns, so they stack in one column. */
+@media (max-width: 1023px) {
+  .cards-demo .card,
+  .cards-live .card {
+    grid-column: 1 / -1;
+  }
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+
+/* "Lobotomized owl": every child that follows another child gets 12px above it,
+   so the card's inner spacing is set in one place. */
+.card > * + * {
+  margin-top: var(--space-3);
+}
+
+.card-subtitle {
+  /* Overrides the 12px above; the subtitle sits close under its title */
+  margin-top: var(--space-1);
+  /* Small */
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--text-muted);
+}
+
+.answer {
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Score badges ---------- */
+
+/* Pills. The word carries the meaning; the border colour only reinforces it. */
+.badge {
+  display: inline-block;
+  margin-right: var(--space-2);
+  padding: var(--space-1) var(--space-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  /* Caption */
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.badge-correct {
+  border-color: var(--success);
+}
+
+.badge-wrong {
+  border-color: var(--danger);
+}
+
+.badge-neutral {
+  border-color: var(--surface-alt);
+  background: var(--surface-alt);
+  color: var(--text-muted);
+}
+
+.score-comment {
+  margin-top: var(--space-2);
+  /* Small */
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--text-muted);
+}
+
+/* ---------- Graph seeds ---------- */
+
+.seeds {
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--text-muted);
+}
+
+.seed-tag {
+  display: inline-block;
+  margin: 0 var(--space-1) var(--space-1) 0;
+  padding: 0 var(--space-2);
+  border-radius: var(--radius-pill);
+  background: var(--surface-alt);
+  color: var(--text-muted);
+  font-family: var(--font-mono);
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Graph path ---------- */
+
+.path {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--text);
+}
+
+.path .path-traversed {
+  color: var(--text-muted);
+}
+
+.path li + li {
+  margin-top: var(--space-2);
+}
+
+/* Long names must wrap rather than push the card wider than its grid column */
+.path li {
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Passages ---------- */
+
+.passage {
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--border);
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* Shows at most 4 lines of text and cuts the rest with an ellipsis.
+   -webkit-box and -webkit-line-clamp are how browsers implement this. */
+.passage-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  line-clamp: 4;
+  overflow: hidden;
+  color: var(--text-muted);
+}
+
+.passage-num {
+  font-family: var(--font-mono);
+  color: var(--text);
+}
+
+.passage-empty {
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--text-muted);
+}
+
+a {
+  color: var(--accent);
+  transition: color var(--duration-micro) var(--ease);
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+/* The link sits outside the clamped text so the ellipsis can never hide it */
+.passage a {
+  display: inline-block;
+  margin-top: var(--space-1);
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 639px) {
+  .page-header {
+    margin-bottom: var(--space-8);
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+
+/* If the operating system asks for less motion, drop the colour fades too */
+@media (prefers-reduced-motion: reduce) {
+  button,
+  input,
+  a {
+    transition: none;
+  }
+}
