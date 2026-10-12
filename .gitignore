@@ -1,5 +1,7 @@
-# Corpus — not redistributed
-data/
+# Corpus — not redistributed. data/* (not data/) ignores the folder's
+# contents, so the ! lines below can re-include single files; git cannot
+# re-include a file inside an ignored folder.
+data/*
 
 # Secrets
 .env
@@ -18,12 +20,18 @@ venv/
 .idea/
 .vscode/
 
-data/
+# Evaluation and the derived graph: needed for the demo app and to check the results
 !data/eval_questions.json
 !data/eval_results.json
 !data/eval_scoring.csv
+!data/graph.json
+!data/nodes.json
 
 scratch.py
 throwaway.py
 test.txt
 
+
+# Added for the frontend
+node_modules/
+frontend/dist/

@@ -32,7 +32,7 @@ def no_context(question):
 def cited(answer_text, passages):
     """Only the passages the answer actually cites, by their [n] number."""
     import re
-    nums = sorted({int(n) for n in re.findall(r"\[(\d+)\]", answer_text)})
+    nums = sorted({int(n) for n in re.findall(r"[\[\u3010](\d+)", answer_text)})
     return [(n, passages[n - 1]) for n in nums if 0 < n <= len(passages)]
 
 

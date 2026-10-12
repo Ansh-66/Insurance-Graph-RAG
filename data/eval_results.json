@@ -1,0 +1,1321 @@
+{
+  "q01:no_context": {
+    "answer": "Bajaj Allianz Life Insurance.",
+    "seeds": [],
+    "n_passages": 0,
+    "cited": []
+  },
+  "q01:vector": {
+    "answer": "The sources do not say.",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "Prudential said Bharti Life would seek strategic distribution arrangements with Bharti Airtel and 360 ONE Asset Management as part of the transaction. The insurer also expects to work closely with businesses within the Bharti group to expand its customer reach. Industry analysts said the transaction reflects increasing global interest in India’s insurance sector, which is witnessing rapid growth driven by rising incomes, financial awareness and under-penetration of life and health insurance products.",
+        "url": "https://indianexpress.com/article/business/prudential-to-buy-75-per-cent-stake-in-bharti-life-for-rs-3500-cr-10694841/"
+      },
+      {
+        "text": "The companies said Bharti’s domestic reach and Prudential’s global insurance expertise would together help strengthen operational and technological capabilities while expanding access to life and health protection solutions for Indian consumers. As part of the broader arrangement, Bharti Life is also expected to explore strategic distribution agreements with Bharti Airtel and 360 ONE Asset Management. Commenting on the transaction, Karan Bhagat, Founder, MD and CEO of 360 ONE, said the investment reflected Bharti Life’s strong performance and long-term potential.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Under the arrangement, Bharti Life is also expected to examine distribution agreements with Bharti Airtel and 360 ONE. Bharti Enterprises founder and chairman Sunil Bharti Mittal said: “Prudential’s experience and global scale, combined with Bharti’s strong track record, create a formidable alliance to tap into the immense potential of India’s life insurance sector.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      },
+      {
+        "text": "“By acquiring a controlling stake in Bharti Life, we are bringing together Prudential’s nearly 180 years of global insurance expertise and Bharti’s strong and growing local presence to serve the savings and protection needs of Indian consumers.” Bharti Life will also explore strategic distribution agreements with Bharti Airtel Ltd and 360 ONE as part of the transaction. The key attraction for Prudential is Bharti Airtel’s large customer base, with the telecom operator offering potential access to nearly 300 million smartphone users in India, Reuters Breakingviews said.",
+        "url": "https://pressinsider.com/news/prudential-to-buy-75-of-bharti-life-for-389-million/"
+      },
+      {
+        "text": "As part of the expansion, Bharti Life aims to secure strategic distribution agreements with Bharti Airtel and 360 ONE. Meanwhile, Prudential is proceeding with regulatory approvals for its standalone health insurance business, which is scheduled to begin operations in 2026.",
+        "url": "https://insuranceasia.com/insurance/news/prudential-buys-75-stake-in-bharti-life"
+      },
+      {
+        "text": "The investment would give Prudential management and operational control across products and distribution channels, combining its global insurance experience with Bharti’s local presence. As part of the deal, Bharti Life is also expected to explore strategic distribution agreements with Bharti Airtel and 360 ONE, the company said. In a separate statement, 360 ONE founder, managing director and chief executive Karan Bhagat said he welcomed Prudential’s controlling investment and looked forward to continuing distribution of the insurer’s products through its network.",
+        "url": "https://www.livemint.com/companies/news/prudential-to-buy-75-percent-stake-in-bharti-life-cut-icici-prudential-holding-to-10-percent-11779026319532.html"
+      },
+      {
+        "text": "Bharti’s local reach, combined with Prudential’s long-established insurance expertise, will help expand access to life and health protection solutions for Indian consumers. Prudential expects to work closely with the other businesses of the Bharti Enterprises and related entities. As part of the transaction, Bharti Life will also look into securing strategic distribution agreements with Bharti Airtel and 360 ONE, it said.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "Currently, Bharti Life Ventures holds an 85% stake in the company while Indian asset management firm 360 ONE Asset holds a 15% stake through its funds. As part of the transaction, Bharti Life will also explore strategic distribution partnerships with Bharti Airtel and 360 ONE. Prudential’s acquisition of a majority stake in Bharti Life Insurance highlights the company’s increasing focus on the Indian insurance market.",
+        "url": "https://www.financialexpress.com/business/news/prudential-buys-75-stake-in-bharti-life/4243469/"
+      },
+      {
+        "text": "Prudential’s experience and global scale, combined with Bharti’s strong track record, create a formidable alliance to tap into the immense potential of India’s life insurance sector.” The company said the acquisition is aligned with India’s “Insurance for All by 2047” objective and would help expand access to savings, life and health protection products in a market where insurance penetration remains relatively low despite strong economic growth and favourable demographics. Prudential said Bharti Life would seek strategic distribution arrangements with Bharti Airtel and 360 ONE Asset Management as part of the transaction.",
+        "url": "https://indianexpress.com/article/business/prudential-to-buy-75-per-cent-stake-in-bharti-life-for-rs-3500-cr-10694841/"
+      },
+      {
+        "text": "Through this acquisition, we aim to contribute further to The Viksit Bharat Initiative and, by extending access to our products and services to customers in India, act as a catalyst for achieving 'Insurance for All by 2047'. Our joint partnership with the ICICI group of companies, has, for many decades, provided high-quality financial services solutions in India. We deeply appreciate this partnership and value our relationship with them.\" As part of the transaction, Bharti Life will also look into securing strategic distribution agreements with Bharti Airtel and 360 ONE.",
+        "url": "https://www.business-standard.com/markets/capital-market-news/prudential-announces-strategic-repositioning-of-its-india-operations-126051800146_1.html"
+      }
+    ]
+  },
+  "q01:graph": {
+    "answer": "Bharti Life is the insurer that is expected to explore a strategic distribution agreement with Bharti Airtel, the company that raised its stake in Airtel Africa [2][4][5].",
+    "seeds": [
+      "airtel-africa"
+    ],
+    "passages": [
+      {
+        "text": "The segment was led by Bharti Airtel 's $3 billion increase in stake in Airtel Africa plc.",
+        "url": "https://www.fortuneindia.com/business-news/india-inc-clocks-11-billion-worth-of-deals-in-may-ma-pe-activity-moderates-after-april-surge/141951"
+      },
+      {
+        "text": "As part of the broader arrangement, Bharti Life is also expected to explore strategic distribution agreements with Bharti Airtel and 360 ONE Asset Management.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "As part of the acquisition, Prudential intends to utilise its insurance and operational capabilities while also securing strategic distribution partnerships with Bharti Airtel and wealth management group 360 ONE.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "Bharti Life will also explore strategic distribution agreements with Bharti Airtel and 360 ONE as part of the transaction.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "Under the arrangement, Bharti Life is also expected to examine distribution agreements with Bharti Airtel and 360 ONE.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      }
+    ]
+  },
+  "q02:vector": {
+    "answer": "Allianz SE, which sold its 23% stakes in Bajaj Life Insurance and Bajaj General Insurance, has been listed as a bidder for HSBC’s Singapore insurance unit [5]. The sale of the 23% stakes was reported in the earlier coverage of Allianz’s exit from the Bajaj joint ventures [1].",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "The shift has triggered renewed deal activity. Germany’s Allianz Group exited its joint ventures with Bajaj Group, selling 23% stakes in both life and general insurance arms in January for ₹21,390 crore, with the remaining 3% to be transferred by June. Following the exit, Bajaj Group now holds a 97% stake in both entities. Allianz has since announced a 50:50 general and life insurance joint venture with Jio Financial Services.",
+        "url": "https://www.livemint.com/companies/news/prudential-to-buy-75-percent-stake-in-bharti-life-cut-icici-prudential-holding-to-10-percent-11779026319532.html"
+      },
+      {
+        "text": "Aviva did not disclose the financial terms of the acquisition and said it is not expected to have a material impact on the group. Three deals, three different strategic conclusions – that is the picture emerging from India’s life insurance market since the FDI reform took effect. Allianz SE completed the sale of 23% of its stakes in Bajaj Life Insurance and Bajaj General Insurance to the Bajaj Group in January 2026, stating that its ability to operate in the Indian market had remained limited due to its minority position in the joint ventures.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/aviva-takes-full-india-ownership-under-new-fdi-regime-582033.aspx"
+      },
+      {
+        "text": "Allianz SE completed the sale of 23% of its stakes in Bajaj Life Insurance and Bajaj General Insurance to the Bajaj Group in January 2026, stating that its ability to operate in the Indian market had remained limited due to its minority position in the joint ventures. Having exited, Allianz immediately re-entered on different terms: in April 2026, Jio Financial Services and Allianz entered a binding agreement to form a 50:50 joint venture covering general insurance and health insurance.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/aviva-takes-full-india-ownership-under-new-fdi-regime-582033.aspx"
+      },
+      {
+        "text": "Bajaj Finserv — Buying Full Control of Insurance Bajaj Finserv’s acquisition cycle has been less about expansion and more about strategic control. In 2025, the company acquired Allianz’s 23% stake in Bajaj Allianz Life Insurance for ₹9,200 crore and the stake in Bajaj Allianz General Insurance for ₹12,190 crore. These two deals alone crossed ₹20,000 crore and fundamentally changed the structure of the Bajaj Financial Services ecosystem. The company also acquired Vidal Healthcare to strengthen its health-tech and insurance servicing capabilities.",
+        "url": "https://tradebrains.in/top-6-stocks-that-went-on-a-90000-cr-acquisition-spree-in-the-last-5-years/"
+      },
+      {
+        "text": "for about S$2.2 billion ($1.6 billion). Its unit Allianz Global Investors is in exclusive talks to buy the asset management division of United Overseas Bank Ltd., people familiar with the matter have said. HSBC had shortlisted Allianz, Sumitomo Life Insurance Co. and Daiichi Life Group Inc. as bidders for the Singaporean insurance unit. Other insurers including Sun Life Financial Inc. and Nippon Life Insurance Co. were said to be in the frame for the unit previously. The lender had started a review of the business in January, also saying at the time that Singapore was a priority market.",
+        "url": "https://www.business-standard.com/world-news/allianz-emerges-as-lead-bidder-for-hsbc-s-singapore-insurance-unit-126061500181_1.html"
+      },
+      {
+        "text": "Last year, the UK firm had also announced a health insurance joint venture with India-based HCL Group. Vama Sundari Investments, HCL Group’s promoter company, will be the Indian partner for the health insurance business. The $2.7 bn Bajaj Group-Allianz SE deal, ending the 24 year JV between both entities, the Rs 4,500 crore sale of Magma General Insurance to Patanjali Ayurved and DS Group , the Allianz-Jio Financial Services reinsurance JV and the entry of Manulife into Indian insurance with an M&M JV are the other key deals in the insurance space since January 2025.",
+        "url": "https://www.moneycontrol.com/news/business/bain-capital-and-other-pe-s-exploring-stake-buy-in-iihl-promoted-indusind-general-insurance-13935876.html"
+      },
+      {
+        "text": "Recently, Australia-based QBE Insurance group also announced acquisition of its 51 per cent stake in Raheja QBE General Insurance from its Indian partner Prism Johnson for ₹324 crore taking full control of the general insurer. One of the major deals announced in the industry was the 50:50 joint venture between Jio Financial Services and Allianz group to enter the reinsurance market. Allianz group exited its two insurance joint ventures with Bajaj group, with the latter acquiring the entire stake for ₹24,180 crore. More From This Section Don't miss the most important news and views of the day.",
+        "url": "https://www.business-standard.com/companies/news/liberty-mutual-to-increase-stake-in-liberty-general-insurance-to-74-per-cent-126051800646_1.html"
+      },
+      {
+        "text": "Bhd. on any future sale of its remaining 30% stake in Sri Han Suria. In Southeast Asia, another notable transaction involved Aboitiz Equity Ventures Inc., which agreed to sell its 5.33% stake in digital insurer Singapore Life (Philippines) Inc. to Singapore Life Holdings Pte. Ltd. for $2.2m. India's only insurance transaction during the quarter was Prism Johnson Ltd.'s sale of its 51% stake in Raheja QBE General Insurance Co. Ltd. to QBE Holdings (AAP) Pty. Ltd., a subsidiary of QBE Insurance Group Ltd.",
+        "url": "https://insuranceasia.com/insurance/in-focus/australia-offsets-india-slowdown-apac-insurance-deals-hold-16"
+      },
+      {
+        "text": "The Patanjali acquisition does not stand alone. In a two-week window in March 2025, India's insurance sector recorded deals totalling more than Rs 38,000 crore. The largest was the Bajaj Group's acquisition of Allianz SE's 26% stake in their two joint venture insurers for Rs 24,180 crore. In the same period, IndusInd International Holdings completed its acquisition of Reliance Capital, the parent of two insurers, and the UK-based Prudential Group announced a partnership with HCL Group to establish a standalone health insurer.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/mergers-acquisitions/irdai-clears-patanjalis-move-into-general-insurance-584569.aspx"
+      },
+      {
+        "text": "The $2.7 bn Bajaj Group-Allianz SE deal, ending the 24 year JV between both entities, the Rs 4,500 crore sale of Magma General Insurance to Patanjali Ayurved and DS Group , the Allianz-Jio Financial Services reinsurance JV and the entry of Manulife into Indian insurance with an M&M JV are the other key deals in the insurance space since January 2025. Earlier on February 19, Moneycontrol was the first to report that French financial services major BNP Paribas had emerged as the front-runner in the ongoing sale process of the 26 per cent stake held by Warburg Pincus in private life insurer IndiaFirst Life Insurance.",
+        "url": "https://www.moneycontrol.com/news/business/bain-capital-and-other-pe-s-exploring-stake-buy-in-iihl-promoted-indusind-general-insurance-13935876.html"
+      }
+    ]
+  },
+  "q02:graph": {
+    "answer": "Allianz SE, which sold its 23% stakes in Bajaj Life Insurance and Bajaj General Insurance, is reported to be bidding for HSBC Holdings Plc’s Singapore insurance unit【1】【2】.",
+    "seeds": [
+      "bajaj-general-insurance",
+      "bajaj-life-insurance"
+    ],
+    "passages": [
+      {
+        "text": "Allianz SE completed the sale of 23% of its stakes in Bajaj Life Insurance and Bajaj General Insurance to the Bajaj Group in January 2026, stating that its ability to operate in the Indian market had remained limited due to its minority position in the joint ventures.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/aviva-takes-full-india-ownership-under-new-fdi-regime-582033.aspx"
+      },
+      {
+        "text": "Allianz SE has emerged as the frontrunner in the sale of HSBC's Singapore insurance business, with a potential transaction valued at up to $2bn, according to a Bloomberg report citing people familiar with the matter.",
+        "url": "https://www.asiainsurancereview.com/News/View-NewsLetter-Article?id=95845&Type=eDaily"
+      },
+      {
+        "text": "Allianz SE has emerged as the frontrunner to acquire HSBC Holdings Plc’s Singapore insurance unit, people familiar with the matter said.",
+        "url": "https://www.business-standard.com/world-news/allianz-emerges-as-lead-bidder-for-hsbc-s-singapore-insurance-unit-126061500181_1.html"
+      }
+    ]
+  },
+  "q03:no_context": {
+    "answer": "State Bank of India (SBI).",
+    "seeds": [],
+    "n_passages": 0,
+    "cited": []
+  },
+  "q03:vector": {
+    "answer": "The promoter that is a state‑owned bank is Punjab National Bank (PNB), which holds a 30 % stake in PNB MetLife India Insurance Co Ltd., alongside Jammu & Kashmir Bank as another shareholder【3】.",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "State-owned insurer Life Insurance Corporation of India has increased its stake in Central Bank of India to 6.06% from 3.16% earlier, following a fresh market purchase of shares. In an exchange filing, the Central Bank of India said LIC acquired 26.26 crore equity shares, representing 2.901% stake in the public sector lender, through market purchases on May 22. Following the acquisition, LIC’s shareholding in the bank rose to 6.06%. As per the latest shareholding pattern, the promoter group held a dominant 89.27% stake in the company. Insurance companies owned 3.26%, while banks held 1.20%.",
+        "url": "https://www.livemint.com/market/stock-market-news/lic-raises-stake-in-central-bank-of-india-to-over-6-amid-government-ofs-move-11779764588109.html"
+      },
+      {
+        "text": "New Delhi: State-owned insurer Life Insurance Corporation (LIC) has hiked its stake in Central Bank of India to 6.06 percent, from 3.16 percent earlier. Follow The PSUWatch Channel on WhatsApp In a disclosure to stock exchanges, the Central Bank of India said LIC has bought 26.26 crore shares or 2.901 percent in the public sector lender via market purchase on May 22. Post stake acquisition, LIC's holding in Central Bank of India has increased to 6.06 percent. Follow PSU Watch on LinkedIN Shares of Central Bank of India closed at Rs 31.29, down 0.03 percent over the previous close on BSE.",
+        "url": "https://psuwatch.com/newsupdates/lic-hikes-stake-in-central-bank-of-india-to-606"
+      },
+      {
+        "text": "We'll continue to pursue, wherever it makes sense, getting to majority control,” Lyndon Oliver, regional president of MetLife Asia, and non-executive chairman of PNB MetLife, said in an interview. With the opening up of foreign investment limits, MetLife has steadily increased its stake from 26% to 49.73%. State-owned PNB is the other promoter, holding a 30% stake in PNB MetLife India Insurance Co Ltd. Other notable shareholders include Jammu & Kashmir Bank and M. Pallonji and Company. “Our strategy of getting to majority ownership in this state is unchanged from day one.",
+        "url": "https://www.livemint.com/companies/news/metlife-seeks-majority-stake-in-pnb-metlife-india-growth-11781157448045.html"
+      },
+      {
+        "text": "Prudential is moving from JV model to majority control in India’s insurance sector: Explained ADVERTISEMENT UK-based Prudential plc has announced the acquisition of a 75% stake in Bharti Life Insurance for ₹3,500 crore from Bharti Life Ventures Pvt. Ltd and 360 ONE Asset Management, in a move that signals a major restructuring of its India strategy. The transaction is significant because Prudential is currently a long-standing partner of ICICI Bank in ICICI Prudential Life Insurance Company, where it owns around 22%.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Among state-owned insurers, General Insurance Corporation of India will sell up to 1.066 crore shares acquired at Rs 5.26 apiece. The New India Assurance Company, National Insurance Company, United India Insurance Company and The Oriental Insurance Company also acquired their stakes at less than Re 1 per share and are partially exiting through the IPO. State Bank of India holds a 3.23 percent stake in the NSE, while its subsidiary SBI Capital Markets owns 4.33 percent. Stock Holding Corporation of India holds a 4.44 percent stake in the exchange.",
+        "url": "https://www.moneycontrol.com/news/business/markets/nse-ipo-niacl-shares-surge-14-as-insurer-to-sell-1-05-crore-shares-13952635.html"
+      },
+      {
+        "text": "British insurer Aviva Plc has agreed to acquire the remaining 26% stake in Aviva Life Insurance Company India from joint venture partner Dabur Invest Corp, becoming the first foreign life insurer to achieve 100% ownership of an Indian insurance business under the country’s revised foreign direct investment (FDI) framework, which took effect on February 5, 2026, according to India Today.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/aviva-takes-full-india-ownership-under-new-fdi-regime-582033.aspx"
+      },
+      {
+        "text": "UK-based insurer Aviva Plc has acquired the remaining 26 per cent stake in Aviva Life Insurance Company India Ltd from its joint venture partner Dabur Invest Corp, taking full ownership of its Indian life insurance business following India's decision to allow 100 per cent foreign direct investment (FDI) in the insurance sector. The acquisition comes after the Indian government recently increased the FDI limit in the insurance sector from 74 per cent to 100 per cent of paid-up equity capital, enabling foreign insurers to fully own their Indian operations.",
+        "url": "https://www.firstpost.com/business/aviva-takes-full-ownership-of-aviva-india-months-after-govts-100-fdi-nod-in-insurance-sector-14030082.html"
+      },
+      {
+        "text": "British insurer Aviva Plc has agreed to acquire the remaining 26% stake in Aviva Life Insurance Company India from joint venture partner Dabur Invest Corp, becoming the first foreign life insurer to achieve 100% ownership of an Indian insurance business under the country’s revised foreign direct investment (FDI) framework, which took effect on February 5, 2026, according to India Today. The deal is the first transaction to close under a regulatory regime that has already prompted a wave of ownership restructuring across India's life insurance sector – and it raises a pointed question about how Aviva Group intends to reposition India within its broader corporate strategy.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/aviva-takes-full-india-ownership-under-new-fdi-regime-582033.aspx"
+      },
+      {
+        "text": "ICICI Bank currently holds a 50.89% stake in ICICI Prudential Life Insurance and is expected to remain the dominant shareholder after Prudential’s stake reduction. Bharti Life Insurance reported annualised premium equivalent of around Rs 9.2 billion in FY26, compared with around Rs 106 billion for ICICI Prudential Life Insurance, highlighting the sharp difference in scale between the two businesses.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/prudential-plans-major-stake-cut-in-icici-prudential-life-after-bharti-life-acquisition/131214617"
+      },
+      {
+        "text": "The life insurance industry continues to be dominated by the state-owned Life Insurance Corporation of India (LIC). Industry experts often view life insurers as important providers of long-term capital that can support infrastructure and other productive sectors requiring stable funding. Aviva India's Financial Performance As of March 31, 2026, Aviva India managed assets worth ₹16,316 crore. The company reported gross premium income of ₹1,343 crore for FY26, representing a 2.8% increase from the previous year, while new business premium rose 10% to ₹351 crore.",
+        "url": "https://www.outlookbusiness.com/corporate/a-landmark-deal-aviva-set-for-100-ownership-of-its-india-business"
+      }
+    ]
+  },
+  "q03:graph": {
+    "answer": "Punjab National Bank (PNB) is the state‑owned bank that acts as a promoter of PNB MetLife India Insurance Co Ltd, the life insurer in which Jammu & Kashmir Bank also holds a stake【2】. The passage also notes that Jammu & Kashmir Bank is among the notable shareholders of the company【1】.",
+    "seeds": [
+      "jammu-kashmir-bank"
+    ],
+    "passages": [
+      {
+        "text": "Other notable shareholders include Jammu & Kashmir Bank and M. Pallonji and Company.",
+        "url": "https://www.livemint.com/companies/news/metlife-seeks-majority-stake-in-pnb-metlife-india-growth-11781157448045.html"
+      },
+      {
+        "text": "State-owned PNB is the other promoter, holding a 30% stake in PNB MetLife India Insurance Co Ltd.",
+        "url": "https://www.livemint.com/companies/news/metlife-seeks-majority-stake-in-pnb-metlife-india-growth-11781157448045.html"
+      },
+      {
+        "text": "New York-based MetLife is keen on acquiring a majority stake and operational control over its Indian insurance joint venture with Punjab National Bank, a strategy that the company has been pursuing since it entered the Indian market 25 years ago.",
+        "url": "https://www.livemint.com/companies/news/metlife-seeks-majority-stake-in-pnb-metlife-india-growth-11781157448045.html"
+      },
+      {
+        "text": "MetLife has steadily increased its stake from 26% to 49.73%.",
+        "url": "https://www.livemint.com/companies/news/metlife-seeks-majority-stake-in-pnb-metlife-india-growth-11781157448045.html"
+      }
+    ]
+  },
+  "q04:no_context": {
+    "answer": "I don't know.",
+    "seeds": [],
+    "n_passages": 0,
+    "cited": []
+  },
+  "q04:vector": {
+    "answer": "The acquirer is Raise Financial Services, the wealth‑tech startup that owns the Dhan stock‑broking platform and is buying GreenLife Insurance Broking. 【1】【4】",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "Raise Financial Services, the parent company of stock broking platform Dhan, has acquired GreenLife Insurance Broking Pvt Ltd (GIBL), an IRDAI-registered insurance broker, in an all-cash-and-stock deal to enter the insurance distribution space, for an undisclosed amount. The company plans to invest $15 million in GreenLife to build a consumer-focused insurance distribution platform with a focus on technology, product, and customer experience. Founded in 2013 by Subir Mukherjee, GreenLife operates across 50+ cities and towns in East and North-East India through an offline distribution network.",
+        "url": "https://entrackr.com/news/dhan-parent-raise-acquires-greenlife-to-enter-insurance-distribution-biz-11829509"
+      },
+      {
+        "text": "Founded in 2013, GreenLife Insurance Broking Private Limited operates as an insurance distributor with partnerships across life and general insurance providers. It currently serves customers through both digital and offline channels across more than 50 cities and towns, with a presence in East and North-East India. As part of the transition, the 25-member GIBL team has joined Raise Financial Services and will relocate operations to Mumbai.",
+        "url": "https://www.cnbctv18.com/business/finance/raise-financial-services-acquires-greenlife-insurance-broking-distribution-ws-el-19904715.htm"
+      },
+      {
+        "text": "It is expected to launch a new consumer-facing platform for buying and managing insurance services by the end of 2026. Founded in 2013, GreenLife Insurance Broking Private Limited operates as an insurance distributor with partnerships across life and general insurance providers. It currently serves customers through both digital and offline channels across more than 50 cities and towns, with a presence in East and North-East India. As part of the transition, the 25-member GIBL team has joined Raise Financial Services and will relocate operations to Mumbai.",
+        "url": "https://www.cnbctv18.com/business/finance/raise-financial-services-acquires-greenlife-insurance-broking-distribution-ws-el-19904715.htm"
+      },
+      {
+        "text": "Stockbroking firm Dhan’s parent Raise Financial Services has acquired a 100 percent stake in GreenLife Insurance Broking in a cash-and-stock deal to enter the insurance distribution business, marking its third acquisition in less than two months. The acquisition will help the company launch an insurance distribution platform by the end of 2026, Raise said. It will invest around $15 million in the insurance distribution business and the deal has received all regulatory approvals, the company said.",
+        "url": "https://www.moneycontrol.com/technology/dhan-enters-insurance-distribution-space-buys-out-buys-greenlife-broking-article-13917728.html"
+      },
+      {
+        "text": "Raise Financial Services, the parent company of stock trading platform Dhan, has acquired GreenLife Insurance Broking as it expands into insurance distribution. The acquisition, which is structured through a mix of cash and stock, marks the company's entry into the insurance broking business following earlier acquisitions in algorithmic trading and media. It previously acquired algorithmic trading platform Stratzy in a cash-and-stock transaction earlier this year and acquired financial media startup Filter Coffee in January 2025. The company did not disclose the transaction value.",
+        "url": "https://indianstartupnews.com/news/dhan-parent-company-enters-insurance-distribution-with-greenlife-acquisition-11830775"
+      },
+      {
+        "text": "Raise Financial, parent of online stock broking platform Dhan, has acquired GreenLife Insurance, its third buyout in just over a year, marking its entry into insurance broking as wealthtech firms with deep pockets and growing profits look to build diversified financial services platforms. The cash-and-stock acquisition is valued at around $1 million, according to a person in the know. The acquisition adds to the company’s dealmaking spree and underlines its diversification push after it raised $120 million last year at a valuation of $1.2 billion.",
+        "url": "https://m.economictimes.com/tech/technology/dhan-parent-enters-insurance-broking-with-greenlife-buy/articleshow/131058230.cms"
+      },
+      {
+        "text": "Raise Financial Services, the parent company of stock broking platform Dhan, has rebranded GreenLife Insurance Broking Pvt Ltd (GIBL), the insurance broker it acquired in May this year, as Pluto Insurance, according to sources familiar with the matter. The move comes as the company doubles down on the insurance distribution space and prepares to invest Rs 100 crore in the newly rebranded entity. The investment aligns with Raise’s earlier commitment to invest $15 million in the insurance business following the acquisition.",
+        "url": "https://entrackr.com/exclusive/dhan-parent-raise-financial-to-rebrand-insurance-arm-gibl-as-pluto-insurance-12151557"
+      },
+      {
+        "text": "- Articles - 1 min read Raise Financial Services acquires GreenLife Insurance Broking to enter insurance distribution                     Raise Financial Services has acquired IRDAI-registered insurance broker GreenLife Insurance Broking in all-cash and stock deal, committing $15 million to build a consumer-first insurance distribution platform by end of 2026                                                           Raise Financial Services, announced on Wednesday, the acquisition of GreenLife Insurance Booking Private Limited (GIBL), an IRDAI-registered insurance broker, in an all-cash and stock deal.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/raise-financial-services-expands-portfolio-with-greenlife-insurance-broking-acquisition/131056907"
+      },
+      {
+        "text": "- Articles - 1 min read Raise Financial Services acquires GreenLife Insurance Broking to enter insurance distribution                     Raise Financial Services has acquired IRDAI-registered insurance broker GreenLife Insurance Broking in all-cash and stock deal, committing $15 million to build a consumer-first insurance distribution platform by end of 2026                                                           Raise Financial Services, announced on Wednesday, the acquisition of GreenLife Insurance Booking Private Limited (GIBL), an IRDAI-registered insurance broker, in an all-cash and stock deal. The acquisition is supposed to see GIBL integrated into Raise’s broader financial services ecosystem as a wholly-owned subsidiary.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/raise-financial-services-expands-portfolio-with-greenlife-insurance-broking-acquisition/131056907"
+      },
+      {
+        "text": "2 Min Read Raise Financial Services has announced the acquisition of GreenLife Insurance Broking Private Limited (GIBL), marking its entry into the insurance distribution segment. The transaction, structured as a cash and stock deal, has received all required regulatory approvals, the company said. Following the acquisition, GIBL will operate as a wholly owned subsidiary of Raise Financial Services. The company plans to invest around $15 million in GIBL to develop an insurance distribution platform focused on product development, technology infrastructure, and customer experience.",
+        "url": "https://www.cnbctv18.com/business/finance/raise-financial-services-acquires-greenlife-insurance-broking-distribution-ws-el-19904715.htm"
+      }
+    ]
+  },
+  "q04:graph": {
+    "answer": "Raise Financial Services, the acquirer of GreenLife Insurance Broking, is set to take over the wealth‑tech startup Infinyte Club【8】【13】.",
+    "seeds": [
+      "greenlife-insurance-broking"
+    ],
+    "passages": [
+      {
+        "text": "Stockbroking firm Dhan’s parent Raise Financial Services has acquired a 100 percent stake in GreenLife Insurance Broking in a cash-and-stock deal to enter the insurance distribution business, marking its third acquisition in less than two months.",
+        "url": "https://www.moneycontrol.com/technology/dhan-enters-insurance-distribution-space-buys-out-buys-greenlife-broking-article-13917728.html"
+      },
+      {
+        "text": "Raise Financial Services has announced the acquisition of GreenLife Insurance Broking Private Limited (GIBL), marking its entry into the insurance distribution segment.",
+        "url": "https://www.cnbctv18.com/business/finance/raise-financial-services-acquires-greenlife-insurance-broking-distribution-ws-el-19904715.htm"
+      },
+      {
+        "text": "Raise Financial Services has acquired IRDAI-registered insurance broker GreenLife Insurance Broking in all-cash and stock deal, committing $15 million to build a consumer-first insurance distribution platform by end of 2026",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/raise-financial-services-expands-portfolio-with-greenlife-insurance-broking-acquisition/131056907"
+      },
+      {
+        "text": "Following the acquisition, GIBL will operate as a wholly owned subsidiary of Raise Financial Services.",
+        "url": "https://www.cnbctv18.com/business/finance/raise-financial-services-acquires-greenlife-insurance-broking-distribution-ws-el-19904715.htm"
+      },
+      {
+        "text": "Post-acquisition, GreenLife will operate as a wholly-owned subsidiary of Raise and plans to launch a new consumer platform for insurance buying and management by the end of 2026.",
+        "url": "https://entrackr.com/news/dhan-parent-raise-acquires-greenlife-to-enter-insurance-distribution-biz-11829509"
+      },
+      {
+        "text": "Following the acquisition, GreenLife will become a wholly owned subsidiary of Raise Financial.",
+        "url": "https://indianstartupnews.com/news/dhan-parent-company-enters-insurance-distribution-with-greenlife-acquisition-11830775"
+      },
+      {
+        "text": "The company recently acquired algorithmic trading and investing platform Stratzy in a cash-and-stock deal and took over new-age financial media startup Filter Coffee in January 2025.",
+        "url": "https://entrackr.com/news/dhan-parent-raise-acquires-greenlife-to-enter-insurance-distribution-biz-11829509"
+      },
+      {
+        "text": "It is also set to take over wealthtech startup Infinyte Club.",
+        "url": "https://entrackr.com/news/dhan-parent-raise-acquires-greenlife-to-enter-insurance-distribution-biz-11829509"
+      },
+      {
+        "text": "Raise Financial Services, the parent company of stock trading platform Dhan, has acquired GreenLife Insurance Broking as it expands into insurance distribution.",
+        "url": "https://indianstartupnews.com/news/dhan-parent-company-enters-insurance-distribution-with-greenlife-acquisition-11830775"
+      },
+      {
+        "text": "GIBL will operate independently as a 100% subsidiary of Raise Financial Services.",
+        "url": "https://insuranceasia.com/news/raise-financial-acquires-gilb-in-15m-bet-build-direct-insurance-platform"
+      },
+      {
+        "text": "Raise Financial Services, the parent company of stock broking platform Dhan, has rebranded GreenLife Insurance Broking Pvt Ltd (GIBL), the insurance broker it acquired in May this year, as Pluto Insurance, according to sources familiar with the matter.",
+        "url": "https://entrackr.com/exclusive/dhan-parent-raise-financial-to-rebrand-insurance-arm-gibl-as-pluto-insurance-12151557"
+      },
+      {
+        "text": "Recently, the company acquired algorithmic trading and investing platform Stratzy in a cash and stock deal and took over new age financial media startup Filter Coffee in January 2025.",
+        "url": "https://entrackr.com/exclusive/dhan-parent-raise-financial-to-rebrand-insurance-arm-gibl-as-pluto-insurance-12151557"
+      },
+      {
+        "text": "It is also set to acquire wealthtech startup Infinyte Club.",
+        "url": "https://entrackr.com/exclusive/dhan-parent-raise-financial-to-rebrand-insurance-arm-gibl-as-pluto-insurance-12151557"
+      }
+    ]
+  },
+  "q05:no_context": {
+    "answer": "SBI Life Insurance.",
+    "seeds": [],
+    "n_passages": 0,
+    "cited": []
+  },
+  "q05:vector": {
+    "answer": "SBI Life Insurance (SBILIFE) distributes its policies through the 22,000‑plus branch network of its parent, State Bank of India, which also houses SBI Capital Markets【1】. This bancassurance model gives it a scale advantage in reaching Indian customers.",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "Unlock the latest Top Stock Picks on Univest SBI Life Insurance (SBILIFE) – Multibagger Insurance Stock Current market price: Rs 1,728.00. SBI Life is India's second-largest private life insurer, leveraging the 22,000-plus branch network of State Bank of India for distribution at unmatched scale. Its protection product focus, consistent VNB growth above 20%, and improving embedded value make it the highest-quality distribution-advantaged life insurance compounder. HDFC Life Insurance (HDFCLIFE) – Multibagger Insurance Stock Current market price: Rs 547.60.",
+        "url": "https://univest.in/blogs/multibagger-insurance-stocks"
+      },
+      {
+        "text": "Allianz has since announced a 50:50 general and life insurance joint venture with Jio Financial Services. Other foreign players such as American-Swiss insurer Chubb, South Africa’s Old Mutual, and US investment firms Tiger Global Management and Bain Capital are also reportedly assessing opportunities in the Indian insurance market. Chubb and Old Mutual previously had partnerships with HDFC Bank and Kotak Mahindra Bank, respectively, before they existed the country.",
+        "url": "https://www.livemint.com/companies/news/prudential-to-buy-75-percent-stake-in-bharti-life-cut-icici-prudential-holding-to-10-percent-11779026319532.html"
+      },
+      {
+        "text": "- Bancassurance leverage: Insurers with large bank distribution partners like SBI Life with SBI access India's largest retail banking networks for policy cross-selling. Use the Univest Screener to Find Multibagger Stocks Key Factors Driving Insurance Sector Growth - Low insurance penetration: India's life insurance penetration of 3.2% versus global average of 6.5% represents a massive structural growth opportunity for private insurers. - Rising income and awareness: Growing middle-class incomes and post-COVID risk awareness are driving first-time life and health insurance policy purchases.",
+        "url": "https://univest.in/blogs/multibagger-insurance-stocks"
+      },
+      {
+        "text": "Conclusion: Best Multibagger Insurance Stocks India 2026 Multibagger insurance stocks in India are backed by one of the world's most underpenetrated insurance markets. SBI Life's distribution advantage, HDFC Life's product portfolio, ICICI Pru's technology edge, and Star Health's health insurance dominance each offer compelling long-term compounding. Consult a SEBI-registered investment adviser (SEBI RA INH000013776) before investing. Disclaimer: Data and figures in this article are sourced from publicly available information. These may or may not be accurate.",
+        "url": "https://univest.in/blogs/multibagger-insurance-stocks"
+      },
+      {
+        "text": "Chubb and Old Mutual previously had partnerships with HDFC Bank and Kotak Mahindra Bank, respectively, before they existed the country. Prudential said India remains a “highly attractive” market, and the transaction is aimed at securing majority ownership of a life insurance business in the country and expanding access to life and health protection products. The investment would give Prudential management and operational control across products and distribution channels, combining its global insurance experience with Bharti’s local presence.",
+        "url": "https://www.livemint.com/companies/news/prudential-to-buy-75-percent-stake-in-bharti-life-cut-icici-prudential-holding-to-10-percent-11779026319532.html"
+      },
+      {
+        "text": "\"With BNP Paribas Cardif joining us as a partner, we are extending a relationship that has already proven successful through our joint venture in asset management, and we look forward to leveraging their global insurance expertise alongside Bank of Baroda's extensive distribution franchise and deep local market insights. Together, we remain focused on broadening access to quality protection and savings solutions for customers across India,\" said Debadatta Chand, MD and CEO, Bank of Baroda told TOI. IndiaFirst Life was originally established with Legal & General as its foreign insurance partner.",
+        "url": "https://m.economictimes.com/industry/banking/finance/insure/bnp-paribas-cardif-acquires-26-stake-in-indiafirst-life-reinforcing-bancassurance-model-in-india/articleshow/132656186.cms"
+      },
+      {
+        "text": "- Digital distribution: App-based and online policy issuance is dramatically reducing customer acquisition costs, improving new business margins for digitally-positioned insurers. - Bancassurance leverage: Insurers with large bank distribution partners like SBI Life with SBI access India's largest retail banking networks for policy cross-selling. Key Risks in Insurance Stocks - Regulatory premium and product changes: IRDAI product and premium regulations directly affect insurance company revenue and margin profiles.",
+        "url": "https://univest.in/blogs/multibagger-insurance-stocks"
+      },
+      {
+        "text": "The deal comes at a time when India’s life insurance industry is witnessing rapid expansion driven by rising financial awareness, increasing digital adoption and relatively low insurance penetration levels. Bharti Life currently operates through a multi-channel distribution model including proprietary distribution, bancassurance, brokers, corporate agents and group business. The company offers a range of protection and long-term savings products. Funds managed by 360 ONE Asset hold a minority stake in Bharti Life.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "Prudential, which has a significant presence across Asia and Africa, is expected to leverage its global insurance capabilities to expand Bharti Life’s product offerings and distribution reach in India. The transaction also reflects increasing foreign investor interest in India’s insurance sector, which continues to attract capital amid strong long-term growth prospects and regulatory reforms aimed at increasing insurance penetration.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "Bharti Life, which operates through multiple distribution channels including proprietary sales, direct distribution, bancassurance, brokers, corporate agents and group business, is expected to use the investment to expand its product portfolio and widen its distribution reach across the country. The companies said Bharti’s domestic reach and Prudential’s global insurance expertise would together help strengthen operational and technological capabilities while expanding access to life and health protection solutions for Indian consumers.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      }
+    ]
+  },
+  "q05:graph": {
+    "answer": "SBI Life uses the State Bank of India’s 22,000‑plus branch network for distribution【2】.",
+    "seeds": [
+      "sbi-capital-markets"
+    ],
+    "passages": [
+      {
+        "text": "while its subsidiary SBI Capital Markets owns 4.33 percent.",
+        "url": "https://www.moneycontrol.com/news/business/markets/nse-ipo-niacl-shares-surge-14-as-insurer-to-sell-1-05-crore-shares-13952635.html"
+      },
+      {
+        "text": "SBI Life is India's second-largest private life insurer, leveraging the 22,000-plus branch network of State Bank of India for distribution at unmatched scale.",
+        "url": "https://univest.in/blogs/multibagger-insurance-stocks"
+      }
+    ]
+  },
+  "q06:no_context": {
+    "answer": "ICICI Bank.",
+    "seeds": [],
+    "n_passages": 0,
+    "cited": []
+  },
+  "q06:vector": {
+    "answer": "ICICI Bank holds a majority stake in ICICI Prudential Life Insurance, the life insurer in which Prudential currently owns about 22% [2].",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "Currently, Prudential is a partner with ICICI Bank with around 22 per cent stake in the life insurance venture. With the announcement of a majority stake in Bharti Life Insurance, Prudential has to pare back its stake in the existing venture to comply with regulatory requirements. ET had earlier reported that the Bharti Group is in talks to sell a majority stake of its life insurance business to Prudential Plc in a deal that could value the unit at around ₹7,000-8,000 crore.",
+        "url": "https://m.economictimes.com/industry/banking/finance/insure/prudential-plc-to-acquire-75-stake-in-bharti-enterprises-insurance-business-sunil-mittal/articleshow/131154584.cms"
+      },
+      {
+        "text": "Proceeds from any stake sale in ICICI Prudential Life would be used to support future growth, with any residual capital contributing to Prudential’s free surplus. Prudential currently holds about 21.9% in ICICI Prudential Life Insurance, while ICICI Bank holds a 50.9% majority stake. It also owns 35% in ICICI Prudential Asset Management Company.",
+        "url": "https://www.livemint.com/companies/news/prudential-to-buy-75-percent-stake-in-bharti-life-cut-icici-prudential-holding-to-10-percent-11779026319532.html"
+      },
+      {
+        "text": "Prudential is moving from JV model to majority control in India’s insurance sector: Explained ADVERTISEMENT UK-based Prudential plc has announced the acquisition of a 75% stake in Bharti Life Insurance for ₹3,500 crore from Bharti Life Ventures Pvt. Ltd and 360 ONE Asset Management, in a move that signals a major restructuring of its India strategy. The transaction is significant because Prudential is currently a long-standing partner of ICICI Bank in ICICI Prudential Life Insurance Company, where it owns around 22%.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Prudential plc, an insurer and asset manager in Asia and Africa, on Sunday (May 17, 2026) announced that it has agreed to acquire a 75% stake in Bharti Life Insurance Company Ltd, an Indian life insurer, from Bharti Life Ventures Pvt Ltd and 360 ONE Asset Management as part of a strategic repositioning of its India operations. The transaction is for an initial cash consideration of ₹3,500 crore ($389 million) payable on completion. The transaction will be funded from existing resources. “The transaction is expected to deliver compelling strategic and financial benefits for Prudential over time.",
+        "url": "https://www.thehindu.com/business/Industry/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3500-crore/article70990543.ece"
+      },
+      {
+        "text": "Prudential currently holds a 21.91% stake in ICICI Prudential Life Insurance and would be required to cease being a promoter after acquiring a 75% stake in Bharti Life Insurance, according to a report by Nomura. The market is now awaiting details of Prudential’s proposed stake sale in ICICI Prudential Life Insurance, which could exceed Rs 92 billion based on current valuations. Shares of ICICI Prudential Life Insurance have remained under pressure since reports of Prudential’s possible restructuring emerged earlier this year.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/prudential-plans-major-stake-cut-in-icici-prudential-life-after-bharti-life-acquisition/131214617"
+      },
+      {
+        "text": "Prudential Plc has announced a strategic move to acquire a 75% controlling stake in Bharti Life Insurance. As part of this repositioning, Prudential intends to divest its existing 22% stake in ICICI Prudential Life Insurance to bring its shareholding below 10%. This transaction aims to streamline Prudential’s India operations while maintaining its long-standing partnership with the ICICI group, signaling a major structural shift for one of its key Indian holdings.",
+        "url": "https://www.investywise.com/icici-prudential-life-insurance-promoter-divestment-plan/"
+      },
+      {
+        "text": "Prudential’s acquisition of a majority stake in Bharti Life Insurance highlights the company’s increasing focus on the Indian insurance market. Prudential has already entered into a 70:30 joint venture with Sundari Investments, owned by the HCL Group promoters, to set up Prudential HCL Health Insurance, a standalone health insurer. The health insurance business is expected to commence operations in 2026, subject to regulatory approvals. The company also holds a 35% stake in ICICI Prudential Asset Management Company and a 22% stake in ICICI Prudential Life Insurance Company.",
+        "url": "https://www.financialexpress.com/business/news/prudential-buys-75-stake-in-bharti-life/4243469/"
+      },
+      {
+        "text": "The transaction is significant because Prudential is currently a long-standing partner of ICICI Bank in ICICI Prudential Life Insurance Company, where it owns around 22%. By acquiring majority control in Bharti Life Insurance, Prudential will now have to reduce its stake in ICICI Prudential Life to comply with Indian insurance regulations that restrict foreign insurers from holding substantial stakes in multiple life insurance ventures.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Bharti Enterprises on Sunday announced that UK-based insurer Prudential plc has agreed to acquire a 75% stake in Bharti Life Insurance Company Limited, marking a major foreign investment in India’s fast-growing life insurance sector. The stake will be acquired from Bharti Life Ventures Pvt Ltd and other selling shareholders, according to a company statement. Financial details of the transaction were not disclosed.",
+        "url": "https://www.cnbctv18.com/business/uk-insurance-giant-prudential-plc-to-take-control-of-bharti-life-insurance-company-limited-ws-l-19907544.htm"
+      },
+      {
+        "text": "Prudential's stake in ICICI Prudential Life Insurance needs to be pared down to below 10 per cent to adhere to regulatory requirement. Prudential, a leading insurer and asset manager in Asia and Africa, announced that, as part of a strategic repositioning of its India operations, it has agreed to acquire a 75 per cent stake in Bharti Life Insurance Company Limited (Bharti Life), a prominent Indian life insurer, from Bharti Life Ventures Pvt Ltd and 360 ONE Asset Management.",
+        "url": "https://www.business-standard.com/markets/news/icici-prudential-life-insurance-slips-9-hits-52-week-low-here-s-why-126051800192_1.html"
+      }
+    ]
+  },
+  "q06:graph": {
+    "answer": "ICICI Bank holds a 50.89 % stake in ICICI Prudential Life Insurance, the life insurer in which Prudential retains a minority shareholding【25】【43】.",
+    "seeds": [
+      "prudential"
+    ],
+    "passages": [
+      {
+        "text": "UKâs Prudential plc has doubled down on its India plans, with the British insurer agreeing to acquire a 75% stake in Bharti Life Insurance from Bharti Life Ventures and 360 ONE Asset Management for an initial cash consideration of Rs 3,500 crore.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-to-buy-75-in-bharti-life-rs-3-5k-crore-deal-to-help-firm-deploy-wider-product-suite-across-channels/articleshow/131164356.cms"
+      },
+      {
+        "text": "On May 17, 2026, Prudential Plc confirmed it has entered into definitive agreements to acquire a 75% stake in Bharti Life Insurance Company Limited.",
+        "url": "https://www.investywise.com/icici-prudential-life-insurance-promoter-divestment-plan/"
+      },
+      {
+        "text": "Even as it was awaiting regulatory approval to start operations, Prudential announced on 13 April it was strengthening the management of Prudential Health India by appointing Amit Dave as chief executive officer and managing director, and Abhishek Saraf as chief operating officer.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "We are delighted to welcome Prudential Plc as the controlling shareholder of Bharti Life, further accelerating its growth trajectory.",
+        "url": "https://www.businesstoday.in/latest/corporate/story/prudential-to-acquire-75-stake-in-bharti-life-from-bharti-enterprises-531883-2026-05-17"
+      },
+      {
+        "text": "Following the completion of the transaction, Prudential’s India operations will include majority ownership in Bharti Life Insurance and Prudential HCL Health Insurance Limited, along with minority holdings in two listed entities — a 35% stake in ICICI Prudential Asset Management Company and a reduced holding in ICICI Prudential Life Insurance.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "After completion, Prudential’s India operations will include Bharti Life Insurance, Prudential HCL Health Insurance, a 35% stake in ICICI Prudential Asset Management and a 22% stake in ICICI Prudential Life Insurance.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "Following completion of the acquisition, Prudential’s India operations will include majority-owned Bharti Life Insurance Company Limited and Prudential HCL Health Insurance Limited, along with minority stakes in ICICI Prudential Asset Management Company Limited and ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Prudential currently holds a 21.91% stake in ICICI Prudential Life Insurance and would be required to cease being a promoter after acquiring a 75% stake in Bharti Life Insurance, according to a report by Nomura.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/prudential-plans-major-stake-cut-in-icici-prudential-life-after-bharti-life-acquisition/131214617"
+      },
+      {
+        "text": "Prudential intends to divest its existing 22% stake in ICICI Prudential Life Insurance to bring its shareholding below 10%.",
+        "url": "https://www.investywise.com/icici-prudential-life-insurance-promoter-divestment-plan/"
+      },
+      {
+        "text": "As part of the transaction, Prudential also said it would reduce its stake in ICICI Prudential Life Insurance to 10% from about 21.9% to comply with regulatory norms on ownership across life insurers.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "Prudential has already entered into a 70:30 joint venture with Sundari Investments, owned by the HCL Group promoters, to set up Prudential HCL Health Insurance, a standalone health insurer.",
+        "url": "https://www.financialexpress.com/business/news/prudential-buys-75-stake-in-bharti-life/4243469/"
+      },
+      {
+        "text": "As part of the acquisition, Prudential intends to utilise its insurance and operational capabilities while also securing strategic distribution partnerships with Bharti Airtel and wealth management group 360 ONE.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "We are also delighted to welcome Prudential PLC’s controlling investment in Bharti Life Insurance and look forward to continuing the distribution of the company's products through our network.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-plc-to-acquire-majority-stake-in-bharti-life-insurance-for-rs-3500-cr/articleshow/131154370.cms"
+      },
+      {
+        "text": "As part of the broader arrangement, Bharti Life is also expected to explore strategic distribution agreements with Bharti Airtel and 360 ONE Asset Management.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "The segment was led by Bharti Airtel 's $3 billion increase in stake in Airtel Africa plc.",
+        "url": "https://www.fortuneindia.com/business-news/india-inc-clocks-11-billion-worth-of-deals-in-may-ma-pe-activity-moderates-after-april-surge/141951"
+      },
+      {
+        "text": "At present, Sunil Mittal’s Bharti Enterprises holds 85 per cent in Bharti Life through Bharti Life Ventures, while 360 ONE Asset Management owns the remaining 15 per cent.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "Currently, Bharti Life Ventures holds an 85% stake in the company while Indian asset management firm 360 ONE Asset holds a 15% stake through its funds.",
+        "url": "https://www.financialexpress.com/business/news/prudential-buys-75-stake-in-bharti-life/4243469/"
+      },
+      {
+        "text": "Bharti Life is majority owned by Bharti Enterprises, with a minority stake held by funds managed by 360 ONE Asset Management.",
+        "url": "https://pressinsider.com/news/prudential-to-buy-75-of-bharti-life-for-389-million/"
+      },
+      {
+        "text": "Post transaction, Bharti Enterprises will reduce its stake to 25 per cent from 85 per cent, while 360One Asset Management will exit by selling its entire 15 per cent holding.",
+        "url": "https://www.business-standard.com/markets/news/icici-prudential-life-insurance-slips-9-hits-52-week-low-here-s-why-126051800192_1.html"
+      },
+      {
+        "text": "Bharti Life will also explore strategic distribution agreements with Bharti Airtel and 360 ONE as part of the transaction.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "While Bharti stake will go down from 85% to 25%, 360 ONE will sell its 15% stake to exit the JV.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-plc-to-acquire-majority-stake-in-bharti-life-insurance-for-rs-3500-cr/articleshow/131154370.cms"
+      },
+      {
+        "text": "Prudential will buy 60% stake from Bhartiâs existing 85% while 360One will sell its entire 15% stake.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-to-buy-75-in-bharti-life-rs-3-5k-crore-deal-to-help-firm-deploy-wider-product-suite-across-channels/articleshow/131164356.cms"
+      },
+      {
+        "text": "The transaction will see Prudential acquire the controlling stake from Bharti Life Ventures Pvt Ltd and funds managed by 360 ONE Asset Management.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Prudential has struck a deal to purchase a 75% holding in Bharti Life Insurance Company from Bharti Life Ventures and 360 ONE Asset Management.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      },
+      {
+        "text": "ICICI Bank currently holds a 50.89% stake in ICICI Prudential Life Insurance and is expected to remain the dominant shareholder after Prudential’s stake reduction.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/prudential-plans-major-stake-cut-in-icici-prudential-life-after-bharti-life-acquisition/131214617"
+      },
+      {
+        "text": "ICICI Bank secured Reserve Bank of India approval on June 24, 2026, to buy up to 2% more shares in ICICI Prudential Life Insurance, ensuring its holding stays above 50%.",
+        "url": "https://scanx.trade/stock-market-news/companies/rbi-approves-icici-bank-to-buy-2-additional-stake-in-icici-life/43864188"
+      },
+      {
+        "text": "ICICI Bank has received approval from the Reserve Bank of India to purchase an additional stake of up to 2% in its subsidiary, ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://scanx.trade/stock-market-news/companies/rbi-approves-icici-bank-to-buy-2-additional-stake-in-icici-life/43864188"
+      },
+      {
+        "text": "UK-based Prudential plc has announced the acquisition of a 75% stake in Bharti Life Insurance for ₹3,500 crore from Bharti Life Ventures Pvt. Ltd and 360 ONE Asset Management, in a move that signals a major restructuring of its India strategy.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Bharti Enterprises, on Sunday, announced that UK-based insurer and asset manager Prudential plc will acquire a 75 percent stake in Bharti Life Insurance Company Limited in a deal valued at an initial Rs 3,500 crore (around USD 389 million), marking one of the biggest strategic bets by a global insurer on India’s rapidly expanding life insurance market.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "ET had earlier reported that the Bharti Group is in talks to sell a majority stake of its life insurance business to Prudential Plc in a deal that could value the unit at around ₹7,000-8,000 crore.",
+        "url": "https://m.economictimes.com/industry/banking/finance/insure/prudential-plc-to-acquire-75-stake-in-bharti-enterprises-insurance-business-sunil-mittal/articleshow/131154584.cms"
+      },
+      {
+        "text": "It will grant Prudential management and operational control of Bharti Life, deepening its footprint in a market where it already holds a 22% stake in ICICI Prudential Life Insurance Company and 35% in ICICI Prudential Asset Management Company Ltd.",
+        "url": "https://indianexpress.com/article/business/prudential-to-buy-75-per-cent-stake-in-bharti-life-for-rs-3500-cr-10694841/"
+      },
+      {
+        "text": "Following completion, Prudential’s Indian operations will consist of majority-owned Bharti Life Insurance Company, and Prudential HCL Health Insurance, and minority shareholdings in two listed entities, namely 35 per cent of ICICI Prudential Asset Management Company and 22 per cent in ICICI Prudential Life Insurance.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "After the deal closes, Prudential’s India operations will include majority-owned Bharti Life Insurance and Prudential HCL Health Insurance, along with minority stakes in ICICI Prudential Asset Management and ICICI Prudential Life Insurance.",
+        "url": "https://pressinsider.com/news/prudential-to-buy-75-of-bharti-life-for-389-million/"
+      },
+      {
+        "text": "The transaction is significant because Prudential is currently a long-standing partner of ICICI Bank in ICICI Prudential Life Insurance Company, where it owns around 22%.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Following completion, Prudential’s Indian operations will consist of majority-owned Bharti Life Insurance Company Limited and Prudential HCL Health Insurance Limited, and minority shareholdings in two listed entities, namely 35% of ICICI Prudential Asset Management Company Limited and 22% in ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://legal.economictimes.indiatimes.com/news/international/prudentials-467-million-acquisition-of-bharti-life-insurance-freshfields-legal-guidance/131580840"
+      },
+      {
+        "text": "Prudential will reduce its holding in ICICI Prudential Life Insurance to below 10 per cent from its nearly 22 per cent in the venture.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "Prudential holds a 70% stake in the venture through its subsidiary, while HCL Group's Vama Sundari Investments owns the remaining 30%.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "Prudential confirmed it is continuing to seek regulatory approval for its majority-owned Indian health insurance operation, Prudential HCL Health Insurance Limited.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "Under the arrangement, Bharti Life is also expected to examine distribution agreements with Bharti Airtel and 360 ONE.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      },
+      {
+        "text": "Bharti Enterprises on Sunday announced that UK-based insurer Prudential plc has agreed to acquire a 75 per cent stake in Bharti Life Insurance Company Ltd from Bharti Life Ventures Pvt Ltd and other selling shareholders, marking a significant consolidation move in India’s fast-growing life insurance sector.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "Freshfields is advising Prudential plc, a multinational insurer and asset manager, on its acquisition of a 75% equity stake in Bharti Life Insurance Company Limited, a prominent Indian life insurer, from Bharti Life Ventures Private Ltd and 360 ONE Asset Management.",
+        "url": "https://legal.economictimes.indiatimes.com/news/international/prudentials-467-million-acquisition-of-bharti-life-insurance-freshfields-legal-guidance/131580840"
+      },
+      {
+        "text": "Funds managed by 360 ONE Asset hold a minority stake in Bharti Life.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "ICICI Bank currently has a 50.89 per cent stake in the life insurance company.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      }
+    ]
+  },
+  "q07:no_context": {
+    "answer": "Bharti Enterprises held its stake through its holding company, **Bharti Enterprises Ltd.**",
+    "seeds": [],
+    "passages": []
+  },
+  "q07:vector": {
+    "answer": "Bharti Enterprises held its interest in the insurer through its subsidiary Bharti Life Ventures Pvt Ltd, which is listed as the seller of the stake to Prudential [1][2].",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "Bharti Enterprises on Sunday announced that UK-based insurer Prudential plc has agreed to acquire a 75% stake in Bharti Life Insurance Company Limited, marking a major foreign investment in India’s fast-growing life insurance sector. The stake will be acquired from Bharti Life Ventures Pvt Ltd and other selling shareholders, according to a company statement. Financial details of the transaction were not disclosed.",
+        "url": "https://www.cnbctv18.com/business/uk-insurance-giant-prudential-plc-to-take-control-of-bharti-life-insurance-company-limited-ws-l-19907544.htm"
+      },
+      {
+        "text": "Bharti Enterprises, on Sunday, announced that UK-based insurer and asset manager Prudential plc will acquire a 75 percent stake in Bharti Life Insurance Company Limited in a deal valued at an initial Rs 3,500 crore (around USD 389 million), marking one of the biggest strategic bets by a global insurer on India’s rapidly expanding life insurance market. The transaction will see Prudential acquire the controlling stake from Bharti Life Ventures Pvt Ltd and funds managed by 360 ONE Asset Management. The acquisition remains subject to regulatory approvals and other customary closing conditions.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Bharti Enterprises on Sunday announced that UK-based insurer Prudential plc has agreed to acquire a 75 per cent stake in Bharti Life Insurance Company Ltd from Bharti Life Ventures Pvt Ltd and other selling shareholders, marking a significant consolidation move in India’s fast-growing life insurance sector. The transaction, which is subject to regulatory approvals and other customary conditions, will give Prudential control of Bharti Life Insurance Company Limited, a life insurer promoted by Bharti Enterprises. Financial details of the deal were not disclosed.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "Prudential plc, an insurer and asset manager in Asia and Africa, on Sunday (May 17, 2026) announced that it has agreed to acquire a 75% stake in Bharti Life Insurance Company Ltd, an Indian life insurer, from Bharti Life Ventures Pvt Ltd and 360 ONE Asset Management as part of a strategic repositioning of its India operations. The transaction is for an initial cash consideration of ₹3,500 crore ($389 million) payable on completion. The transaction will be funded from existing resources. “The transaction is expected to deliver compelling strategic and financial benefits for Prudential over time.",
+        "url": "https://www.thehindu.com/business/Industry/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3500-crore/article70990543.ece"
+      },
+      {
+        "text": "Prudential will acquire a 75% stake in Bharti Life Insurance as it repositions its India operations. The insurer will buy the stake from Bharti Life Ventures and 360 ONE Asset Management for ₹3,500 crore, which Prudential placed at about US$389 million. The deal remains subject to regulatory approvals and other closing conditions. The acquisition will give Prudential majority ownership of a life insurance business in India. Bharti Life will also explore strategic distribution agreements with Bharti Airtel and 360 ONE as part of the transaction.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "Prudential (LSE:PRU) has announced the acquisition of a 75% stake in Bharti Life Insurance, representing the group's first majority holding in an Indian life insurance business. Deal valued at up to $467 million including contingent payment The transaction will involve an initial payment of $389 million funded through existing company resources, with a further potential payment of up to $78 million subject to certain conditions being met. According to UBS, the agreement values the entire Bharti Life business at approximately $623 million, including the contingent consideration.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "4 min readMumbaiMay 18, 2026 06:16 AM IST \t\t\t\t\t \t\t\t\t\t\tFirst published on: May 18, 2026 at 05:08 AM IST \t\t\t\t\t \t\t\t\t \t\t\t\t\t\t\t  \t\t\t \t\t\t\t UK-based Prudential plc will acquire a 75% stake in Bharti Life Insurance Company Ltd for an initial cash consideration of Rs 3,500 crore ($389 million). The deal, announced on Sunday, also includes a potential additional payout of up to Rs 700 crore linked to the fulfilment of certain conditions. The acquisition marks a major strategic expansion into India’s fast-growing insurance sector for the Asia- and Africa-focused insurance giant.",
+        "url": "https://indianexpress.com/article/business/prudential-to-buy-75-per-cent-stake-in-bharti-life-for-rs-3500-cr-10694841/"
+      },
+      {
+        "text": "NEW DELHI: Prudential plc, a leading insurer and asset manager in Asia and Africa, has agreed to acquire a 75% stake in Bharti Life Insurance Co Ltd from Bharti Life Ventures Pvt Ltd and other selling shareholders for Rs 3,500 crore. While Bharti stake will go down from 85% to 25%, 360 ONE will sell its 15% stake to exit the JV. Post completion of this transaction, Prudential will have 75% stake and Bharti the remaining 25% in Bharti Life.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-plc-to-acquire-majority-stake-in-bharti-life-insurance-for-rs-3500-cr/articleshow/131154370.cms"
+      },
+      {
+        "text": "Prudential announced it has agreed to acquire a 75% stake in Bharti Life Insurance Company Limited from Bharti Life Ventures Pvt Ltd and 360 ONE Asset Management as part of a strategic repositioning of its India operations. The transaction, which remains subject to regulatory approvals and other closing conditions, involves an initial cash consideration of ₹3,500 crore, approximately $389 million.",
+        "url": "https://pulse2.com/prudential-389-million-bharti-life-stake-acquisition-to-expand-india-insurance-presence/"
+      },
+      {
+        "text": "Prudential, a leading insurer and asset manager in Asia and Africa, announced that, as part of a strategic repositioning of its India operations, it has agreed to acquire a 75 per cent stake in Bharti Life Insurance Company Limited (Bharti Life), a prominent Indian life insurer, from Bharti Life Ventures Pvt Ltd and 360 ONE Asset Management. CHECK Q4 Results Today  Also Read Prudential's India operations and regulatory considerations \tFollowing completion, Prudential's Indian operations will consist of majority-owned Bharti Life Insurance Company Limited and Prudential HCL Health Insurance Limited, and minority shareholdings in two listed entities, namely 35 per cent of ICICI Prudential Asset Management Company Limited and 22 per cent in ICICIPru Life.",
+        "url": "https://www.business-standard.com/markets/news/icici-prudential-life-insurance-slips-9-hits-52-week-low-here-s-why-126051800192_1.html"
+      }
+    ]
+  },
+  "q07:graph": {
+    "answer": "Bharti Enterprises held its 85 % stake in Bharti Life Insurance through its subsidiary Bharti Life Ventures (Bharti Life Ventures Pvt Ltd)【13】.",
+    "seeds": [
+      "bharti-enterprises",
+      "prudential"
+    ],
+    "passages": [
+      {
+        "text": "UKâs Prudential plc has doubled down on its India plans, with the British insurer agreeing to acquire a 75% stake in Bharti Life Insurance from Bharti Life Ventures and 360 ONE Asset Management for an initial cash consideration of Rs 3,500 crore.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-to-buy-75-in-bharti-life-rs-3-5k-crore-deal-to-help-firm-deploy-wider-product-suite-across-channels/articleshow/131164356.cms"
+      },
+      {
+        "text": "On May 17, 2026, Prudential Plc confirmed it has entered into definitive agreements to acquire a 75% stake in Bharti Life Insurance Company Limited.",
+        "url": "https://www.investywise.com/icici-prudential-life-insurance-promoter-divestment-plan/"
+      },
+      {
+        "text": "Even as it was awaiting regulatory approval to start operations, Prudential announced on 13 April it was strengthening the management of Prudential Health India by appointing Amit Dave as chief executive officer and managing director, and Abhishek Saraf as chief operating officer.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "We are delighted to welcome Prudential Plc as the controlling shareholder of Bharti Life, further accelerating its growth trajectory.",
+        "url": "https://www.businesstoday.in/latest/corporate/story/prudential-to-acquire-75-stake-in-bharti-life-from-bharti-enterprises-531883-2026-05-17"
+      },
+      {
+        "text": "Following the completion of the transaction, Prudential’s India operations will include majority ownership in Bharti Life Insurance and Prudential HCL Health Insurance Limited, along with minority holdings in two listed entities — a 35% stake in ICICI Prudential Asset Management Company and a reduced holding in ICICI Prudential Life Insurance.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "After completion, Prudential’s India operations will include Bharti Life Insurance, Prudential HCL Health Insurance, a 35% stake in ICICI Prudential Asset Management and a 22% stake in ICICI Prudential Life Insurance.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "Following completion of the acquisition, Prudential’s India operations will include majority-owned Bharti Life Insurance Company Limited and Prudential HCL Health Insurance Limited, along with minority stakes in ICICI Prudential Asset Management Company Limited and ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Prudential currently holds a 21.91% stake in ICICI Prudential Life Insurance and would be required to cease being a promoter after acquiring a 75% stake in Bharti Life Insurance, according to a report by Nomura.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/prudential-plans-major-stake-cut-in-icici-prudential-life-after-bharti-life-acquisition/131214617"
+      },
+      {
+        "text": "Prudential intends to divest its existing 22% stake in ICICI Prudential Life Insurance to bring its shareholding below 10%.",
+        "url": "https://www.investywise.com/icici-prudential-life-insurance-promoter-divestment-plan/"
+      },
+      {
+        "text": "As part of the transaction, Prudential also said it would reduce its stake in ICICI Prudential Life Insurance to 10% from about 21.9% to comply with regulatory norms on ownership across life insurers.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "Prudential has already entered into a 70:30 joint venture with Sundari Investments, owned by the HCL Group promoters, to set up Prudential HCL Health Insurance, a standalone health insurer.",
+        "url": "https://www.financialexpress.com/business/news/prudential-buys-75-stake-in-bharti-life/4243469/"
+      },
+      {
+        "text": "As part of the acquisition, Prudential intends to utilise its insurance and operational capabilities while also securing strategic distribution partnerships with Bharti Airtel and wealth management group 360 ONE.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "At present, Sunil Mittal’s Bharti Enterprises holds 85 per cent in Bharti Life through Bharti Life Ventures, while 360 ONE Asset Management owns the remaining 15 per cent.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "Bharti Life is majority owned by Bharti Enterprises, with a minority stake held by funds managed by 360 ONE Asset Management.",
+        "url": "https://pressinsider.com/news/prudential-to-buy-75-of-bharti-life-for-389-million/"
+      },
+      {
+        "text": "Post transaction, Bharti Enterprises will reduce its stake to 25 per cent from 85 per cent, while 360One Asset Management will exit by selling its entire 15 per cent holding.",
+        "url": "https://www.business-standard.com/markets/news/icici-prudential-life-insurance-slips-9-hits-52-week-low-here-s-why-126051800192_1.html"
+      },
+      {
+        "text": "We are also delighted to welcome Prudential PLC’s controlling investment in Bharti Life Insurance and look forward to continuing the distribution of the company's products through our network.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-plc-to-acquire-majority-stake-in-bharti-life-insurance-for-rs-3500-cr/articleshow/131154370.cms"
+      },
+      {
+        "text": "As part of the broader arrangement, Bharti Life is also expected to explore strategic distribution agreements with Bharti Airtel and 360 ONE Asset Management.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "The segment was led by Bharti Airtel 's $3 billion increase in stake in Airtel Africa plc.",
+        "url": "https://www.fortuneindia.com/business-news/india-inc-clocks-11-billion-worth-of-deals-in-may-ma-pe-activity-moderates-after-april-surge/141951"
+      },
+      {
+        "text": "Currently, Bharti Life Ventures holds an 85% stake in the company while Indian asset management firm 360 ONE Asset holds a 15% stake through its funds.",
+        "url": "https://www.financialexpress.com/business/news/prudential-buys-75-stake-in-bharti-life/4243469/"
+      },
+      {
+        "text": "Bharti Life will also explore strategic distribution agreements with Bharti Airtel and 360 ONE as part of the transaction.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "While Bharti stake will go down from 85% to 25%, 360 ONE will sell its 15% stake to exit the JV.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-plc-to-acquire-majority-stake-in-bharti-life-insurance-for-rs-3500-cr/articleshow/131154370.cms"
+      },
+      {
+        "text": "Prudential will buy 60% stake from Bhartiâs existing 85% while 360One will sell its entire 15% stake.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-to-buy-75-in-bharti-life-rs-3-5k-crore-deal-to-help-firm-deploy-wider-product-suite-across-channels/articleshow/131164356.cms"
+      },
+      {
+        "text": "The transaction will see Prudential acquire the controlling stake from Bharti Life Ventures Pvt Ltd and funds managed by 360 ONE Asset Management.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Prudential has struck a deal to purchase a 75% holding in Bharti Life Insurance Company from Bharti Life Ventures and 360 ONE Asset Management.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      },
+      {
+        "text": "ICICI Bank currently holds a 50.89% stake in ICICI Prudential Life Insurance and is expected to remain the dominant shareholder after Prudential’s stake reduction.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/prudential-plans-major-stake-cut-in-icici-prudential-life-after-bharti-life-acquisition/131214617"
+      },
+      {
+        "text": "ICICI Bank secured Reserve Bank of India approval on June 24, 2026, to buy up to 2% more shares in ICICI Prudential Life Insurance, ensuring its holding stays above 50%.",
+        "url": "https://scanx.trade/stock-market-news/companies/rbi-approves-icici-bank-to-buy-2-additional-stake-in-icici-life/43864188"
+      },
+      {
+        "text": "ICICI Bank has received approval from the Reserve Bank of India to purchase an additional stake of up to 2% in its subsidiary, ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://scanx.trade/stock-market-news/companies/rbi-approves-icici-bank-to-buy-2-additional-stake-in-icici-life/43864188"
+      },
+      {
+        "text": "UK-based Prudential plc has announced the acquisition of a 75% stake in Bharti Life Insurance for ₹3,500 crore from Bharti Life Ventures Pvt. Ltd and 360 ONE Asset Management, in a move that signals a major restructuring of its India strategy.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Bharti Enterprises, on Sunday, announced that UK-based insurer and asset manager Prudential plc will acquire a 75 percent stake in Bharti Life Insurance Company Limited in a deal valued at an initial Rs 3,500 crore (around USD 389 million), marking one of the biggest strategic bets by a global insurer on India’s rapidly expanding life insurance market.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "ET had earlier reported that the Bharti Group is in talks to sell a majority stake of its life insurance business to Prudential Plc in a deal that could value the unit at around ₹7,000-8,000 crore.",
+        "url": "https://m.economictimes.com/industry/banking/finance/insure/prudential-plc-to-acquire-75-stake-in-bharti-enterprises-insurance-business-sunil-mittal/articleshow/131154584.cms"
+      },
+      {
+        "text": "It will grant Prudential management and operational control of Bharti Life, deepening its footprint in a market where it already holds a 22% stake in ICICI Prudential Life Insurance Company and 35% in ICICI Prudential Asset Management Company Ltd.",
+        "url": "https://indianexpress.com/article/business/prudential-to-buy-75-per-cent-stake-in-bharti-life-for-rs-3500-cr-10694841/"
+      },
+      {
+        "text": "Following completion, Prudential’s Indian operations will consist of majority-owned Bharti Life Insurance Company, and Prudential HCL Health Insurance, and minority shareholdings in two listed entities, namely 35 per cent of ICICI Prudential Asset Management Company and 22 per cent in ICICI Prudential Life Insurance.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "After the deal closes, Prudential’s India operations will include majority-owned Bharti Life Insurance and Prudential HCL Health Insurance, along with minority stakes in ICICI Prudential Asset Management and ICICI Prudential Life Insurance.",
+        "url": "https://pressinsider.com/news/prudential-to-buy-75-of-bharti-life-for-389-million/"
+      },
+      {
+        "text": "The transaction is significant because Prudential is currently a long-standing partner of ICICI Bank in ICICI Prudential Life Insurance Company, where it owns around 22%.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Following completion, Prudential’s Indian operations will consist of majority-owned Bharti Life Insurance Company Limited and Prudential HCL Health Insurance Limited, and minority shareholdings in two listed entities, namely 35% of ICICI Prudential Asset Management Company Limited and 22% in ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://legal.economictimes.indiatimes.com/news/international/prudentials-467-million-acquisition-of-bharti-life-insurance-freshfields-legal-guidance/131580840"
+      },
+      {
+        "text": "Prudential will reduce its holding in ICICI Prudential Life Insurance to below 10 per cent from its nearly 22 per cent in the venture.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "Prudential holds a 70% stake in the venture through its subsidiary, while HCL Group's Vama Sundari Investments owns the remaining 30%.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "Prudential confirmed it is continuing to seek regulatory approval for its majority-owned Indian health insurance operation, Prudential HCL Health Insurance Limited.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "Under the arrangement, Bharti Life is also expected to examine distribution agreements with Bharti Airtel and 360 ONE.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      },
+      {
+        "text": "Bharti Enterprises on Sunday announced that UK-based insurer Prudential plc has agreed to acquire a 75 per cent stake in Bharti Life Insurance Company Ltd from Bharti Life Ventures Pvt Ltd and other selling shareholders, marking a significant consolidation move in India’s fast-growing life insurance sector.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "Freshfields is advising Prudential plc, a multinational insurer and asset manager, on its acquisition of a 75% equity stake in Bharti Life Insurance Company Limited, a prominent Indian life insurer, from Bharti Life Ventures Private Ltd and 360 ONE Asset Management.",
+        "url": "https://legal.economictimes.indiatimes.com/news/international/prudentials-467-million-acquisition-of-bharti-life-insurance-freshfields-legal-guidance/131580840"
+      },
+      {
+        "text": "Funds managed by 360 ONE Asset hold a minority stake in Bharti Life.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "ICICI Bank currently has a 50.89 per cent stake in the life insurance company.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      }
+    ]
+  },
+  "q08:no_context": {
+    "answer": "Prudential has agreed to acquire a **49% stake** in Bharti Life Insurance.",
+    "seeds": [],
+    "passages": []
+  },
+  "q08:vector": {
+    "answer": "Prudential plc has agreed to acquire a 75 percent stake in Bharti Life Insurance Company Limited [1][2].",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "Bharti Enterprises on Sunday announced that UK-based insurer Prudential plc has agreed to acquire a 75% stake in Bharti Life Insurance Company Limited, marking a major foreign investment in India’s fast-growing life insurance sector. The stake will be acquired from Bharti Life Ventures Pvt Ltd and other selling shareholders, according to a company statement. Financial details of the transaction were not disclosed.",
+        "url": "https://www.cnbctv18.com/business/uk-insurance-giant-prudential-plc-to-take-control-of-bharti-life-insurance-company-limited-ws-l-19907544.htm"
+      },
+      {
+        "text": "Bharti Enterprises on Sunday announced that UK-based insurer Prudential plc has agreed to acquire a 75 per cent stake in Bharti Life Insurance Company Ltd from Bharti Life Ventures Pvt Ltd and other selling shareholders, marking a significant consolidation move in India’s fast-growing life insurance sector. The transaction, which is subject to regulatory approvals and other customary conditions, will give Prudential control of Bharti Life Insurance Company Limited, a life insurer promoted by Bharti Enterprises. Financial details of the deal were not disclosed.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "Bharti Enterprises, on Sunday, announced that UK-based insurer and asset manager Prudential plc will acquire a 75 percent stake in Bharti Life Insurance Company Limited in a deal valued at an initial Rs 3,500 crore (around USD 389 million), marking one of the biggest strategic bets by a global insurer on India’s rapidly expanding life insurance market. The transaction will see Prudential acquire the controlling stake from Bharti Life Ventures Pvt Ltd and funds managed by 360 ONE Asset Management. The acquisition remains subject to regulatory approvals and other customary closing conditions.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Prudential plc, an insurer and asset manager in Asia and Africa, on Sunday (May 17, 2026) announced that it has agreed to acquire a 75% stake in Bharti Life Insurance Company Ltd, an Indian life insurer, from Bharti Life Ventures Pvt Ltd and 360 ONE Asset Management as part of a strategic repositioning of its India operations. The transaction is for an initial cash consideration of ₹3,500 crore ($389 million) payable on completion. The transaction will be funded from existing resources. “The transaction is expected to deliver compelling strategic and financial benefits for Prudential over time.",
+        "url": "https://www.thehindu.com/business/Industry/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3500-crore/article70990543.ece"
+      },
+      {
+        "text": "4 min readMumbaiMay 18, 2026 06:16 AM IST \t\t\t\t\t \t\t\t\t\t\tFirst published on: May 18, 2026 at 05:08 AM IST \t\t\t\t\t \t\t\t\t \t\t\t\t\t\t\t  \t\t\t \t\t\t\t UK-based Prudential plc will acquire a 75% stake in Bharti Life Insurance Company Ltd for an initial cash consideration of Rs 3,500 crore ($389 million). The deal, announced on Sunday, also includes a potential additional payout of up to Rs 700 crore linked to the fulfilment of certain conditions. The acquisition marks a major strategic expansion into India’s fast-growing insurance sector for the Asia- and Africa-focused insurance giant.",
+        "url": "https://indianexpress.com/article/business/prudential-to-buy-75-per-cent-stake-in-bharti-life-for-rs-3500-cr-10694841/"
+      },
+      {
+        "text": "Prudential (LSE:PRU) has announced the acquisition of a 75% stake in Bharti Life Insurance, representing the group's first majority holding in an Indian life insurance business. Deal valued at up to $467 million including contingent payment The transaction will involve an initial payment of $389 million funded through existing company resources, with a further potential payment of up to $78 million subject to certain conditions being met. According to UBS, the agreement values the entire Bharti Life business at approximately $623 million, including the contingent consideration.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "Prudential will acquire a 75% stake in Bharti Life Insurance as it repositions its India operations. The insurer will buy the stake from Bharti Life Ventures and 360 ONE Asset Management for ₹3,500 crore, which Prudential placed at about US$389 million. The deal remains subject to regulatory approvals and other closing conditions. The acquisition will give Prudential majority ownership of a life insurance business in India. Bharti Life will also explore strategic distribution agreements with Bharti Airtel and 360 ONE as part of the transaction.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "MUMBAI: UK-based Prudential plc on Sunday said it plans to acquire a 75% stake in Bharti Life Insurance and subsequently cut its holding in ICICI Prudential Life Insurance to 10%, marking a major realignment of its India strategy. The investment is part of Prudential’s “strategic repositioning of its India operations,” the company said in a statement. It will buy the stake from Bharti Life Ventures Pvt. Ltd and 360 ONE Asset Management for ₹3,500 crore. The deal also includes a potential additional consideration of ₹700 crore, subject to the fulfilment of certain conditions.",
+        "url": "https://www.livemint.com/companies/news/prudential-to-buy-75-percent-stake-in-bharti-life-cut-icici-prudential-holding-to-10-percent-11779026319532.html"
+      },
+      {
+        "text": "NEW DELHI: Prudential plc, a leading insurer and asset manager in Asia and Africa, has agreed to acquire a 75% stake in Bharti Life Insurance Co Ltd from Bharti Life Ventures Pvt Ltd and other selling shareholders for Rs 3,500 crore. While Bharti stake will go down from 85% to 25%, 360 ONE will sell its 15% stake to exit the JV. Post completion of this transaction, Prudential will have 75% stake and Bharti the remaining 25% in Bharti Life.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-plc-to-acquire-majority-stake-in-bharti-life-insurance-for-rs-3500-cr/articleshow/131154370.cms"
+      },
+      {
+        "text": "Prudential announced it has agreed to acquire a 75% stake in Bharti Life Insurance Company Limited from Bharti Life Ventures Pvt Ltd and 360 ONE Asset Management as part of a strategic repositioning of its India operations. The transaction, which remains subject to regulatory approvals and other closing conditions, involves an initial cash consideration of ₹3,500 crore, approximately $389 million.",
+        "url": "https://pulse2.com/prudential-389-million-bharti-life-stake-acquisition-to-expand-india-insurance-presence/"
+      }
+    ]
+  },
+  "q08:graph": {
+    "answer": "Prudential plc has agreed to acquire a 75 % stake in Bharti Life Insurance Company Limited 【3】【4】. This represents a controlling interest in the life‑insurance business.",
+    "seeds": [
+      "bharti-life-insurance",
+      "prudential"
+    ],
+    "passages": [
+      {
+        "text": "We are also delighted to welcome Prudential PLC’s controlling investment in Bharti Life Insurance and look forward to continuing the distribution of the company's products through our network.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-plc-to-acquire-majority-stake-in-bharti-life-insurance-for-rs-3500-cr/articleshow/131154370.cms"
+      },
+      {
+        "text": "As part of the broader arrangement, Bharti Life is also expected to explore strategic distribution agreements with Bharti Airtel and 360 ONE Asset Management.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "UKâs Prudential plc has doubled down on its India plans, with the British insurer agreeing to acquire a 75% stake in Bharti Life Insurance from Bharti Life Ventures and 360 ONE Asset Management for an initial cash consideration of Rs 3,500 crore.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-to-buy-75-in-bharti-life-rs-3-5k-crore-deal-to-help-firm-deploy-wider-product-suite-across-channels/articleshow/131164356.cms"
+      },
+      {
+        "text": "On May 17, 2026, Prudential Plc confirmed it has entered into definitive agreements to acquire a 75% stake in Bharti Life Insurance Company Limited.",
+        "url": "https://www.investywise.com/icici-prudential-life-insurance-promoter-divestment-plan/"
+      },
+      {
+        "text": "Even as it was awaiting regulatory approval to start operations, Prudential announced on 13 April it was strengthening the management of Prudential Health India by appointing Amit Dave as chief executive officer and managing director, and Abhishek Saraf as chief operating officer.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "We are delighted to welcome Prudential Plc as the controlling shareholder of Bharti Life, further accelerating its growth trajectory.",
+        "url": "https://www.businesstoday.in/latest/corporate/story/prudential-to-acquire-75-stake-in-bharti-life-from-bharti-enterprises-531883-2026-05-17"
+      },
+      {
+        "text": "Following the completion of the transaction, Prudential’s India operations will include majority ownership in Bharti Life Insurance and Prudential HCL Health Insurance Limited, along with minority holdings in two listed entities — a 35% stake in ICICI Prudential Asset Management Company and a reduced holding in ICICI Prudential Life Insurance.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "After completion, Prudential’s India operations will include Bharti Life Insurance, Prudential HCL Health Insurance, a 35% stake in ICICI Prudential Asset Management and a 22% stake in ICICI Prudential Life Insurance.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "Following completion of the acquisition, Prudential’s India operations will include majority-owned Bharti Life Insurance Company Limited and Prudential HCL Health Insurance Limited, along with minority stakes in ICICI Prudential Asset Management Company Limited and ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Prudential currently holds a 21.91% stake in ICICI Prudential Life Insurance and would be required to cease being a promoter after acquiring a 75% stake in Bharti Life Insurance, according to a report by Nomura.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/prudential-plans-major-stake-cut-in-icici-prudential-life-after-bharti-life-acquisition/131214617"
+      },
+      {
+        "text": "Prudential intends to divest its existing 22% stake in ICICI Prudential Life Insurance to bring its shareholding below 10%.",
+        "url": "https://www.investywise.com/icici-prudential-life-insurance-promoter-divestment-plan/"
+      },
+      {
+        "text": "As part of the transaction, Prudential also said it would reduce its stake in ICICI Prudential Life Insurance to 10% from about 21.9% to comply with regulatory norms on ownership across life insurers.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "Prudential has already entered into a 70:30 joint venture with Sundari Investments, owned by the HCL Group promoters, to set up Prudential HCL Health Insurance, a standalone health insurer.",
+        "url": "https://www.financialexpress.com/business/news/prudential-buys-75-stake-in-bharti-life/4243469/"
+      },
+      {
+        "text": "As part of the acquisition, Prudential intends to utilise its insurance and operational capabilities while also securing strategic distribution partnerships with Bharti Airtel and wealth management group 360 ONE.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "At present, Sunil Mittal’s Bharti Enterprises holds 85 per cent in Bharti Life through Bharti Life Ventures, while 360 ONE Asset Management owns the remaining 15 per cent.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "Currently, Bharti Life Ventures holds an 85% stake in the company while Indian asset management firm 360 ONE Asset holds a 15% stake through its funds.",
+        "url": "https://www.financialexpress.com/business/news/prudential-buys-75-stake-in-bharti-life/4243469/"
+      },
+      {
+        "text": "Bharti Life is majority owned by Bharti Enterprises, with a minority stake held by funds managed by 360 ONE Asset Management.",
+        "url": "https://pressinsider.com/news/prudential-to-buy-75-of-bharti-life-for-389-million/"
+      },
+      {
+        "text": "Post transaction, Bharti Enterprises will reduce its stake to 25 per cent from 85 per cent, while 360One Asset Management will exit by selling its entire 15 per cent holding.",
+        "url": "https://www.business-standard.com/markets/news/icici-prudential-life-insurance-slips-9-hits-52-week-low-here-s-why-126051800192_1.html"
+      },
+      {
+        "text": "Bharti Life will also explore strategic distribution agreements with Bharti Airtel and 360 ONE as part of the transaction.",
+        "url": "https://fintechnews.sg/131651/fintech-india/prudential-bharti-life/"
+      },
+      {
+        "text": "While Bharti stake will go down from 85% to 25%, 360 ONE will sell its 15% stake to exit the JV.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-plc-to-acquire-majority-stake-in-bharti-life-insurance-for-rs-3500-cr/articleshow/131154370.cms"
+      },
+      {
+        "text": "Prudential will buy 60% stake from Bhartiâs existing 85% while 360One will sell its entire 15% stake.",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/prudential-to-buy-75-in-bharti-life-rs-3-5k-crore-deal-to-help-firm-deploy-wider-product-suite-across-channels/articleshow/131164356.cms"
+      },
+      {
+        "text": "The transaction will see Prudential acquire the controlling stake from Bharti Life Ventures Pvt Ltd and funds managed by 360 ONE Asset Management.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "Prudential has struck a deal to purchase a 75% holding in Bharti Life Insurance Company from Bharti Life Ventures and 360 ONE Asset Management.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      },
+      {
+        "text": "The segment was led by Bharti Airtel 's $3 billion increase in stake in Airtel Africa plc.",
+        "url": "https://www.fortuneindia.com/business-news/india-inc-clocks-11-billion-worth-of-deals-in-may-ma-pe-activity-moderates-after-april-surge/141951"
+      },
+      {
+        "text": "ICICI Bank currently holds a 50.89% stake in ICICI Prudential Life Insurance and is expected to remain the dominant shareholder after Prudential’s stake reduction.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/prudential-plans-major-stake-cut-in-icici-prudential-life-after-bharti-life-acquisition/131214617"
+      },
+      {
+        "text": "ICICI Bank secured Reserve Bank of India approval on June 24, 2026, to buy up to 2% more shares in ICICI Prudential Life Insurance, ensuring its holding stays above 50%.",
+        "url": "https://scanx.trade/stock-market-news/companies/rbi-approves-icici-bank-to-buy-2-additional-stake-in-icici-life/43864188"
+      },
+      {
+        "text": "ICICI Bank has received approval from the Reserve Bank of India to purchase an additional stake of up to 2% in its subsidiary, ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://scanx.trade/stock-market-news/companies/rbi-approves-icici-bank-to-buy-2-additional-stake-in-icici-life/43864188"
+      },
+      {
+        "text": "Under the arrangement, Bharti Life is also expected to examine distribution agreements with Bharti Airtel and 360 ONE.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      },
+      {
+        "text": "UK-based Prudential plc has announced the acquisition of a 75% stake in Bharti Life Insurance for ₹3,500 crore from Bharti Life Ventures Pvt. Ltd and 360 ONE Asset Management, in a move that signals a major restructuring of its India strategy.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Bharti Enterprises, on Sunday, announced that UK-based insurer and asset manager Prudential plc will acquire a 75 percent stake in Bharti Life Insurance Company Limited in a deal valued at an initial Rs 3,500 crore (around USD 389 million), marking one of the biggest strategic bets by a global insurer on India’s rapidly expanding life insurance market.",
+        "url": "https://www.moneycontrol.com/news/business/bharti-enterprises-to-sell-75-stake-in-bharti-life-to-prudential-for-rs-3-500-crore-13921574.html"
+      },
+      {
+        "text": "ET had earlier reported that the Bharti Group is in talks to sell a majority stake of its life insurance business to Prudential Plc in a deal that could value the unit at around ₹7,000-8,000 crore.",
+        "url": "https://m.economictimes.com/industry/banking/finance/insure/prudential-plc-to-acquire-75-stake-in-bharti-enterprises-insurance-business-sunil-mittal/articleshow/131154584.cms"
+      },
+      {
+        "text": "It will grant Prudential management and operational control of Bharti Life, deepening its footprint in a market where it already holds a 22% stake in ICICI Prudential Life Insurance Company and 35% in ICICI Prudential Asset Management Company Ltd.",
+        "url": "https://indianexpress.com/article/business/prudential-to-buy-75-per-cent-stake-in-bharti-life-for-rs-3500-cr-10694841/"
+      },
+      {
+        "text": "Following completion, Prudential’s Indian operations will consist of majority-owned Bharti Life Insurance Company, and Prudential HCL Health Insurance, and minority shareholdings in two listed entities, namely 35 per cent of ICICI Prudential Asset Management Company and 22 per cent in ICICI Prudential Life Insurance.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "After the deal closes, Prudential’s India operations will include majority-owned Bharti Life Insurance and Prudential HCL Health Insurance, along with minority stakes in ICICI Prudential Asset Management and ICICI Prudential Life Insurance.",
+        "url": "https://pressinsider.com/news/prudential-to-buy-75-of-bharti-life-for-389-million/"
+      },
+      {
+        "text": "The transaction is significant because Prudential is currently a long-standing partner of ICICI Bank in ICICI Prudential Life Insurance Company, where it owns around 22%.",
+        "url": "https://www.fortuneindia.com/personal-finance/prudential-buys-75-in-bharti-life-for-3500-crore-plans-stake-reduction-in-icici-pru-life/138243"
+      },
+      {
+        "text": "Following completion, Prudential’s Indian operations will consist of majority-owned Bharti Life Insurance Company Limited and Prudential HCL Health Insurance Limited, and minority shareholdings in two listed entities, namely 35% of ICICI Prudential Asset Management Company Limited and 22% in ICICI Prudential Life Insurance Company Limited.",
+        "url": "https://legal.economictimes.indiatimes.com/news/international/prudentials-467-million-acquisition-of-bharti-life-insurance-freshfields-legal-guidance/131580840"
+      },
+      {
+        "text": "Prudential will reduce its holding in ICICI Prudential Life Insurance to below 10 per cent from its nearly 22 per cent in the venture.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      },
+      {
+        "text": "Prudential holds a 70% stake in the venture through its subsidiary, while HCL Group's Vama Sundari Investments owns the remaining 30%.",
+        "url": "https://www.livemint.com/companies/news/prudential-hcl-health-irdai-approval-11782915502104.html"
+      },
+      {
+        "text": "Prudential confirmed it is continuing to seek regulatory approval for its majority-owned Indian health insurance operation, Prudential HCL Health Insurance Limited.",
+        "url": "https://uk.finance.yahoo.com/news/prudential-secures-controlling-stake-bharti-090108742.html"
+      },
+      {
+        "text": "Bharti Enterprises on Sunday announced that UK-based insurer Prudential plc has agreed to acquire a 75 per cent stake in Bharti Life Insurance Company Ltd from Bharti Life Ventures Pvt Ltd and other selling shareholders, marking a significant consolidation move in India’s fast-growing life insurance sector.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "Freshfields is advising Prudential plc, a multinational insurer and asset manager, on its acquisition of a 75% equity stake in Bharti Life Insurance Company Limited, a prominent Indian life insurer, from Bharti Life Ventures Private Ltd and 360 ONE Asset Management.",
+        "url": "https://legal.economictimes.indiatimes.com/news/international/prudentials-467-million-acquisition-of-bharti-life-insurance-freshfields-legal-guidance/131580840"
+      },
+      {
+        "text": "Funds managed by 360 ONE Asset hold a minority stake in Bharti Life.",
+        "url": "https://www.newindianexpress.com/business/2026/May/17/prudential-plc-to-acquire-75-per-cent-stake-in-bharti-life-insurance-from-bharti-enterprises"
+      },
+      {
+        "text": "ICICI Bank currently has a 50.89 per cent stake in the life insurance company.",
+        "url": "https://www.business-standard.com/industry/news/prudential-plc-to-acquire-75-stake-in-bharti-life-insurance-for-3-500-cr-126051700592_1.html"
+      }
+    ]
+  },
+  "q09:no_context": {
+    "answer": "Reliance Capital.",
+    "seeds": [],
+    "passages": []
+  },
+  "q09:vector": {
+    "answer": "The 26 % stake is being sold by Dabur Invest Corp, Aviva’s joint‑venture partner in the Indian life‑insurance business【1†L1-L2】【7†L1-L3】.",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "British insurer Aviva Plc has agreed to acquire the remaining 26% stake in Aviva Life Insurance Company India from joint venture partner Dabur Invest Corp, becoming the first foreign life insurer to achieve 100% ownership of an Indian insurance business under the country’s revised foreign direct investment (FDI) framework, which took effect on February 5, 2026, according to India Today. The deal is the first transaction to close under a regulatory regime that has already prompted a wave of ownership restructuring across India's life insurance sector – and it raises a pointed question about how Aviva Group intends to reposition India within its broader corporate strategy.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/aviva-takes-full-india-ownership-under-new-fdi-regime-582033.aspx"
+      },
+      {
+        "text": "UK-based insurer Aviva Plc has acquired the remaining 26 per cent stake in Aviva Life Insurance Company India Ltd from its joint venture partner Dabur Invest Corp, taking full ownership of its Indian life insurance business following India's decision to allow 100 per cent foreign direct investment (FDI) in the insurance sector. The acquisition comes after the Indian government recently increased the FDI limit in the insurance sector from 74 per cent to 100 per cent of paid-up equity capital, enabling foreign insurers to fully own their Indian operations.",
+        "url": "https://www.firstpost.com/business/aviva-takes-full-ownership-of-aviva-india-months-after-govts-100-fdi-nod-in-insurance-sector-14030082.html"
+      },
+      {
+        "text": "UK-based Aviva Plc is poised to become the first overseas life insurer to own 100% of its Indian subsidiary after agreeing to acquire the remaining 26% stake from its joint venture partner, Dabur Invest Corp, according to a report by The Economic Times. The proposed transaction, which is reportedly in advanced stages, comes just weeks after the Centre notified revised foreign direct investment (FDI) norms permitting complete foreign ownership in the insurance sector. Financial details of the deal, including any control premium that Aviva may pay for the stake, have not been disclosed.",
+        "url": "https://www.outlookbusiness.com/corporate/a-landmark-deal-aviva-set-for-100-ownership-of-its-india-business"
+      },
+      {
+        "text": "Aviva is on course to becoming the first foreign insurer to hold 100% stake in an insurance joint venture in India with the British insurer on Thursday announcing plans to acquire the remaining 26% stake in Aviva Life Insurance Company India from its joint venture partner. It has signed an agreement to purchase the 26% in Aviva India from its local joint venture partner Dabur Invest Corp. This will take Aviva’s ownership of Aviva India to 100% and will give Aviva full control over the strategic direction of the business, the insurer said on Thursday.",
+        "url": "https://www.thehindu.com/business/british-insurer-aviva-to-get-full-ownership-of-life-jv-in-india/article71203438.ece"
+      },
+      {
+        "text": "British insurer Aviva Plc has agreed to acquire the remaining 26% stake in Aviva Life Insurance Company India from joint venture partner Dabur Invest Corp, becoming the first foreign life insurer to achieve 100% ownership of an Indian insurance business under the country’s revised foreign direct investment (FDI) framework, which took effect on February 5, 2026, according to India Today.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/life-insurance/aviva-takes-full-india-ownership-under-new-fdi-regime-582033.aspx"
+      },
+      {
+        "text": "- Published On Jul 9, 2026 at 03:42 PM IST - Read by 100 Professionals Aviva, announced on Thursday that the UK based Insurance firm has signed an agreement to purchase the remaining 26% share of Aviva Life Insurance Company India Limited, widely known as Aviva India, from Dabur Invest Corp, its local venture partner, taking full control over the strategic direction of the business. The acquisition follows the Indian government’s decision to allow foreign investors to hold up to 100% share in domestic insurance companies through the FDI regulatory changes.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/aviva-seizes-full-control-of-aviva-life-insurance-by-acquiring-remaining-stake-from-dabur/132283512"
+      },
+      {
+        "text": "Aviva has signed an agreement with Dabur Invest Corp (DIC) to acquire its remaining 26% stake in Aviva Life Insurance Company India Limited (Aviva India). Upon completion of the transaction, the British group will own 100% of Aviva India, becoming the company's sole shareholder. The acquisition follows recent regulatory changes that now allow foreign insurers to invest up to 100% in Indian insurance companies.",
+        "url": "http://www.atlas-mag.net/en/articles/aviva-acquires-26-aviva-india"
+      },
+      {
+        "text": "British insurer Aviva has become the first foreign life insurance company to take full ownership of its Indian business after agreeing to acquire the remaining 26% stake in Aviva Life Insurance Company India from its joint venture partner, Dabur Invest Corp. The transaction marks the first such deal since the Centre allowed 100% foreign direct investment (FDI) in the insurance sector earlier this year, ending the requirement for foreign insurers to operate through Indian joint venture partners.",
+        "url": "https://www.indiatoday.in/business/story/aviva-india-life-insurance-dabur-stake-100-percent-fdi-rule-change-2943982-2026-07-09"
+      },
+      {
+        "text": "- Full ownership is expected to give Aviva greater flexibility to invest in India's underpenetrated life insurance market, where it currently manages ₹16,316 crore in assets and maintains a solvency ratio of 188%. UK-based Aviva Plc is poised to become the first overseas life insurer to own 100% of its Indian subsidiary after agreeing to acquire the remaining 26% stake from its joint venture partner, Dabur Invest Corp, according to a report by The Economic Times.",
+        "url": "https://www.outlookbusiness.com/corporate/a-landmark-deal-aviva-set-for-100-ownership-of-its-india-business"
+      },
+      {
+        "text": "Aviva to take full ownership of Aviva India Aviva has agreed to acquire the remaining 26% stake in Aviva Life Insurance Company India from Dabur Invest Corp, taking full ownership of the life insurer after more than two decades as a joint venture. Aviva India was established in 2001 as a partnership between Aviva and Dabur Invest Corp. The transaction follows recent changes to India’s foreign direct investment (FDI) rules, which now allow foreign insurers to own up to 100% of local insurance companies.",
+        "url": "https://coverager.com/aviva-to-take-full-ownership-of-aviva-india/"
+      }
+    ]
+  },
+  "q10:no_context": {
+    "answer": "Liberty Mutual.",
+    "seeds": [],
+    "passages": []
+  },
+  "q10:vector": {
+    "answer": "Liberty Mutual Insurance – the US‑based insurer – raised its shareholding in Liberty General Insurance to 74 percent [1].",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "Liberty Mutual increases stake in Liberty General Insurance to 74% Liberty Mutual Insurance has raised its stake in Liberty General Insurance to 74 per cent, strengthening control of the Indian insurer amid growing foreign investment interest in the sector Listen to This Article \tUS-based Liberty Mutual Insurance on Monday said that it has raised its shareholding in Liberty General Insurance Limited (LGI) to 74 per cent. This follows its earlier stake increase in Liberty General from 49 per cent to 55.40 per cent in September 2025.",
+        "url": "https://www.business-standard.com/companies/news/liberty-mutual-to-increase-stake-in-liberty-general-insurance-to-74-per-cent-126051800646_1.html"
+      },
+      {
+        "text": "This follows its earlier stake increase in Liberty General from 49 per cent to 55.40 per cent in September 2025. Liberty General Insurance is a joint venture between Summit Asia Investments Holdings Pte. Ltd. — a group company of Liberty Mutual Insurance group — and Enam Securities. As of December 2025, Enam Securities held 26 per cent and DP Jindal-owned Diamond Dealtrade held 18.6 per cent stake. “India remains an important market for Liberty Mutual as we build our business across Asia Pacific, supported by strong fundamentals and significant opportunity for growth.",
+        "url": "https://www.business-standard.com/companies/news/liberty-mutual-to-increase-stake-in-liberty-general-insurance-to-74-per-cent-126051800646_1.html"
+      },
+      {
+        "text": "In financial year 2026 (FY26), the company’s gross direct premium underwritten rose 25.31 per cent year-on-year (Y-o-Y) to ₹2,814.82 crore, while the general insurance industry recorded nearly 8 per cent Y-o-Y growth to ₹2.78 trillion, according to the General Insurance Council data. Parag Ved, chief executive officer and whole-time director, Liberty General Insurance, said, “With stronger backing from Liberty Mutual, we are now better positioned to expand our distribution footprint and deepen our presence across retail and commercial line segments.",
+        "url": "https://www.business-standard.com/companies/news/liberty-mutual-to-increase-stake-in-liberty-general-insurance-to-74-per-cent-126051800646_1.html"
+      },
+      {
+        "text": "“India remains an important market for Liberty Mutual as we build our business across Asia Pacific, supported by strong fundamentals and significant opportunity for growth. Increasing our shareholding in Liberty General Insurance allows us to further develop the business and bring our global capabilities more directly to the market,” said Matthew Jackson, president, Liberty International Insurance APAC. Earlier this month, the government notified 100 per cent foreign direct investment (FDI) in insurance companies under the automatic route.",
+        "url": "https://www.business-standard.com/companies/news/liberty-mutual-to-increase-stake-in-liberty-general-insurance-to-74-per-cent-126051800646_1.html"
+      },
+      {
+        "text": "Parag Ved, chief executive officer and whole-time director, Liberty General Insurance, said, “With stronger backing from Liberty Mutual, we are now better positioned to expand our distribution footprint and deepen our presence across retail and commercial line segments. Our focus remains on building a business that is consistent, resilient, and built on sound fundamentals, while remaining adaptable in a market that is defined by constant change.”   \tOn Sunday, Prudential plc also announced plans to acquire 75 per cent stake in Bharti Life Insurance and reduce its existing 22 per cent stake in ICICI Prudential Life Insurance — its life insurance joint venture in partnership with ICICI Bank to under 10 per cent.",
+        "url": "https://www.business-standard.com/companies/news/liberty-mutual-to-increase-stake-in-liberty-general-insurance-to-74-per-cent-126051800646_1.html"
+      },
+      {
+        "text": "The general insurer commenced operations in 2013 as a joint venture between Liberty Mutual Insurance and the Videocon group — Liberty Videocon General Insurance. However, in March 2018, owing to financial difficulties Videocon exited the venture by selling its entire stake to the DP Jindal group and Enam Securities. It was set up with the aim of providing comprehensive retail, commercial and industrial insurance solutions. Also Read \tThe company has an employee strength of over 1,300 and a presence across more than 95 locations in 28 states and Union Territories.",
+        "url": "https://www.business-standard.com/companies/news/liberty-mutual-to-increase-stake-in-liberty-general-insurance-to-74-per-cent-126051800646_1.html"
+      },
+      {
+        "text": "Earlier this month, the government notified 100 per cent foreign direct investment (FDI) in insurance companies under the automatic route. Better investment norms, and higher management control for foreign players is fuelling interest in the Indian insurance sector, with a focus on the non-life insurance segment. The general insurer commenced operations in 2013 as a joint venture between Liberty Mutual Insurance and the Videocon group — Liberty Videocon General Insurance.",
+        "url": "https://www.business-standard.com/companies/news/liberty-mutual-to-increase-stake-in-liberty-general-insurance-to-74-per-cent-126051800646_1.html"
+      },
+      {
+        "text": "Fairfax group entity to hold majority stake after merger Following the completion of the transaction, FAL Corporation will hold a 57.28% stake in Go Digit General Insurance Ltd. FAL Corporation is part of the Canada-based Fairfax group, which operates in property and casualty insurance, reinsurance and investment management. The group is led by billionaire Prem Watsa. Go Digit General Insurance, one of India's new-age general insurance companies, had announced in December 2025 that its board had approved the proposal to merge its holding company, Go Digit Infoworks Services, with GDGIL.",
+        "url": "https://m.economictimes.com/industry/banking/finance/insure/cci-clears-go-digit-infoworks-merger-with-insurer-fairfax-entity-to-hold-57-28-stake/articleshow/132688730.cms"
+      },
+      {
+        "text": "As per the March quarter shareholding pattern, the government continued to hold a 85% stake in New India Assurance as per BSE, which is higher than the 75% Minimum Public Shareholding threshold. Among the public shareholders, LIC has a 8.67% stake in the company, while General Insurance Corporation (GIC) has a 1.31% stake, leaving very little free float in the market for the company. As many as 1.5 lakh small retail shareholders, or those with authorized share capital of up to ₹2 lakh, had a 1.8% stake in the company.",
+        "url": "https://www.cnbctv18.com/market/new-india-assurance-share-price-52-week-high-nse-ipo-selling-shareholder-quantum-value-acquisition-returns-19929588.htm"
+      },
+      {
+        "text": "The acquisition comes after the Indian government recently increased the FDI limit in the insurance sector from 74 per cent to 100 per cent of paid-up equity capital, enabling foreign insurers to fully own their Indian operations. Aviva, which entered the Indian insurance market in 2001 through a joint venture, has progressively increased its ownership in line with regulatory reforms. The company raised its stake to 49 per cent in 2016 after the FDI cap was increased to 49 per cent, and further to 74 per cent in 2022 when the limit was revised.",
+        "url": "https://www.firstpost.com/business/aviva-takes-full-ownership-of-aviva-india-months-after-govts-100-fdi-nod-in-insurance-sector-14030082.html"
+      }
+    ]
+  },
+  "q11:no_context": {
+    "answer": "Star Health and Allied Insurance was taken over in 2022 by a private‑equity consortium led by **Bain Capital** and **Warburg Pincus**.",
+    "seeds": [],
+    "passages": []
+  },
+  "q11:vector": {
+    "answer": "The sources do not say.",
+    "seeds": [],
+    "passages": [
+      {
+        "text": "The idea appeared to be gaining traction when, in March 2025, then MD & CEO Siddhartha Mohanty indicated that the corporation was in advanced stages of identifying a suitable partner. That statement triggered widespread market speculation, with names such as Star Health and Allied Insurance, ManipalCigna Health Insurance, and Care Health Insurance frequently mentioned in reports, although none of the companies publicly confirmed any negotiations. Despite the sustained interest, the deal never materialised.",
+        "url": "https://www.moneycontrol.com/banking/lic-pivots-to-fintech-shelves-health-insurance-plan-to-expand-distribution-article-13937723.html"
+      },
+      {
+        "text": "Star Health is India's largest standalone health insurer with a retail-focused individual health insurance model. India's post-COVID health awareness boom, growing corporate health insurance adoption, and Star's strong agency distribution across Tier 2-3 cities create a long runway for premium and profit growth. Why Invest in Multibagger Insurance Stocks in 2026? - Low insurance penetration: India's life insurance penetration of 3.2% versus global average of 6.5% represents a massive structural growth opportunity for private insurers.",
+        "url": "https://univest.in/blogs/multibagger-insurance-stocks"
+      },
+      {
+        "text": "Star Health recovered from post-COVID claims normalization and reported improving combined ratios as health insurance pricing stabilized. Recent Articles - This Paint Protection Film Stock Rises 108% in 1 Year: Tariff Relief Meets Record Margins 11 September 2026 - This Line Pipe Stock Rises 113% in 1 Year: Saudi Deal and Record Margins Power the Run 11 September 2026 - This Oncology API Stock Rises 125% in 1 Year: From January Lows to Record Highs 11 September 2026 - This Regional Jewellery Retailer Stock Rises 132% in 1 Year: Can the Chennai Push Keep It Shining?",
+        "url": "https://univest.in/blogs/multibagger-insurance-stocks"
+      },
+      {
+        "text": "Insurance stocks delivered positive returns in 2025-2026 as life insurance new business premium grew and health insurance penetration increased. SBI Life reported consistent VNB growth from its protection product push. HDFC Life benefited from improved annuity sales and lower persistency lapses. Star Health recovered from post-COVID claims normalization and reported improving combined ratios as health insurance pricing stabilized.",
+        "url": "https://univest.in/blogs/multibagger-insurance-stocks"
+      },
+      {
+        "text": "Last year, Prudential announced a health insurance joint venture with Vama Sundari Investments (Delhi), a promoter entity of the HCL Group. The health insurance business is expected to begin operations in 2026, subject to approvals. Prudential CEO Anil Wadhwani said: “India is a strategically important and exciting market for Prudential. By acquiring a controlling stake in Bharti Life, we are bringing together Prudential’s nearly 180 years of global insurance expertise and Bharti’s strong and growing local presence to serve the savings and protection needs of Indian consumers.",
+        "url": "https://www.lifeinsuranceinternational.com/news/prudential-acquire-bharti-life/"
+      },
+      {
+        "text": "Last year, the UK firm had also announced a health insurance joint venture with India-based HCL Group. Vama Sundari Investments, HCL Group’s promoter company, will be the Indian partner for the health insurance business. The $2.7 bn Bajaj Group-Allianz SE deal, ending the 24 year JV between both entities, the Rs 4,500 crore sale of Magma General Insurance to Patanjali Ayurved and DS Group , the Allianz-Jio Financial Services reinsurance JV and the entry of Manulife into Indian insurance with an M&M JV are the other key deals in the insurance space since January 2025.",
+        "url": "https://www.moneycontrol.com/news/business/bain-capital-and-other-pe-s-exploring-stake-buy-in-iihl-promoted-indusind-general-insurance-13935876.html"
+      },
+      {
+        "text": "In the same period, IndusInd International Holdings completed its acquisition of Reliance Capital, the parent of two insurers, and the UK-based Prudential Group announced a partnership with HCL Group to establish a standalone health insurer. The Patanjali deal fits a pattern that insurance professionals should note: large Indian conglomerates with established consumer distribution networks are entering insurance through acquisition rather than fresh licensing, a route that avoids the time and capital costs of building from scratch.",
+        "url": "https://www.insurancebusinessmag.com/asia/news/mergers-acquisitions/irdai-clears-patanjalis-move-into-general-insurance-584569.aspx"
+      },
+      {
+        "text": "Go Digit General Insurance, one of India's new-age general insurance companies, had announced in December 2025 that its board had approved the proposal to merge its holding company, Go Digit Infoworks Services, with GDGIL. The merger proposal was subsequently placed before the competition regulator for approval. CCI also approves Brookfield's Oaktree acquisition In a separate order, CCI approved the proposed acquisition of units of Oaktree Capital Group Holdings LP (OCGH) and Oaktree Equity Plan LP (OEP) by Brookfield Asset Management Ltd (BAM).",
+        "url": "https://m.economictimes.com/industry/banking/finance/insure/cci-clears-go-digit-infoworks-merger-with-insurer-fairfax-entity-to-hold-57-28-stake/articleshow/132688730.cms"
+      },
+      {
+        "text": "Prudential’s experience and global scale, combined with Bharti’s strong track record, create a formidable alliance to tap into the immense potential of India’s life insurance sector.” The company said the acquisition is aligned with India’s “Insurance for All by 2047” objective and would help expand access to savings, life and health protection products in a market where insurance penetration remains relatively low despite strong economic growth and favourable demographics. Prudential said Bharti Life would seek strategic distribution arrangements with Bharti Airtel and 360 ONE Asset Management as part of the transaction.",
+        "url": "https://indianexpress.com/article/business/prudential-to-buy-75-per-cent-stake-in-bharti-life-for-rs-3500-cr-10694841/"
+      },
+      {
+        "text": "Under the agreement, HCLTech will acquire a 100 per cent stake in the entity, which serves as the technology and operations Global Capability Centre (GCC) for the American company. Guardian Life Insurance Company of America is a leading provider of insurance, retirement, wealth management and employee benefits solutions.",
+        "url": "https://www.business-standard.com/industry/news/hcltech-to-acquire-guardian-india-for-10-5-mn-2k-employees-to-transition-126071600900_1.html"
+      }
+    ]
+  },
+  "q11:graph": {
+    "answer": "No company in the question was found in the graph.",
+    "seeds": [],
+    "passages": []
+  },
+  "q02:no_context": {
+    "answer": "Aviva’s Singapore insurance unit.",
+    "seeds": [],
+    "passages": []
+  },
+  "q09:graph": {
+    "answer": "Dabur Invest Corp (DIC) is the company whose remaining 26 % stake in Aviva’s Indian life‑insurance venture is being sold to Aviva【5†L1-L2】【6†L1-L2】.",
+    "seeds": [
+      "aviva"
+    ],
+    "passages": [
+      {
+        "text": "For Aviva, this is the third time it has increased its stake in the joint venture following FDI regulation changes, having previously raised its shareholding in 2016 and 2022, acquiring 25% from Dabur to become the majority stakeholder with 74%.",
+        "url": "https://bfsi.economictimes.indiatimes.com/articles/aviva-seizes-full-control-of-aviva-life-insurance-by-acquiring-remaining-stake-from-dabur/132283512"
+      },
+      {
+        "text": "With the latest acquisition, it will now own 100% of the Indian life insurance business.",
+        "url": "https://www.indiatoday.in/business/story/aviva-india-life-insurance-dabur-stake-100-percent-fdi-rule-change-2943982-2026-07-09"
+      },
+      {
+        "text": "According to Reuters, Aviva raised its stake to 49% in 2016 following changes in FDI rules and increased it further to 74% in 2022 after another policy revision.",
+        "url": "https://www.indiatoday.in/business/story/aviva-india-life-insurance-dabur-stake-100-percent-fdi-rule-change-2943982-2026-07-09"
+      },
+      {
+        "text": "Upon completion of the transaction, the British group will own 100% of Aviva India, becoming the company's sole shareholder.",
+        "url": "http://www.atlas-mag.net/en/articles/aviva-acquires-26-aviva-india"
+      },
+      {
+        "text": "Aviva has signed an agreement with Dabur Invest Corp (DIC) to acquire its remaining 26% stake in Aviva Life Insurance Company India Limited (Aviva India).",
+        "url": "http://www.atlas-mag.net/en/articles/aviva-acquires-26-aviva-india"
+      },
+      {
+        "text": "Aviva has agreed to buy Dabur Invest Corp's remaining 26% stake in its India life venture.",
+        "url": "https://www.indiatoday.in/business/story/aviva-india-life-insurance-dabur-stake-100-percent-fdi-rule-change-2943982-2026-07-09"
+      },
+      {
+        "text": "The life insurance joint venture, between DIC and Aviva, was formed in 2001.",
+        "url": "https://www.thehindu.com/business/british-insurer-aviva-to-get-full-ownership-of-life-jv-in-india/article71203438.ece"
+      },
+      {
+        "text": "With the latest transaction, Aviva now owns 100 per cent of its Indian life insurance business.",
+        "url": "https://www.firstpost.com/business/aviva-takes-full-ownership-of-aviva-india-months-after-govts-100-fdi-nod-in-insurance-sector-14030082.html"
+      },
+      {
+        "text": "The company raised its stake to 49 per cent in 2016 after the FDI cap was increased to 49 per cent, and further to 74 per cent in 2022 when the limit was revised.",
+        "url": "https://www.firstpost.com/business/aviva-takes-full-ownership-of-aviva-india-months-after-govts-100-fdi-nod-in-insurance-sector-14030082.html"
+      },
+      {
+        "text": "In 2022, it raised its stake from 49% to 74% by purchasing an additional 25% from Dabur.",
+        "url": "https://www.outlookbusiness.com/corporate/a-landmark-deal-aviva-set-for-100-ownership-of-its-india-business"
+      },
+      {
+        "text": "- Aviva is set to acquire Dabur Invest's remaining 26% stake in Aviva Life Insurance India, becoming the first overseas life insurer to fully own its Indian business under the new FDI rules.",
+        "url": "https://www.outlookbusiness.com/corporate/a-landmark-deal-aviva-set-for-100-ownership-of-its-india-business"
+      }
+    ]
+  },
+  "q10:graph": {
+    "answer": "No company in the question was found in the graph.",
+    "seeds": [],
+    "passages": []
+  }
+}

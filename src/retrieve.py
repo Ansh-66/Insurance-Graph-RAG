@@ -1,42 +1,114 @@
 # Stage 5: reads data/graph.json -> question to retrieved context.
 import json
+import re
 from email.utils import parsedate_to_datetime
 
-from resolve import normalize
-from extract import client, MODEL
+from resolve import normalize, slug
 
-with open("data/graph.json", encoding="utf-8")as f:
+# extract (the Groq client) is imported inside answer(), not here. It raises at
+# import when GROQ_API_KEY is missing, and seed finding, traversal and context
+# assembly need no key: api.py rebuilds demo-mode graph paths with them, and
+# check_seeds.py uses find_seeds.
+
+with open("data/graph.json", encoding="utf-8") as f:
     GRAPH = json.load(f)
 
 with open("data/nodes.json", encoding="utf-8") as f:
-    LOOKUP = json.load(f)["lookup"]
+    NODES = json.load(f)
+LOOKUP = NODES["lookup"]
+
+
+# ---------------------------------------------------------------------------
+# Seed finding: which graph nodes does the question mention?
+# ---------------------------------------------------------------------------
+
+# Short names people type in questions that never appear on their own in the
+# articles, so resolve.py never saw them as surfaces. Each value is a resolved
+# key from nodes.json; a target that doesn't exist is reported at import.
+QUERY_ALIASES = {
+    "allianz": "allianz se",
+    "lic": "life insurance corporation of india",
+    "life insurance corporation": "life insurance corporation of india",
+    # "General Insurance Corporation (GIC)" normalises to the generic key
+    # "general insurance", which GENERIC_KEYS blocks; these keep GIC reachable.
+    "gic": "general insurance",
+    "general insurance corporation": "general insurance",
+    # Pre-2025 names. The articles only use the new names, but readers still
+    # type the old ones.
+    "bajaj allianz life": "bajaj life insurance",
+    "bajaj allianz general": "bajaj general insurance",
+}
+
+# Normalised keys that are generic phrases, not names. "Life Insurance
+# Corporation (LIC)" normalises to "life insurance", which would otherwise
+# seed LIC for every question containing those two words.
+GENERIC_KEYS = {"life insurance", "general insurance", "health insurance", "insurance"}
+
+
+def clean(text):
+    """Lowercase, drop possessive 's, turn every non-alphanumeric run into one space.
+
+    Applied identically to the question and to every key, so they compare
+    like for like.
+    """
+    s = text.lower()
+    s = re.sub(r"['’]s\b", "", s)
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return s.strip()
+
+
+def build_matcher():
+    """key -> node_id for every name a question may use to refer to a node."""
+    matcher = {}
+    for surface, node_id in LOOKUP.items():
+        key = clean(normalize(surface))
+        if key and key not in GENERIC_KEYS:
+            matcher.setdefault(key, node_id)
+
+    for alias, target in QUERY_ALIASES.items():
+        node_id = slug(target)
+        if node_id in NODES["nodes"]:
+            matcher[clean(alias)] = node_id
+        else:
+            print(f"WARNING: query alias target not in graph: {alias!r} -> {target!r}")
+
+    return matcher
+
+
+MATCHER = build_matcher()
+
 
 def find_seeds(question):
-    q = normalize(question.replace("?", ""))
+    # The question is NOT passed through normalize(): that function is built
+    # for company names, and on a whole question it drops a leading possessive
+    # word ("Prudential's ...") and strips trailing words that look like suffixes.
+    q = f" {clean(question)} "
 
-    hits = []
-    for surface, node_id in LOOKUP.items():
-        key = normalize(surface)
-        if key and f" {key} " in f" {q} ":
-            hits.append((key, node_id))
-
+    hits = [(key, node_id) for key, node_id in MATCHER.items() if f" {key} " in q]
     hits.sort(key=lambda h: len(h[0]), reverse=True)
 
+    # Longest match wins: once "bharti life insurance" is kept, the shorter
+    # "bharti life" inside it is skipped.
     kept_keys = []
     kept_ids = []
     for key, node_id in hits:
-        if any(f" {key} "  in f" {k} " for k in kept_keys):
+        if any(f" {key} " in f" {k} " for k in kept_keys):
             continue
         kept_keys.append(key)
         kept_ids.append(node_id)
-    
+
     return list(dict.fromkeys(kept_ids))
 
+
+# ---------------------------------------------------------------------------
+# Traversal: walk outward from the seeds.
+# ---------------------------------------------------------------------------
 
 EDGES = {e["id"]: e for e in GRAPH["edges"]}
 ADJ = GRAPH["adjacency"]
 
-def traverse(seeds, hops=2, include_denied = False):
+
+def traverse(seeds, hops=2, include_denied=False):
     frontier = set(seeds)
     visited = set(seeds)
     collected = set()
@@ -49,8 +121,8 @@ def traverse(seeds, hops=2, include_denied = False):
                 if edge["status"] == "denied" and not include_denied:
                     continue
                 collected.add(entry["edge"])
-                if entry['neighbor'] not in visited:
-                    visited.add(entry['neighbor'])
+                if entry["neighbor"] not in visited:
+                    visited.add(entry["neighbor"])
                     next_frontier.add(entry["neighbor"])
         frontier = next_frontier
 
@@ -109,6 +181,9 @@ def assemble_context(edges, seeds, max_passages=45, per_edge=2):
                 "text": sentence,
                 "date": short_date(s["pub_date"]),
                 "url": s["url"],
+                # Which edge this sentence came from. Not used in the prompt or by
+                # run_eval; the frontend uses it to show the path behind an answer.
+                "edge": {k: e[k] for k in ("id", "src", "dst", "relation", "status")},
             })
 
     lines = [f"[{i}] ({p['date']}) {p['text']}" for i, p in enumerate(passages, 1)]
@@ -123,6 +198,8 @@ def answer(question, hops=2):
 
     edges = traverse(seeds, hops=hops)
     context, passages = assemble_context(edges, seeds)
+
+    from extract import client, MODEL   # needs GROQ_API_KEY; see the note at the top
 
     response = client.chat.completions.create(
         model=MODEL,

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "q01",
+    "type": "cross_chunk",
+    "question": "Which life insurer is expected to explore a distribution agreement with the company that increased its stake in Airtel Africa?",
+    "answer": "Bharti Life Insurance",
+    "bridge": "Bharti Airtel",
+    "evidence": [
+      "The segment was led by Bharti Airtel's $3 billion increase in stake in Airtel Africa plc.",
+      "As part of the broader arrangement, Bharti Life is also expected to explore strategic distribution agreements with Bharti Airtel and 360 ONE Asset Management."
+    ],
+    "notes": "Distribution deal is prospective - a good answer says 'expected to explore'."
+  },
+  {
+    "id": "q02",
+    "type": "cross_chunk",
+    "question": "Which company's Singapore insurance unit is the firm that sold its 23% stakes in Bajaj Life Insurance and Bajaj General Insurance reported to be bidding for?",
+    "answer": "HSBC Holdings (its Singapore insurance unit, HSBC Life Singapore)",
+    "bridge": "Allianz SE",
+    "evidence": [
+      "Allianz SE completed the sale of 23% of its stakes in Bajaj Life Insurance and Bajaj General Insurance to the Bajaj Group in January 2026",
+      "Allianz SE has emerged as the frontrunner to acquire HSBC Holdings Plc's Singapore insurance unit, people familiar with the matter said."
+    ],
+    "notes": "Second hop is prospective - the answer must not say the deal is done. Reworded: the earlier wording 'Singapore insurance business' matched an alias and seeded the graph on the answer."
+  },
+  {
+    "id": "q03",
+    "type": "cross_chunk",
+    "question": "Which state-owned bank is a promoter of the life insurer in which Jammu & Kashmir Bank holds a stake?",
+    "answer": "Punjab National Bank (30% stake)",
+    "bridge": "PNB MetLife India Insurance",
+    "evidence": [
+      "Other notable shareholders include Jammu & Kashmir Bank and M. Pallonji and Company.",
+      "State-owned PNB is the other promoter, holding a 30% stake in PNB MetLife India Insurance Co Ltd."
+    ],
+    "notes": "RISKY: both sentences may sit in one chunk, so vector may answer. Keep it - the result tells us."
+  },
+  {
+    "id": "q04",
+    "type": "same_chunk",
+    "question": "Which wealth-tech startup is the acquirer of GreenLife Insurance Broking set to take over?",
+    "answer": "Infinyte Club",
+    "bridge": "Raise Financial Services",
+    "evidence": [
+      "Stockbroking firm Dhan's parent Raise Financial Services has acquired a 100 percent stake in GreenLife Insurance Broking",
+      "It is also set to take over wealthtech startup Infinyte Club."
+    ],
+    "notes": "Every article mentioning Infinyte Club is a GreenLife acquisition story, so the two facts sit together. Infinyte deal is prospective."
+  },
+  {
+    "id": "q05",
+    "type": "cross_chunk",
+    "question": "Which life insurer uses the branch network of SBI Capital Markets' parent company for distribution?",
+    "answer": "SBI Life Insurance",
+    "bridge": "State Bank of India",
+    "evidence": [
+      "while its subsidiary SBI Capital Markets owns 4.33 percent.",
+      "SBI Life is India's second-largest private life insurer, leveraging the 22,000-plus branch network of State Bank of India for distribution"
+    ],
+    "notes": "Contamination check: the no-context arm will likely know this. If it does, report it separately."
+  },
+  {
+    "id": "q06",
+    "type": "same_chunk",
+    "question": "Which bank holds a stake in the life insurer that Prudential part-owns?",
+    "answer": "ICICI Bank (50.89% of ICICI Prudential Life Insurance)",
+    "bridge": "ICICI Prudential Life Insurance",
+    "evidence": [
+      "ICICI Bank currently holds a 50.89% stake in ICICI Prudential Life Insurance"
+    ],
+    "notes": "One Livemint chunk states the whole chain - vector answered it in compare.py."
+  },
+  {
+    "id": "q07",
+    "type": "same_chunk",
+    "question": "Through which entity did Bharti Enterprises hold its stake in the life insurer that Prudential is buying?",
+    "answer": "Bharti Life Ventures (85%)",
+    "bridge": "Bharti Life Insurance",
+    "evidence": [
+      "At present, Sunil Mittal's Bharti Enterprises holds 85 per cent in Bharti Life through Bharti Life Ventures"
+    ],
+    "notes": "Verified: 18 of 20 articles mentioning Bharti Life Ventures are Prudential-Bharti deal stories."
+  },
+  {
+    "id": "q08",
+    "type": "single_hop",
+    "question": "What stake has Prudential agreed to acquire in Bharti Life Insurance?",
+    "answer": "75%",
+    "bridge": null,
+    "evidence": [
+      "On May 17, 2026, Prudential Plc confirmed it has entered into definitive agreements to acquire a 75% stake in Bharti Life Insurance Company Limited."
+    ],
+    "notes": "Agreed, not completed - a good answer reflects that."
+  },
+  {
+    "id": "q09",
+    "type": "single_hop",
+    "question": "Which company sold its remaining 26% stake in Aviva's Indian life insurance venture?",
+    "answer": "Dabur Invest Corp",
+    "bridge": null,
+    "evidence": [
+      "Aviva has agreed to buy Dabur Invest Corp's remaining 26% stake in its India life venture."
+    ],
+    "notes": ""
+  },
+  {
+    "id": "q10",
+    "type": "extraction_gap",
+    "question": "Which company increased its stake in Liberty General Insurance to 74%?",
+    "answer": "Liberty Mutual",
+    "bridge": null,
+    "evidence": [
+      "From the article 'Liberty Mutual increases stake in Liberty General Insurance to 74%' - one of the 5 that failed extraction."
+    ],
+    "notes": "Vector has this article; the graph does not. Expected: vector answers, graph finds no seed. Measures what the 5 lost articles cost."
+  },
+  {
+    "id": "q11",
+    "type": "unanswerable",
+    "question": "Which company acquired Star Health and Allied Insurance?",
+    "answer": "No acquisition is reported. Star Health was only named in unconfirmed market speculation about LIC's health insurance plans, which LIC later shelved.",
+    "bridge": null,
+    "evidence": [
+      "names such as Star Health and Allied Insurance, ManipalCigna Health Insurance, and Care Health Insurance frequently mentioned in reports, although none of the companies publicly confirmed any negotiations."
+    ],
+    "notes": "Distractor: the LIC speculation passage invites a false 'LIC acquired it'. Correct if the answer does NOT claim an acquisition, whether it says 'the sources do not say' or explains the speculation."
+  }
+]

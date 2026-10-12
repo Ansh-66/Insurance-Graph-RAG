@@ -1,0 +1,1666 @@
+{
+  "nodes": {
+    "qbe-insurance": {
+      "id": "qbe-insurance",
+      "key": "qbe insurance",
+      "canonical": "QBE Insurance Group Limited",
+      "type": "org",
+      "aliases": [
+        "QBE",
+        "QBE Insurance",
+        "QBE Insurance Group Limited"
+      ],
+      "mentions": 10
+    },
+    "raheja-qbe-general-insurance": {
+      "id": "raheja-qbe-general-insurance",
+      "key": "raheja qbe general insurance",
+      "canonical": "Raheja QBE General Insurance Company Limited",
+      "type": "org",
+      "aliases": [
+        "Raheja QBE",
+        "Raheja QBE General Insurance",
+        "Raheja QBE General Insurance Company Limited"
+      ],
+      "mentions": 14
+    },
+    "prism-johnson": {
+      "id": "prism-johnson",
+      "key": "prism johnson",
+      "canonical": "Prism Johnson Limited",
+      "type": "org",
+      "aliases": [
+        "Prism Johnson",
+        "Prism Johnson Limited"
+      ],
+      "mentions": 6
+    },
+    "allianz-partners": {
+      "id": "allianz-partners",
+      "key": "allianz partners",
+      "canonical": "Allianz Partners",
+      "type": "org",
+      "aliases": [
+        "Allianz Partners"
+      ],
+      "mentions": 1
+    },
+    "nib-group": {
+      "id": "nib-group",
+      "key": "nib group",
+      "canonical": "nib Group",
+      "type": "org",
+      "aliases": [
+        "nib Group"
+      ],
+      "mentions": 1
+    },
+    "bnp-paribas-cardif": {
+      "id": "bnp-paribas-cardif",
+      "key": "bnp paribas cardif",
+      "canonical": "BNP Paribas Cardif",
+      "type": "org",
+      "aliases": [
+        "BNP Paribas Cardif"
+      ],
+      "mentions": 2
+    },
+    "indiafirst-life-insurance": {
+      "id": "indiafirst-life-insurance",
+      "key": "indiafirst life insurance",
+      "canonical": "IndiaFirst Life",
+      "type": "org",
+      "aliases": [
+        "IndiaFirst Life",
+        "IndiaFirst Life Insurance Company Limited"
+      ],
+      "mentions": 10
+    },
+    "warburg-pincus": {
+      "id": "warburg-pincus",
+      "key": "warburg pincus",
+      "canonical": "Warburg Pincus",
+      "type": "org",
+      "aliases": [
+        "Warburg Pincus"
+      ],
+      "mentions": 3
+    },
+    "bank-of-baroda": {
+      "id": "bank-of-baroda",
+      "key": "bank of baroda",
+      "canonical": "Bank of Baroda",
+      "type": "org",
+      "aliases": [
+        "Bank of Baroda"
+      ],
+      "mentions": 4
+    },
+    "union-bank-of-india": {
+      "id": "union-bank-of-india",
+      "key": "union bank of india",
+      "canonical": "Union Bank of India",
+      "type": "org",
+      "aliases": [
+        "Union Bank of India"
+      ],
+      "mentions": 2
+    },
+    "wipro": {
+      "id": "wipro",
+      "key": "wipro",
+      "canonical": "Wipro",
+      "type": "org",
+      "aliases": [
+        "Wipro"
+      ],
+      "mentions": 9
+    },
+    "aggne-global-it-services": {
+      "id": "aggne-global-it-services",
+      "key": "aggne global it services",
+      "canonical": "Aggne Global Inc",
+      "type": "org",
+      "aliases": [
+        "Aggne Global",
+        "Aggne Global IT Services",
+        "Aggne Global IT Services Private Limited",
+        "Aggne Global Inc"
+      ],
+      "mentions": 9
+    },
+    "wipro-it-services": {
+      "id": "wipro-it-services",
+      "key": "wipro it services",
+      "canonical": "Wipro IT Services, LLC",
+      "type": "org",
+      "aliases": [
+        "Wipro IT Services, LLC"
+      ],
+      "mentions": 1
+    },
+    "aggne-group": {
+      "id": "aggne-group",
+      "key": "aggne group",
+      "canonical": "Aggne Group",
+      "type": "org",
+      "aliases": [
+        "Aggne Group"
+      ],
+      "mentions": 1
+    },
+    "freo": {
+      "id": "freo",
+      "key": "freo",
+      "canonical": "Freo",
+      "type": "org",
+      "aliases": [
+        "Freo"
+      ],
+      "mentions": 2
+    },
+    "indialends": {
+      "id": "indialends",
+      "key": "indialends",
+      "canonical": "IndiaLends",
+      "type": "org",
+      "aliases": [
+        "IndiaLends"
+      ],
+      "mentions": 4
+    },
+    "acp-partners": {
+      "id": "acp-partners",
+      "key": "acp partners",
+      "canonical": "ACP Partners",
+      "type": "org",
+      "aliases": [
+        "ACP Partners"
+      ],
+      "mentions": 1
+    },
+    "dsg-consumer-partners": {
+      "id": "dsg-consumer-partners",
+      "key": "dsg consumer partners",
+      "canonical": "DSG Consumer Partners",
+      "type": "org",
+      "aliases": [
+        "DSG Consumer Partners"
+      ],
+      "mentions": 1
+    },
+    "admiral-group": {
+      "id": "admiral-group",
+      "key": "admiral group",
+      "canonical": "Admiral Group",
+      "type": "org",
+      "aliases": [
+        "Admiral Group"
+      ],
+      "mentions": 1
+    },
+    "flock": {
+      "id": "flock",
+      "key": "flock",
+      "canonical": "Flock",
+      "type": "org",
+      "aliases": [
+        "Flock"
+      ],
+      "mentions": 1
+    },
+    "aviva": {
+      "id": "aviva",
+      "key": "aviva",
+      "canonical": "Aviva",
+      "type": "org",
+      "aliases": [
+        "Aviva",
+        "Aviva Plc"
+      ],
+      "mentions": 16
+    },
+    "aviva-life-insurance-company-india": {
+      "id": "aviva-life-insurance-company-india",
+      "key": "aviva life insurance company india",
+      "canonical": "Aviva Life Insurance Company India",
+      "type": "org",
+      "aliases": [
+        "Aviva Life Insurance Company India",
+        "Aviva Life Insurance Company India Limited",
+        "Aviva Life Insurance Company India Limited (Aviva India)",
+        "Aviva Life Insurance Company India Ltd",
+        "Aviva Life Insurance India"
+      ],
+      "mentions": 25
+    },
+    "dabur-invest": {
+      "id": "dabur-invest",
+      "key": "dabur invest",
+      "canonical": "Dabur Invest Corp",
+      "type": "org",
+      "aliases": [
+        "DIC",
+        "Dabur Invest Corp",
+        "Dabur Invest Corp (DIC)"
+      ],
+      "mentions": 9
+    },
+    "hcltech": {
+      "id": "hcltech",
+      "key": "hcltech",
+      "canonical": "HCLTech",
+      "type": "org",
+      "aliases": [
+        "HCLTech"
+      ],
+      "mentions": 11
+    },
+    "guardian-india-operations": {
+      "id": "guardian-india-operations",
+      "key": "guardian india operations",
+      "canonical": "Guardian India Operations",
+      "type": "org",
+      "aliases": [
+        "Guardian India",
+        "Guardian India Operations",
+        "Guardian India Operations Private Limited",
+        "Guardian India Operations Pvt Ltd"
+      ],
+      "mentions": 8
+    },
+    "karunakaran-azhisur": {
+      "id": "karunakaran-azhisur",
+      "key": "karunakaran azhisur",
+      "canonical": "Karunakaran Azhisur",
+      "type": "person",
+      "aliases": [
+        "Karunakaran Azhisur"
+      ],
+      "mentions": 3
+    },
+    "raise-financial-services": {
+      "id": "raise-financial-services",
+      "key": "raise financial services",
+      "canonical": "Raise Financial Services",
+      "type": "org",
+      "aliases": [
+        "Raise Financial",
+        "Raise Financial Services"
+      ],
+      "mentions": 24
+    },
+    "greenlife-insurance-broking": {
+      "id": "greenlife-insurance-broking",
+      "key": "greenlife insurance broking",
+      "canonical": "GreenLife Insurance Broking Private Limited",
+      "type": "org",
+      "aliases": [
+        "GreenLife",
+        "GreenLife Insurance",
+        "GreenLife Insurance Booking Private Limited",
+        "GreenLife Insurance Broking",
+        "GreenLife Insurance Broking Private Limited",
+        "GreenLife Insurance Broking Pvt Ltd",
+        "GreenLife Insurance Broking Pvt Ltd (GIBL)"
+      ],
+      "mentions": 13
+    },
+    "new-india-assurance": {
+      "id": "new-india-assurance",
+      "key": "new india assurance",
+      "canonical": "New India Assurance Company Ltd",
+      "type": "org",
+      "aliases": [
+        "New India Assurance",
+        "New India Assurance Company",
+        "New India Assurance Company Limited",
+        "New India Assurance Company Ltd",
+        "The New India Assurance Company"
+      ],
+      "mentions": 7
+    },
+    "state-bank-of-india": {
+      "id": "state-bank-of-india",
+      "key": "state bank of india",
+      "canonical": "State Bank of India",
+      "type": "org",
+      "aliases": [
+        "State Bank of India",
+        "State Bank of India (SBI)"
+      ],
+      "mentions": 6
+    },
+    "ms-strategic": {
+      "id": "ms-strategic",
+      "key": "ms strategic",
+      "canonical": "MS Strategic (Mauritius) Limited",
+      "type": "org",
+      "aliases": [
+        "MS Strategic (Mauritius)",
+        "MS Strategic (Mauritius) Limited",
+        "MS Strategic (Mauritius) Ltd."
+      ],
+      "mentions": 4
+    },
+    "canada-pension-plan-investment-board": {
+      "id": "canada-pension-plan-investment-board",
+      "key": "canada pension plan investment board",
+      "canonical": "Canada Pension Plan Investment Board",
+      "type": "org",
+      "aliases": [
+        "Canada Pension Plan Investment Board",
+        "Canada Pension Plan Investment Board (CPPIB)",
+        "The Canada Pension Plan Investment Board (CPPIB)"
+      ],
+      "mentions": 4
+    },
+    "aranda-investments": {
+      "id": "aranda-investments",
+      "key": "aranda investments",
+      "canonical": "Aranda Investments (Mauritius) Pte. Ltd.",
+      "type": "org",
+      "aliases": [
+        "Aranda Investments (Mauritius) Pte Ltd",
+        "Aranda Investments (Mauritius) Pte. Ltd.",
+        "Aranda Investments (Temasek)"
+      ],
+      "mentions": 3
+    },
+    "stock-holding-corporation-of-india": {
+      "id": "stock-holding-corporation-of-india",
+      "key": "stock holding corporation of india",
+      "canonical": "Stock Holding Corporation of India",
+      "type": "org",
+      "aliases": [
+        "Stock Holding Corporation of India",
+        "Stock Holding Corporation of India Limited",
+        "Stock Holding Corporation of India Ltd."
+      ],
+      "mentions": 5
+    },
+    "general-insurance-corporation-of-india": {
+      "id": "general-insurance-corporation-of-india",
+      "key": "general insurance corporation of india",
+      "canonical": "General Insurance Corporation of India",
+      "type": "org",
+      "aliases": [
+        "General Insurance Corporation of India"
+      ],
+      "mentions": 3
+    },
+    "national-insurance": {
+      "id": "national-insurance",
+      "key": "national insurance",
+      "canonical": "National Insurance Company",
+      "type": "org",
+      "aliases": [
+        "National Insurance Company",
+        "National Insurance Company Limited"
+      ],
+      "mentions": 5
+    },
+    "patanjali-ayurved": {
+      "id": "patanjali-ayurved",
+      "key": "patanjali ayurved",
+      "canonical": "Patanjali Ayurved",
+      "type": "org",
+      "aliases": [
+        "Patanjali",
+        "Patanjali Ayurved"
+      ],
+      "mentions": 11
+    },
+    "magma-general-insurance": {
+      "id": "magma-general-insurance",
+      "key": "magma general insurance",
+      "canonical": "Magma General Insurance",
+      "type": "org",
+      "aliases": [
+        "Magma General Insurance"
+      ],
+      "mentions": 35
+    },
+    "ds-group": {
+      "id": "ds-group",
+      "key": "ds group",
+      "canonical": "DS Group",
+      "type": "org",
+      "aliases": [
+        "DS Group",
+        "Dharampal Satyapal (DS) Group",
+        "Dharampal Satyapal Group"
+      ],
+      "mentions": 8
+    },
+    "gic": {
+      "id": "gic",
+      "key": "gic",
+      "canonical": "Singapore’s GIC",
+      "type": "org",
+      "aliases": [
+        "GIC",
+        "Singapore’s GIC"
+      ],
+      "mentions": 2
+    },
+    "samsung-fire-and-marine": {
+      "id": "samsung-fire-and-marine",
+      "key": "samsung fire and marine",
+      "canonical": "Samsung Fire and Marine",
+      "type": "org",
+      "aliases": [
+        "Samsung Fire and Marine"
+      ],
+      "mentions": 2
+    },
+    "chubb": {
+      "id": "chubb",
+      "key": "chubb",
+      "canonical": "Chubb",
+      "type": "org",
+      "aliases": [
+        "Chubb"
+      ],
+      "mentions": 2
+    },
+    "jeremy-lai": {
+      "id": "jeremy-lai",
+      "key": "jeremy lai",
+      "canonical": "Jeremy Lai",
+      "type": "person",
+      "aliases": [
+        "Jeremy Lai"
+      ],
+      "mentions": 2
+    },
+    "iffco-tokio-general-insurance": {
+      "id": "iffco-tokio-general-insurance",
+      "key": "iffco tokio general insurance",
+      "canonical": "IFFCO Tokio General Insurance",
+      "type": "org",
+      "aliases": [
+        "IFFCO Tokio General Insurance"
+      ],
+      "mentions": 2
+    },
+    "sanjeev-chopra": {
+      "id": "sanjeev-chopra",
+      "key": "sanjeev chopra",
+      "canonical": "Sanjeev Chopra",
+      "type": "person",
+      "aliases": [
+        "Sanjeev Chopra"
+      ],
+      "mentions": 2
+    },
+    "prudential": {
+      "id": "prudential",
+      "key": "prudential",
+      "canonical": "Prudential plc",
+      "type": "org",
+      "aliases": [
+        "Prudential",
+        "Prudential Group",
+        "Prudential Plc",
+        "Prudential plc"
+      ],
+      "mentions": 78
+    },
+    "bharti-life-insurance": {
+      "id": "bharti-life-insurance",
+      "key": "bharti life insurance",
+      "canonical": "Bharti Life Insurance",
+      "type": "org",
+      "aliases": [
+        "Bharti AXA Life",
+        "Bharti AXA Life Insurance",
+        "Bharti AXA Life Insurance Company Ltd",
+        "Bharti Life",
+        "Bharti Life Insurance",
+        "Bharti Life Insurance Co Ltd",
+        "Bharti Life Insurance Company",
+        "Bharti Life Insurance Company Limited",
+        "Bharti Life Insurance Company Ltd"
+      ],
+      "mentions": 89
+    },
+    "icici-prudential-life-insurance": {
+      "id": "icici-prudential-life-insurance",
+      "key": "icici prudential life insurance",
+      "canonical": "ICICI Prudential Life Insurance",
+      "type": "org",
+      "aliases": [
+        "ICICI Prudential Life Insurance",
+        "ICICI Prudential Life Insurance Company",
+        "ICICI Prudential Life Insurance Company Limited",
+        "ICICIPru Life"
+      ],
+      "mentions": 20
+    },
+    "bharti-life-ventures": {
+      "id": "bharti-life-ventures",
+      "key": "bharti life ventures",
+      "canonical": "Bharti Life Ventures Pvt Ltd",
+      "type": "org",
+      "aliases": [
+        "Bharti Life Ventures",
+        "Bharti Life Ventures Private Ltd",
+        "Bharti Life Ventures Pvt Ltd",
+        "Bharti Life Ventures Pvt. Ltd",
+        "Bharti Life Ventures Pvt. Ltd."
+      ],
+      "mentions": 16
+    },
+    "360-one-asset-management": {
+      "id": "360-one-asset-management",
+      "key": "360 one asset management",
+      "canonical": "360 ONE Asset Management",
+      "type": "org",
+      "aliases": [
+        "360 ONE",
+        "360 ONE Asset",
+        "360 ONE Asset Management",
+        "360One Asset Management"
+      ],
+      "mentions": 22
+    },
+    "prudential-hcl-health-insurance": {
+      "id": "prudential-hcl-health-insurance",
+      "key": "prudential hcl health insurance",
+      "canonical": "Prudential HCL Health Insurance Limited",
+      "type": "org",
+      "aliases": [
+        "Prudential HCL Health Insurance",
+        "Prudential HCL Health Insurance Limited",
+        "Prudential HCL Health Insurance Ltd"
+      ],
+      "mentions": 10
+    },
+    "icici-prudential-asset-management": {
+      "id": "icici-prudential-asset-management",
+      "key": "icici prudential asset management",
+      "canonical": "ICICI Prudential Asset Management Company",
+      "type": "org",
+      "aliases": [
+        "ICICI Prudential Asset Management",
+        "ICICI Prudential Asset Management Company",
+        "ICICI Prudential Asset Management Company Limited",
+        "ICICI Prudential Asset Management Company Ltd"
+      ],
+      "mentions": 10
+    },
+    "bharti-airtel": {
+      "id": "bharti-airtel",
+      "key": "bharti airtel",
+      "canonical": "Bharti Airtel",
+      "type": "org",
+      "aliases": [
+        "Bharti Airtel",
+        "Bharti Airtel Ltd"
+      ],
+      "mentions": 8
+    },
+    "icici-bank": {
+      "id": "icici-bank",
+      "key": "icici bank",
+      "canonical": "ICICI Bank",
+      "type": "org",
+      "aliases": [
+        "ICICI Bank"
+      ],
+      "mentions": 4
+    },
+    "go-digit-infoworks-services": {
+      "id": "go-digit-infoworks-services",
+      "key": "go digit infoworks services",
+      "canonical": "Go Digit Infoworks Services Pvt Ltd",
+      "type": "org",
+      "aliases": [
+        "Go Digit Infoworks Services Pvt Ltd"
+      ],
+      "mentions": 1
+    },
+    "go-digit-general-insurance": {
+      "id": "go-digit-general-insurance",
+      "key": "go digit general insurance",
+      "canonical": "Go Digit General Insurance Ltd",
+      "type": "org",
+      "aliases": [
+        "Go Digit General Insurance",
+        "Go Digit General Insurance Ltd"
+      ],
+      "mentions": 3
+    },
+    "fal": {
+      "id": "fal",
+      "key": "fal",
+      "canonical": "FAL Corporation",
+      "type": "org",
+      "aliases": [
+        "FAL Corporation"
+      ],
+      "mentions": 3
+    },
+    "fairfax-group": {
+      "id": "fairfax-group",
+      "key": "fairfax group",
+      "canonical": "Fairfax group",
+      "type": "org",
+      "aliases": [
+        "Fairfax group"
+      ],
+      "mentions": 1
+    },
+    "brookfield-asset-management": {
+      "id": "brookfield-asset-management",
+      "key": "brookfield asset management",
+      "canonical": "Brookfield Asset Management Ltd",
+      "type": "org",
+      "aliases": [
+        "Brookfield Asset Management Ltd"
+      ],
+      "mentions": 3
+    },
+    "brookfield": {
+      "id": "brookfield",
+      "key": "brookfield",
+      "canonical": "Brookfield Corporation",
+      "type": "org",
+      "aliases": [
+        "Brookfield Corporation"
+      ],
+      "mentions": 1
+    },
+    "oaktree-capital-group": {
+      "id": "oaktree-capital-group",
+      "key": "oaktree capital group",
+      "canonical": "Oaktree Capital Group Holdings, LP",
+      "type": "org",
+      "aliases": [
+        "Oaktree Capital Group Holdings LP",
+        "Oaktree Capital Group Holdings, LP"
+      ],
+      "mentions": 2
+    },
+    "oaktree-group": {
+      "id": "oaktree-group",
+      "key": "oaktree group",
+      "canonical": "Oaktree Group",
+      "type": "org",
+      "aliases": [
+        "Oaktree Group"
+      ],
+      "mentions": 2
+    },
+    "oaktree-equity-plan": {
+      "id": "oaktree-equity-plan",
+      "key": "oaktree equity plan",
+      "canonical": "Oaktree Equity Plan, LP",
+      "type": "org",
+      "aliases": [
+        "Oaktree Equity Plan LP",
+        "Oaktree Equity Plan, LP"
+      ],
+      "mentions": 2
+    },
+    "allianz-se": {
+      "id": "allianz-se",
+      "key": "allianz se",
+      "canonical": "Allianz SE",
+      "type": "org",
+      "aliases": [
+        "Allianz SE"
+      ],
+      "mentions": 5
+    },
+    "legal-general": {
+      "id": "legal-general",
+      "key": "legal general",
+      "canonical": "Legal & General",
+      "type": "org",
+      "aliases": [
+        "Legal & General"
+      ],
+      "mentions": 1
+    },
+    "sanoti-properties": {
+      "id": "sanoti-properties",
+      "key": "sanoti properties",
+      "canonical": "Sanoti Properties",
+      "type": "org",
+      "aliases": [
+        "Sanoti Properties"
+      ],
+      "mentions": 5
+    },
+    "celica-developers": {
+      "id": "celica-developers",
+      "key": "celica developers",
+      "canonical": "Celica Developers",
+      "type": "org",
+      "aliases": [
+        "Celica Developers"
+      ],
+      "mentions": 5
+    },
+    "jaguar-advisory-services": {
+      "id": "jaguar-advisory-services",
+      "key": "jaguar advisory services",
+      "canonical": "Jaguar Advisory Services",
+      "type": "org",
+      "aliases": [
+        "Jaguar Advisory Services"
+      ],
+      "mentions": 5
+    },
+    "yes-bank": {
+      "id": "yes-bank",
+      "key": "yes bank",
+      "canonical": "Yes Bank",
+      "type": "org",
+      "aliases": [
+        "Yes Bank"
+      ],
+      "mentions": 1
+    },
+    "krishnakumar-k": {
+      "id": "krishnakumar-k",
+      "key": "krishnakumar k",
+      "canonical": "Krishnakumar K",
+      "type": "person",
+      "aliases": [
+        "Krishnakumar K"
+      ],
+      "mentions": 1
+    },
+    "pi-opportunities-aif-v-llp": {
+      "id": "pi-opportunities-aif-v-llp",
+      "key": "pi opportunities aif v llp",
+      "canonical": "PI Opportunities AIF V LLP",
+      "type": "org",
+      "aliases": [
+        "PI Opportunities AIF V LLP"
+      ],
+      "mentions": 1
+    },
+    "vedanta-iron-and-steel": {
+      "id": "vedanta-iron-and-steel",
+      "key": "vedanta iron and steel",
+      "canonical": "Vedanta Iron and Steel",
+      "type": "org",
+      "aliases": [
+        "Vedanta Iron and Steel"
+      ],
+      "mentions": 1
+    },
+    "motilal-oswal-financial-services": {
+      "id": "motilal-oswal-financial-services",
+      "key": "motilal oswal financial services",
+      "canonical": "Motilal Oswal Financial Services",
+      "type": "org",
+      "aliases": [
+        "Motilal Oswal Financial Services"
+      ],
+      "mentions": 1
+    },
+    "bai-kakaji-polymers": {
+      "id": "bai-kakaji-polymers",
+      "key": "bai-kakaji polymers",
+      "canonical": "Bai-Kakaji Polymers",
+      "type": "org",
+      "aliases": [
+        "Bai-Kakaji Polymers"
+      ],
+      "mentions": 2
+    },
+    "rb-industries": {
+      "id": "rb-industries",
+      "key": "rb industries",
+      "canonical": "RB Industries",
+      "type": "org",
+      "aliases": [
+        "RB Industries"
+      ],
+      "mentions": 1
+    },
+    "metlife": {
+      "id": "metlife",
+      "key": "metlife",
+      "canonical": "MetLife",
+      "type": "org",
+      "aliases": [
+        "MetLife"
+      ],
+      "mentions": 2
+    },
+    "pnb-metlife-india-insurance": {
+      "id": "pnb-metlife-india-insurance",
+      "key": "pnb metlife india insurance",
+      "canonical": "PNB MetLife India Insurance Co Ltd",
+      "type": "org",
+      "aliases": [
+        "PNB MetLife India Insurance Co Ltd"
+      ],
+      "mentions": 5
+    },
+    "punjab-national-bank": {
+      "id": "punjab-national-bank",
+      "key": "punjab national bank",
+      "canonical": "Punjab National Bank",
+      "type": "org",
+      "aliases": [
+        "Punjab National Bank"
+      ],
+      "mentions": 1
+    },
+    "jammu-kashmir-bank": {
+      "id": "jammu-kashmir-bank",
+      "key": "jammu kashmir bank",
+      "canonical": "Jammu & Kashmir Bank",
+      "type": "org",
+      "aliases": [
+        "Jammu & Kashmir Bank"
+      ],
+      "mentions": 1
+    },
+    "m-pallonji-and": {
+      "id": "m-pallonji-and",
+      "key": "m pallonji and",
+      "canonical": "M. Pallonji and Company",
+      "type": "org",
+      "aliases": [
+        "M. Pallonji and Company"
+      ],
+      "mentions": 1
+    },
+    "sun-pharmaceutical-industries": {
+      "id": "sun-pharmaceutical-industries",
+      "key": "sun pharmaceutical industries",
+      "canonical": "Sun Pharmaceutical Industries",
+      "type": "org",
+      "aliases": [
+        "Sun Pharmaceutical Industries"
+      ],
+      "mentions": 2
+    },
+    "checkpoint-therapeutics": {
+      "id": "checkpoint-therapeutics",
+      "key": "checkpoint therapeutics",
+      "canonical": "Checkpoint Therapeutics",
+      "type": "org",
+      "aliases": [
+        "Checkpoint Therapeutics"
+      ],
+      "mentions": 2
+    },
+    "airtel-africa": {
+      "id": "airtel-africa",
+      "key": "airtel africa",
+      "canonical": "Airtel Africa plc",
+      "type": "org",
+      "aliases": [
+        "Airtel Africa plc"
+      ],
+      "mentions": 1
+    },
+    "ageas-federal-life-insurance": {
+      "id": "ageas-federal-life-insurance",
+      "key": "ageas federal life insurance",
+      "canonical": "Ageas Federal Life Insurance",
+      "type": "org",
+      "aliases": [
+        "Ageas Federal Life Insurance"
+      ],
+      "mentions": 1
+    },
+    "srijani-haldar": {
+      "id": "srijani-haldar",
+      "key": "srijani haldar",
+      "canonical": "Srijani Haldar",
+      "type": "person",
+      "aliases": [
+        "Srijani Haldar"
+      ],
+      "mentions": 1
+    },
+    "poonawalla-group": {
+      "id": "poonawalla-group",
+      "key": "poonawalla group",
+      "canonical": "Poonawalla group",
+      "type": "org",
+      "aliases": [
+        "Poonawalla group"
+      ],
+      "mentions": 2
+    },
+    "magma-fincorp": {
+      "id": "magma-fincorp",
+      "key": "magma fincorp",
+      "canonical": "Magma Fincorp Limited",
+      "type": "org",
+      "aliases": [
+        "Magma Fincorp Limited"
+      ],
+      "mentions": 2
+    },
+    "sbi": {
+      "id": "sbi",
+      "key": "sbi",
+      "canonical": "SBI",
+      "type": "org",
+      "aliases": [
+        "SBI"
+      ],
+      "mentions": 3
+    },
+    "life-insurance-corporation-of-india": {
+      "id": "life-insurance-corporation-of-india",
+      "key": "life insurance corporation of india",
+      "canonical": "Life Insurance Corporation of India",
+      "type": "org",
+      "aliases": [
+        "LIC",
+        "Life Insurance Corporation (LIC)",
+        "Life Insurance Corporation of India"
+      ],
+      "mentions": 6
+    },
+    "idbi": {
+      "id": "idbi",
+      "key": "idbi",
+      "canonical": "IDBI",
+      "type": "org",
+      "aliases": [
+        "IDBI"
+      ],
+      "mentions": 1
+    },
+    "oriental-insurance": {
+      "id": "oriental-insurance",
+      "key": "oriental insurance",
+      "canonical": "The Oriental Insurance Company",
+      "type": "org",
+      "aliases": [
+        "The Oriental Insurance Company"
+      ],
+      "mentions": 2
+    },
+    "united-india-insurance": {
+      "id": "united-india-insurance",
+      "key": "united india insurance",
+      "canonical": "United India Insurance Company",
+      "type": "org",
+      "aliases": [
+        "United India Insurance",
+        "United India Insurance Company"
+      ],
+      "mentions": 4
+    },
+    "sbi-life-insurance": {
+      "id": "sbi-life-insurance",
+      "key": "sbi life insurance",
+      "canonical": "SBI Life Insurance",
+      "type": "org",
+      "aliases": [
+        "SBI Life Insurance"
+      ],
+      "mentions": 1
+    },
+    "vama-sundari-investments": {
+      "id": "vama-sundari-investments",
+      "key": "vama sundari investments",
+      "canonical": "Vama Sundari Investments",
+      "type": "org",
+      "aliases": [
+        "Sundari Investments",
+        "Vama Sundari Investments"
+      ],
+      "mentions": 2
+    },
+    "central-bank-of-india": {
+      "id": "central-bank-of-india",
+      "key": "central bank of india",
+      "canonical": "Central Bank of India",
+      "type": "org",
+      "aliases": [
+        "Central Bank of India"
+      ],
+      "mentions": 4
+    },
+    "amwins-group": {
+      "id": "amwins-group",
+      "key": "amwins group",
+      "canonical": "Amwins Group Inc",
+      "type": "org",
+      "aliases": [
+        "Amwins Group Inc"
+      ],
+      "mentions": 1
+    },
+    "steadfast-group": {
+      "id": "steadfast-group",
+      "key": "steadfast group",
+      "canonical": "Steadfast Group",
+      "type": "org",
+      "aliases": [
+        "Steadfast Group"
+      ],
+      "mentions": 2
+    },
+    "dragoneer-investment-group": {
+      "id": "dragoneer-investment-group",
+      "key": "dragoneer investment group",
+      "canonical": "Dragoneer Investment Group",
+      "type": "org",
+      "aliases": [
+        "Dragoneer Investment Group"
+      ],
+      "mentions": 1
+    },
+    "bajaj-life-insurance": {
+      "id": "bajaj-life-insurance",
+      "key": "bajaj life insurance",
+      "canonical": "Bajaj Life Insurance",
+      "type": "org",
+      "aliases": [
+        "Bajaj Life Insurance"
+      ],
+      "mentions": 2
+    },
+    "bajaj-group": {
+      "id": "bajaj-group",
+      "key": "bajaj group",
+      "canonical": "Bajaj Group",
+      "type": "org",
+      "aliases": [
+        "Bajaj Group"
+      ],
+      "mentions": 2
+    },
+    "bajaj-general-insurance": {
+      "id": "bajaj-general-insurance",
+      "key": "bajaj general insurance",
+      "canonical": "Bajaj General Insurance",
+      "type": "org",
+      "aliases": [
+        "Bajaj General Insurance"
+      ],
+      "mentions": 2
+    },
+    "indusind-international": {
+      "id": "indusind-international",
+      "key": "indusind international",
+      "canonical": "IndusInd International Holdings",
+      "type": "org",
+      "aliases": [
+        "IndusInd International Holdings"
+      ],
+      "mentions": 1
+    },
+    "reliance-capital": {
+      "id": "reliance-capital",
+      "key": "reliance capital",
+      "canonical": "Reliance Capital",
+      "type": "org",
+      "aliases": [
+        "Reliance Capital"
+      ],
+      "mentions": 1
+    },
+    "general-insurance": {
+      "id": "general-insurance",
+      "key": "general insurance",
+      "canonical": "General Insurance Corporation (GIC)",
+      "type": "org",
+      "aliases": [
+        "General Insurance Corporation (GIC)"
+      ],
+      "mentions": 1
+    },
+    "sanlam-emerging-markets": {
+      "id": "sanlam-emerging-markets",
+      "key": "sanlam emerging markets",
+      "canonical": "Sanlam Emerging Markets (Mauritius) Ltd",
+      "type": "org",
+      "aliases": [
+        "Sanlam Emerging Markets (Mauritius) Ltd",
+        "Sanlam Emerging Markets (Mauritius) Ltd."
+      ],
+      "mentions": 4
+    },
+    "sanlam-group-of-south-africa": {
+      "id": "sanlam-group-of-south-africa",
+      "key": "sanlam group of south africa",
+      "canonical": "Sanlam Group of South Africa",
+      "type": "org",
+      "aliases": [
+        "Sanlam Group of South Africa"
+      ],
+      "mentions": 1
+    },
+    "shriram-life-insurance": {
+      "id": "shriram-life-insurance",
+      "key": "shriram life insurance",
+      "canonical": "Shriram Life Insurance Company Limited",
+      "type": "org",
+      "aliases": [
+        "Shriram Life Insurance Company Limited",
+        "Shriram Life Insurance Company Ltd",
+        "Shriram Life Insurance Company Ltd."
+      ],
+      "mentions": 3
+    },
+    "bharti-enterprises": {
+      "id": "bharti-enterprises",
+      "key": "bharti enterprises",
+      "canonical": "Bharti Enterprises",
+      "type": "org",
+      "aliases": [
+        "Bharti Enterprises"
+      ],
+      "mentions": 4
+    },
+    "mnrb": {
+      "id": "mnrb",
+      "key": "mnrb",
+      "canonical": "MNRB Holdings",
+      "type": "org",
+      "aliases": [
+        "MNRB Holdings"
+      ],
+      "mentions": 2
+    },
+    "labuan-reinsurance": {
+      "id": "labuan-reinsurance",
+      "key": "labuan reinsurance",
+      "canonical": "Labuan Reinsurance",
+      "type": "org",
+      "aliases": [
+        "Labuan Reinsurance"
+      ],
+      "mentions": 2
+    },
+    "hsbc-life-singapore-pte": {
+      "id": "hsbc-life-singapore-pte",
+      "key": "hsbc life singapore pte",
+      "canonical": "HSBC Life Singapore Pte",
+      "type": "org",
+      "aliases": [
+        "HSBC Life Singapore Pte",
+        "HSBC's Singapore insurance business"
+      ],
+      "mentions": 3
+    },
+    "zurich-financial-services-australia": {
+      "id": "zurich-financial-services-australia",
+      "key": "zurich financial services australia",
+      "canonical": "Zurich Financial Services Australia Ltd.",
+      "type": "org",
+      "aliases": [
+        "Zurich Financial Services Australia Ltd."
+      ],
+      "mentions": 1
+    },
+    "clearview-wealth": {
+      "id": "clearview-wealth",
+      "key": "clearview wealth",
+      "canonical": "ClearView Wealth Ltd.",
+      "type": "org",
+      "aliases": [
+        "ClearView Wealth Ltd."
+      ],
+      "mentions": 1
+    },
+    "amit-dave": {
+      "id": "amit-dave",
+      "key": "amit dave",
+      "canonical": "Amit Dave",
+      "type": "person",
+      "aliases": [
+        "Amit Dave"
+      ],
+      "mentions": 1
+    },
+    "abhishek-saraf": {
+      "id": "abhishek-saraf",
+      "key": "abhishek saraf",
+      "canonical": "Abhishek Saraf",
+      "type": "person",
+      "aliases": [
+        "Abhishek Saraf"
+      ],
+      "mentions": 1
+    },
+    "dhan": {
+      "id": "dhan",
+      "key": "dhan",
+      "canonical": "Dhan",
+      "type": "org",
+      "aliases": [
+        "Dhan"
+      ],
+      "mentions": 5
+    },
+    "infinyte-club": {
+      "id": "infinyte-club",
+      "key": "infinyte club",
+      "canonical": "Infinyte Club",
+      "type": "org",
+      "aliases": [
+        "Infinyte Club"
+      ],
+      "mentions": 5
+    },
+    "stratzy": {
+      "id": "stratzy",
+      "key": "stratzy",
+      "canonical": "Stratzy",
+      "type": "org",
+      "aliases": [
+        "Stratzy"
+      ],
+      "mentions": 5
+    },
+    "sanoti-properties-llp": {
+      "id": "sanoti-properties-llp",
+      "key": "sanoti properties llp",
+      "canonical": "Sanoti Properties LLP",
+      "type": "org",
+      "aliases": [
+        "Sanoti Properties LLP"
+      ],
+      "mentions": 2
+    },
+    "adar-poonawalla-group": {
+      "id": "adar-poonawalla-group",
+      "key": "adar poonawalla group",
+      "canonical": "Adar Poonawalla Group",
+      "type": "org",
+      "aliases": [
+        "Adar Poonawalla Group"
+      ],
+      "mentions": 1
+    },
+    "l-or-al": {
+      "id": "l-or-al",
+      "key": "l oréal",
+      "canonical": "L’Oréal",
+      "type": "org",
+      "aliases": [
+        "L’Oréal"
+      ],
+      "mentions": 3
+    },
+    "innovist": {
+      "id": "innovist",
+      "key": "innovist",
+      "canonical": "Innovist",
+      "type": "org",
+      "aliases": [
+        "Innovist"
+      ],
+      "mentions": 1
+    },
+    "cosmeceuticals": {
+      "id": "cosmeceuticals",
+      "key": "cosmeceuticals",
+      "canonical": "Cheryl's Cosmeceuticals",
+      "type": "org",
+      "aliases": [
+        "Cheryl's Cosmeceuticals"
+      ],
+      "mentions": 2
+    },
+    "bold": {
+      "id": "bold",
+      "key": "bold",
+      "canonical": "BOLD (Business Opportunities for L'Oréal Development)",
+      "type": "org",
+      "aliases": [
+        "BOLD (Business Opportunities for L'Oréal Development)"
+      ],
+      "mentions": 3
+    },
+    "chosen": {
+      "id": "chosen",
+      "key": "chosen",
+      "canonical": "Chosen",
+      "type": "org",
+      "aliases": [
+        "Chosen"
+      ],
+      "mentions": 1
+    },
+    "deconstruct": {
+      "id": "deconstruct",
+      "key": "deconstruct",
+      "canonical": "Deconstruct",
+      "type": "org",
+      "aliases": [
+        "Deconstruct"
+      ],
+      "mentions": 1
+    },
+    "arata": {
+      "id": "arata",
+      "key": "arata",
+      "canonical": "Arata",
+      "type": "org",
+      "aliases": [
+        "Arata"
+      ],
+      "mentions": 1
+    },
+    "qbe-asia": {
+      "id": "qbe-asia",
+      "key": "qbe asia",
+      "canonical": "QBE Asia",
+      "type": "org",
+      "aliases": [
+        "QBE Asia"
+      ],
+      "mentions": 2
+    },
+    "hsbc": {
+      "id": "hsbc",
+      "key": "hsbc",
+      "canonical": "HSBC Holdings Plc",
+      "type": "org",
+      "aliases": [
+        "HSBC Holdings Plc"
+      ],
+      "mentions": 1
+    },
+    "filter-coffee": {
+      "id": "filter-coffee",
+      "key": "filter coffee",
+      "canonical": "Filter Coffee",
+      "type": "org",
+      "aliases": [
+        "Filter Coffee"
+      ],
+      "mentions": 4
+    },
+    "sbi-capital-markets": {
+      "id": "sbi-capital-markets",
+      "key": "sbi capital markets",
+      "canonical": "SBI Capital Markets",
+      "type": "org",
+      "aliases": [
+        "SBI Capital Markets"
+      ],
+      "mentions": 2
+    },
+    "ancat-holding-gmbh": {
+      "id": "ancat-holding-gmbh",
+      "key": "ancat holding gmbh",
+      "canonical": "Ancat Holding GmbH",
+      "type": "org",
+      "aliases": [
+        "Ancat Holding GmbH"
+      ],
+      "mentions": 2
+    },
+    "puma-se": {
+      "id": "puma-se",
+      "key": "puma se",
+      "canonical": "PUMA SE",
+      "type": "org",
+      "aliases": [
+        "PUMA SE"
+      ],
+      "mentions": 1
+    },
+    "anta": {
+      "id": "anta",
+      "key": "anta",
+      "canonical": "ANTA",
+      "type": "org",
+      "aliases": [
+        "ANTA"
+      ],
+      "mentions": 1
+    },
+    "groww": {
+      "id": "groww",
+      "key": "groww",
+      "canonical": "Groww",
+      "type": "org",
+      "aliases": [
+        "Groww"
+      ],
+      "mentions": 1
+    },
+    "fisdom": {
+      "id": "fisdom",
+      "key": "fisdom",
+      "canonical": "Fisdom",
+      "type": "org",
+      "aliases": [
+        "Fisdom"
+      ],
+      "mentions": 1
+    }
+  },
+  "lookup": {
+    "QBE Insurance Group Limited": "qbe-insurance",
+    "QBE": "qbe-insurance",
+    "QBE Insurance": "qbe-insurance",
+    "Raheja QBE General Insurance": "raheja-qbe-general-insurance",
+    "Raheja QBE": "raheja-qbe-general-insurance",
+    "Raheja QBE General Insurance Company Limited": "raheja-qbe-general-insurance",
+    "Prism Johnson Limited": "prism-johnson",
+    "Prism Johnson": "prism-johnson",
+    "Allianz Partners": "allianz-partners",
+    "nib Group": "nib-group",
+    "BNP Paribas Cardif": "bnp-paribas-cardif",
+    "IndiaFirst Life": "indiafirst-life-insurance",
+    "IndiaFirst Life Insurance Company Limited": "indiafirst-life-insurance",
+    "Warburg Pincus": "warburg-pincus",
+    "Bank of Baroda": "bank-of-baroda",
+    "Union Bank of India": "union-bank-of-india",
+    "Wipro": "wipro",
+    "Aggne Global IT Services Private Limited": "aggne-global-it-services",
+    "Aggne Global": "aggne-global-it-services",
+    "Aggne Global IT Services": "aggne-global-it-services",
+    "Aggne Global Inc": "aggne-global-it-services",
+    "Wipro IT Services, LLC": "wipro-it-services",
+    "Aggne Group": "aggne-group",
+    "Freo": "freo",
+    "IndiaLends": "indialends",
+    "ACP Partners": "acp-partners",
+    "DSG Consumer Partners": "dsg-consumer-partners",
+    "Admiral Group": "admiral-group",
+    "Flock": "flock",
+    "Aviva Plc": "aviva",
+    "Aviva": "aviva",
+    "Aviva Life Insurance Company India": "aviva-life-insurance-company-india",
+    "Aviva Life Insurance India": "aviva-life-insurance-company-india",
+    "Aviva Life Insurance Company India Limited": "aviva-life-insurance-company-india",
+    "Aviva Life Insurance Company India Limited (Aviva India)": "aviva-life-insurance-company-india",
+    "Aviva Life Insurance Company India Ltd": "aviva-life-insurance-company-india",
+    "DIC": "dabur-invest",
+    "Dabur Invest Corp (DIC)": "dabur-invest",
+    "Dabur Invest Corp": "dabur-invest",
+    "HCLTech": "hcltech",
+    "Guardian India Operations Pvt Ltd": "guardian-india-operations",
+    "Guardian India Operations Private Limited": "guardian-india-operations",
+    "Guardian India Operations": "guardian-india-operations",
+    "Guardian India": "guardian-india-operations",
+    "Karunakaran Azhisur": "karunakaran-azhisur",
+    "Raise Financial Services": "raise-financial-services",
+    "Raise Financial": "raise-financial-services",
+    "GreenLife Insurance Booking Private Limited": "greenlife-insurance-broking",
+    "GreenLife Insurance Broking": "greenlife-insurance-broking",
+    "GreenLife Insurance": "greenlife-insurance-broking",
+    "GreenLife Insurance Broking Pvt Ltd (GIBL)": "greenlife-insurance-broking",
+    "GreenLife Insurance Broking Private Limited": "greenlife-insurance-broking",
+    "GreenLife": "greenlife-insurance-broking",
+    "GreenLife Insurance Broking Pvt Ltd": "greenlife-insurance-broking",
+    "New India Assurance Company Ltd": "new-india-assurance",
+    "New India Assurance Company": "new-india-assurance",
+    "New India Assurance Company Limited": "new-india-assurance",
+    "New India Assurance": "new-india-assurance",
+    "The New India Assurance Company": "new-india-assurance",
+    "State Bank of India": "state-bank-of-india",
+    "State Bank of India (SBI)": "state-bank-of-india",
+    "MS Strategic (Mauritius) Limited": "ms-strategic",
+    "MS Strategic (Mauritius)": "ms-strategic",
+    "MS Strategic (Mauritius) Ltd.": "ms-strategic",
+    "Canada Pension Plan Investment Board (CPPIB)": "canada-pension-plan-investment-board",
+    "The Canada Pension Plan Investment Board (CPPIB)": "canada-pension-plan-investment-board",
+    "Canada Pension Plan Investment Board": "canada-pension-plan-investment-board",
+    "Aranda Investments (Temasek)": "aranda-investments",
+    "Aranda Investments (Mauritius) Pte Ltd": "aranda-investments",
+    "Aranda Investments (Mauritius) Pte. Ltd.": "aranda-investments",
+    "Stock Holding Corporation of India": "stock-holding-corporation-of-india",
+    "Stock Holding Corporation of India Limited": "stock-holding-corporation-of-india",
+    "Stock Holding Corporation of India Ltd.": "stock-holding-corporation-of-india",
+    "General Insurance Corporation of India": "general-insurance-corporation-of-india",
+    "National Insurance Company": "national-insurance",
+    "National Insurance Company Limited": "national-insurance",
+    "Patanjali": "patanjali-ayurved",
+    "Patanjali Ayurved": "patanjali-ayurved",
+    "Magma General Insurance": "magma-general-insurance",
+    "Dharampal Satyapal Group": "ds-group",
+    "DS Group": "ds-group",
+    "Dharampal Satyapal (DS) Group": "ds-group",
+    "Singapore’s GIC": "gic",
+    "GIC": "gic",
+    "Samsung Fire and Marine": "samsung-fire-and-marine",
+    "Chubb": "chubb",
+    "Jeremy Lai": "jeremy-lai",
+    "IFFCO Tokio General Insurance": "iffco-tokio-general-insurance",
+    "Sanjeev Chopra": "sanjeev-chopra",
+    "Prudential": "prudential",
+    "Prudential Group": "prudential",
+    "Prudential plc": "prudential",
+    "Prudential Plc": "prudential",
+    "Bharti Life Insurance": "bharti-life-insurance",
+    "Bharti Life Insurance Company Ltd": "bharti-life-insurance",
+    "Bharti Life Insurance Company Limited": "bharti-life-insurance",
+    "Bharti Life": "bharti-life-insurance",
+    "Bharti Life Insurance Co Ltd": "bharti-life-insurance",
+    "Bharti Life Insurance Company": "bharti-life-insurance",
+    "Bharti AXA Life Insurance Company Ltd": "bharti-life-insurance",
+    "Bharti AXA Life": "bharti-life-insurance",
+    "Bharti AXA Life Insurance": "bharti-life-insurance",
+    "ICICI Prudential Life Insurance Company Limited": "icici-prudential-life-insurance",
+    "ICICI Prudential Life Insurance": "icici-prudential-life-insurance",
+    "ICICIPru Life": "icici-prudential-life-insurance",
+    "ICICI Prudential Life Insurance Company": "icici-prudential-life-insurance",
+    "Bharti Life Ventures Pvt. Ltd": "bharti-life-ventures",
+    "Bharti Life Ventures Pvt. Ltd.": "bharti-life-ventures",
+    "Bharti Life Ventures Private Ltd": "bharti-life-ventures",
+    "Bharti Life Ventures Pvt Ltd": "bharti-life-ventures",
+    "Bharti Life Ventures": "bharti-life-ventures",
+    "360 ONE": "360-one-asset-management",
+    "360 ONE Asset Management": "360-one-asset-management",
+    "360One Asset Management": "360-one-asset-management",
+    "360 ONE Asset": "360-one-asset-management",
+    "Prudential HCL Health Insurance": "prudential-hcl-health-insurance",
+    "Prudential HCL Health Insurance Limited": "prudential-hcl-health-insurance",
+    "Prudential HCL Health Insurance Ltd": "prudential-hcl-health-insurance",
+    "ICICI Prudential Asset Management Company Ltd": "icici-prudential-asset-management",
+    "ICICI Prudential Asset Management": "icici-prudential-asset-management",
+    "ICICI Prudential Asset Management Company Limited": "icici-prudential-asset-management",
+    "ICICI Prudential Asset Management Company": "icici-prudential-asset-management",
+    "Bharti Airtel": "bharti-airtel",
+    "Bharti Airtel Ltd": "bharti-airtel",
+    "ICICI Bank": "icici-bank",
+    "Go Digit Infoworks Services Pvt Ltd": "go-digit-infoworks-services",
+    "Go Digit General Insurance Ltd": "go-digit-general-insurance",
+    "Go Digit General Insurance": "go-digit-general-insurance",
+    "FAL Corporation": "fal",
+    "Fairfax group": "fairfax-group",
+    "Brookfield Asset Management Ltd": "brookfield-asset-management",
+    "Brookfield Corporation": "brookfield",
+    "Oaktree Capital Group Holdings, LP": "oaktree-capital-group",
+    "Oaktree Capital Group Holdings LP": "oaktree-capital-group",
+    "Oaktree Group": "oaktree-group",
+    "Oaktree Equity Plan, LP": "oaktree-equity-plan",
+    "Oaktree Equity Plan LP": "oaktree-equity-plan",
+    "Allianz SE": "allianz-se",
+    "Legal & General": "legal-general",
+    "Sanoti Properties": "sanoti-properties",
+    "Celica Developers": "celica-developers",
+    "Jaguar Advisory Services": "jaguar-advisory-services",
+    "Yes Bank": "yes-bank",
+    "Krishnakumar K": "krishnakumar-k",
+    "PI Opportunities AIF V LLP": "pi-opportunities-aif-v-llp",
+    "Vedanta Iron and Steel": "vedanta-iron-and-steel",
+    "Motilal Oswal Financial Services": "motilal-oswal-financial-services",
+    "Bai-Kakaji Polymers": "bai-kakaji-polymers",
+    "RB Industries": "rb-industries",
+    "MetLife": "metlife",
+    "PNB MetLife India Insurance Co Ltd": "pnb-metlife-india-insurance",
+    "Punjab National Bank": "punjab-national-bank",
+    "Jammu & Kashmir Bank": "jammu-kashmir-bank",
+    "M. Pallonji and Company": "m-pallonji-and",
+    "Sun Pharmaceutical Industries": "sun-pharmaceutical-industries",
+    "Checkpoint Therapeutics": "checkpoint-therapeutics",
+    "Airtel Africa plc": "airtel-africa",
+    "Ageas Federal Life Insurance": "ageas-federal-life-insurance",
+    "Srijani Haldar": "srijani-haldar",
+    "Poonawalla group": "poonawalla-group",
+    "Magma Fincorp Limited": "magma-fincorp",
+    "SBI": "sbi",
+    "Life Insurance Corporation (LIC)": "life-insurance-corporation-of-india",
+    "Life Insurance Corporation of India": "life-insurance-corporation-of-india",
+    "LIC": "life-insurance-corporation-of-india",
+    "IDBI": "idbi",
+    "The Oriental Insurance Company": "oriental-insurance",
+    "United India Insurance": "united-india-insurance",
+    "United India Insurance Company": "united-india-insurance",
+    "SBI Life Insurance": "sbi-life-insurance",
+    "Sundari Investments": "vama-sundari-investments",
+    "Vama Sundari Investments": "vama-sundari-investments",
+    "Central Bank of India": "central-bank-of-india",
+    "Amwins Group Inc": "amwins-group",
+    "Steadfast Group": "steadfast-group",
+    "Dragoneer Investment Group": "dragoneer-investment-group",
+    "Bajaj Life Insurance": "bajaj-life-insurance",
+    "Bajaj Group": "bajaj-group",
+    "Bajaj General Insurance": "bajaj-general-insurance",
+    "IndusInd International Holdings": "indusind-international",
+    "Reliance Capital": "reliance-capital",
+    "General Insurance Corporation (GIC)": "general-insurance",
+    "Sanlam Emerging Markets (Mauritius) Ltd.": "sanlam-emerging-markets",
+    "Sanlam Emerging Markets (Mauritius) Ltd": "sanlam-emerging-markets",
+    "Sanlam Group of South Africa": "sanlam-group-of-south-africa",
+    "Shriram Life Insurance Company Limited": "shriram-life-insurance",
+    "Shriram Life Insurance Company Ltd.": "shriram-life-insurance",
+    "Shriram Life Insurance Company Ltd": "shriram-life-insurance",
+    "Bharti Enterprises": "bharti-enterprises",
+    "MNRB Holdings": "mnrb",
+    "Labuan Reinsurance": "labuan-reinsurance",
+    "HSBC Life Singapore Pte": "hsbc-life-singapore-pte",
+    "HSBC's Singapore insurance business": "hsbc-life-singapore-pte",
+    "Zurich Financial Services Australia Ltd.": "zurich-financial-services-australia",
+    "ClearView Wealth Ltd.": "clearview-wealth",
+    "Amit Dave": "amit-dave",
+    "Abhishek Saraf": "abhishek-saraf",
+    "Dhan": "dhan",
+    "Infinyte Club": "infinyte-club",
+    "Stratzy": "stratzy",
+    "Sanoti Properties LLP": "sanoti-properties-llp",
+    "Adar Poonawalla Group": "adar-poonawalla-group",
+    "L’Oréal": "l-or-al",
+    "Innovist": "innovist",
+    "Cheryl's Cosmeceuticals": "cosmeceuticals",
+    "BOLD (Business Opportunities for L'Oréal Development)": "bold",
+    "Chosen": "chosen",
+    "Deconstruct": "deconstruct",
+    "Arata": "arata",
+    "QBE Asia": "qbe-asia",
+    "HSBC Holdings Plc": "hsbc",
+    "Filter Coffee": "filter-coffee",
+    "SBI Capital Markets": "sbi-capital-markets",
+    "Ancat Holding GmbH": "ancat-holding-gmbh",
+    "PUMA SE": "puma-se",
+    "ANTA": "anta",
+    "Groww": "groww",
+    "Fisdom": "fisdom"
+  }
+}
