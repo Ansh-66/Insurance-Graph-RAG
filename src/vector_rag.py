@@ -14,6 +14,7 @@ so any difference in answers comes from retrieval.
 import json
 import os
 import re
+from pathlib import Path
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -21,8 +22,11 @@ from sentence_transformers import SentenceTransformer
 from extract import client, MODEL
 from retrieve import ANSWER_PROMPT, short_date
 
-ARTICLE_DIR = "data/articles"
-INDEX_DIR = "data/vector_index"
+# Repo root, so data paths work no matter which folder Python runs from
+# (the agents repo imports this module from outside this repo).
+ROOT = Path(__file__).resolve().parent.parent
+ARTICLE_DIR = ROOT / "data" / "articles"
+INDEX_DIR = ROOT / "data" / "vector_index"
 EMB_PATH = os.path.join(INDEX_DIR, "embeddings.npy")
 META_PATH = os.path.join(INDEX_DIR, "chunks.json")
 

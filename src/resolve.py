@@ -13,10 +13,14 @@ import json
 import os
 import re
 from collections import Counter, defaultdict
+from pathlib import Path
 
-TRIPLE_DIR = "data/triples"
-NODES_PATH = "data/nodes.json"
-REPORT_PATH = "data/resolution_report.txt"
+# Repo root, so data paths work no matter which folder Python runs from
+# (the agents repo imports this module from outside this repo).
+ROOT = Path(__file__).resolve().parent.parent
+TRIPLE_DIR = ROOT / "data" / "triples"
+NODES_PATH = ROOT / "data" / "nodes.json"
+REPORT_PATH = ROOT / "data" / "resolution_report.txt"
 
 SUFFIXES = [
     "private limited", "private ltd", "pvt ltd", "pte ltd", "company limited", "company",

@@ -1,6 +1,7 @@
 import json
 import os
 import time
+from pathlib import Path
 from typing import Literal, Optional
 
 from dotenv import load_dotenv
@@ -8,9 +9,14 @@ from openai import OpenAI, APIError
 from pydantic import BaseModel, ValidationError
 from json_repair import repair_json
 
-load_dotenv()
+# Repo root, so data paths work no matter which folder Python runs from
+# (the agents repo imports this module from outside this repo).
+ROOT = Path(__file__).resolve().parent.parent
 
-# ---- provider: change this ONE line to switch ----
+# Explicit path: a bare load_dotenv() searches from the current folder when
+# __main__ has no file (python -c, a REPL, Jupyter) and misses this .env.
+load_dotenv(ROOT / ".env")
+
 PROVIDER = "groq"          # "groq" | "ollama" | "openrouter"
 
 PROVIDERS = {
@@ -42,14 +48,12 @@ else:
 
 MODEL = cfg["model"]
 
-# Article bodies are cut to this length so prompt + body stays under Groq's
-# per-minute token limit. Normal news stories are well under it; long
-# listicles and roundups get truncated. See docs/scope.md.
+
 MAX_BODY_CHARS = 6000
 
 client = OpenAI(base_url=cfg["base_url"], api_key=api_key, timeout=180.0)
 
-with open("docs/extraction_prompt.md", encoding="utf-8") as f:
+with open(ROOT / "docs" / "extraction_prompt.md", encoding="utf-8") as f:
     system_instruction = f.read()
 
 
@@ -151,6 +155,6 @@ def extract_triples(article):
 
 
 if __name__ == "__main__":
-    with open("tests/fixtures/01_jv_buyout.json", encoding="utf-8") as f:
+    with open(ROOT / "tests" / "fixtures" / "01_jv_buyout.json", encoding="utf-8") as f:
         article = json.load(f)
     print(extract_triples(article))

@@ -2,6 +2,7 @@
 import json
 import re
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 
 from resolve import normalize, slug
 
@@ -10,10 +11,14 @@ from resolve import normalize, slug
 # assembly need no key: api.py rebuilds demo-mode graph paths with them, and
 # check_seeds.py uses find_seeds.
 
-with open("data/graph.json", encoding="utf-8") as f:
+# Repo root, so data paths work no matter which folder Python runs from
+# (the agents repo imports this module from outside this repo).
+ROOT = Path(__file__).resolve().parent.parent
+
+with open(ROOT / "data" / "graph.json", encoding="utf-8") as f:
     GRAPH = json.load(f)
 
-with open("data/nodes.json", encoding="utf-8") as f:
+with open(ROOT / "data" / "nodes.json", encoding="utf-8") as f:
     NODES = json.load(f)
 LOOKUP = NODES["lookup"]
 
